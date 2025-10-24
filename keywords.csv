@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Lawine Tod',de, Folge, #802d16, #4287f5,3,0.5
 'Lawine Zerstörung',de, Folge, #802d16, #4257f4,2,0.5
 'Erdrutsch Zerstörung',de, Folge, #802d16, #4248f4,2,0.5
+'Lawine Tod',de, Folge, #802d16, #4287f5,2,0.425000045
 'Erdrutsch',de,Gefahr,#4287f5,#022f78,3,0.2142645274873459
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.2108840556610564
 'Schnee',de,Grund,#9e3215,#638ed4,3,0.2089751189887505
@@ -13,4 +13,4 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Starkregen',de,Grund,#9e3215,#802d16,3,0.1595944288565655
 'Schlamm',de,Gefahr,#4287f5,#802d16,3,0.1595944288565655
 'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,3,0.1595944288565655
-'Tauwetter',de,Grund,#4287f5,#315fa8,2,0.13780415416626926
+'Tauwetter',de,Grund,#4287f5,#315fa8,2,0.1378041541662692
