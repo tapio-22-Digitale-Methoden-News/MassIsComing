@@ -1,19 +1,16 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
+'Lawine Tod', de, Folge, #802d16, #4287f5,3,0.5
+'Lawine Zerstörung', de, Folge, #802d16, #4257f4,2,0.5
+'Erdrutsch Zerstörung', de, Folge, #802d16, #4248f4,2,0.5
 'Erdrutsch',de,Gefahr,#4287f5,#022f78,3,0.2142645274873459
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.2108840556610564
 'Schnee',de,Grund,#9e3215,#638ed4,3,0.2089751189887505
 'Lawine',de,Gefahr,#4287f5,#c4b03b,3,0.1894772761601365
 'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.1842950084871207
-'Permafrost',de,Grund,#9e3215,#477515,1,0.17885223109454546
+'Permafrost',de,Grund,#9e3215,#477515,1,0.1788522310945454
 'Massenbewegung',de,Gefahr,#4287f5,#a89216,3,0.1773969387852609
 'Frost',de,Grund,#9e3215,#9e3215,3,0.1751669957431309
-'Tauwetter',de,Grund,#4287f5,#315fa8,3,0.1621224107838462
 'Starkregen',de,Grund,#9e3215,#802d16,3,0.1595944288565655
 'Schlamm',de,Gefahr,#4287f5,#802d16,3,0.1595944288565655
 'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,3,0.1595944288565655
-'Lawine Tod', de, Folge, #802d16, #4287f5, 3, 0.5
-'Lawine Zerstörung', de, Folge, #802d16, #4257f4, 2, 0.5
-'Erdrutsch Zerstörung', de, Folge, #802d16, #4248f4, 2, 0.5
-
-
-
+'Tauwetter',de,Grund,#4287f5,#315fa8,2,0.13780415416626926
