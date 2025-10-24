@@ -3,14 +3,14 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.2223307056294687
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.2108840556610564
 'Permafrost',de,Grund,#9e3215,#477515,1,0.2107846968943804
-'Schnee',de,Grund,#9e3215,#638ed4,3,0.2089751189887505
+'Neuschnee',de,Grund,#9e3215,#638ed4,3,0.2089751189887505
 'Lawine Tod',de,Folge,#802d16,#4287f5,1,0.1900089259176451
 'Lawine',de,Gefahr,#4287f5,#c4b03b,3,0.1894772761601365
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.1885747578124999
 'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.1842950084871207
-'Frost',de,Grund,#9e3215,#9e3215,3,0.1751669957431309
-'Starkregen',de,Grund,#9e3215,#802d16,3,0.1595944288565655
-'Schlamm',de,Gefahr,#4287f5,#802d16,3,0.1595944288565655
+'Frostsprengung',de,Grund,#9e3215,#9e3215,3,0.1751669957431309
+'Starkregen Hang',de,Grund,#9e3215,#802d16,3,0.1595944288565655
+'Schlammlawine',de,Gefahr,#4287f5,#802d16,3,0.1595944288565655
 'Massenbewegung',de,Gefahr,#4287f5,#a89216,3,0.1524375629674717
-'Tauwetter',de,Grund,#4287f5,#315fa8,2,0.1378041541662692
+'Tauwetter Rutschung',de,Grund,#4287f5,#315fa8,2,0.1378041541662692
 'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.1356552645280806
