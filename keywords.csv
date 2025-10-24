@@ -5,7 +5,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost',de,Grund,#9e3215,#477515,1,0.2107846968943804
 'Neuschnee',de,Grund,#9e3215,#638ed4,3,0.2089751189887505
 'Lawine Tod',de,Folge,#802d16,#4287f5,1,0.1900089259176451
-'Lawine',de,Gefahr,#4287f5,#c4b03b,3,0.1894772761601365
+'Lawine',de,Gefahr,#4287f5,#c4b03b,3,0.01894772761601365
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.1885747578124999
 'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.1842950084871207
 'Frostsprengung',de,Grund,#9e3215,#9e3215,3,0.1751669957431309
