@@ -12,5 +12,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Frost',de,Grund,#9e3215,#9e3215,3,0.1751669957431309
 'Starkregen',de,Grund,#9e3215,#802d16,3,0.1595944288565655
 'Schlamm',de,Gefahr,#4287f5,#802d16,3,0.1595944288565655
-'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,3,0.1595944288565655
 'Tauwetter',de,Grund,#4287f5,#315fa8,2,0.1378041541662692
+'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.13565526452808066
