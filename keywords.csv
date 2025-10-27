@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Permafrost',de,Grund,#9e3215,#477515,1,0.21141721736022331
 'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.1936589937011207
 'Neuschnee',de,Grund,#9e3215,#638ed4,3,0.193373644287554
+'Permafrost',de,Grund,#9e3215,#477515,1,0.19195485975618978
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.1891311147850483
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.1819527073118979
 'Felssturz',de,Gefahr,#4287f5,#77731f,2,0.1731036259538121
