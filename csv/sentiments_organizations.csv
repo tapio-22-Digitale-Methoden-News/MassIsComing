@@ -1,5 +1,11 @@
 ,phrase,label,sentiment,subjectivity,language,count
+Bayern-Team,Bayern-Team,ORG,0.0,0.0,de,2
+Ex-Hurrikans Gabrielle,Ex-Hurrikans Gabrielle,ORG,0.0,0.0,de,2
 Geobrugg,Geobrugg,ORG,0.0,0.0,de,2
+Permafrost,Permafrost,ORG,-1.0,0.0,de,1
+Universität Colorado Boulder,Universität Colorado Boulder,ORG,0.0,0.0,de,1
+Daily Mail,Daily Mail,ORG,-1.0,0.0,de,1
+Deutschem Wetterdienst,Deutschem Wetterdienst,ORG,0.0,0.0,de,1
+DWD,DWD,ORG,0.0,0.0,de,1
+ge…,ge…,ORG,0.0,0.0,de,1
 zahl…,zahl…,ORG,0.0,0.0,de,1
-Max-Plan…,Max-Plan…,ORG,0.0,0.0,de,1
-Permafrost,Permafrost,ORG,0.0,0.0,de,1

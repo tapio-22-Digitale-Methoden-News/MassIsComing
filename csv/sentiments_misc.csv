@@ -1,14 +1,27 @@
 ,phrase,label,sentiment,subjectivity,language,count
 "Link
 ","Link
-",MISC,,,de,2
-amerikanischen,amerikanischen,MISC,,,de,2
+",MISC,,,de,9
+Schweizer,Schweizer,MISC,,,de,4
+spanische,spanische,MISC,,,de,4
+“,“,MISC,,,de,3
+Freistaat,Freistaat,MISC,-0.175,0.0,de,2
 türkischen,türkischen,MISC,,,de,2
-Schweizer,Schweizer,MISC,,,de,1
-Busunglück“,Busunglück“,MISC,,,de,1
-Steinschlags,Steinschlags,MISC,,,de,1
-tauender Permafrost,tauender Permafrost,MISC,,,de,1
-T…,T…,MISC,,,de,1
-norwegische,norwegische,MISC,,,de,1
-Zeit,Zeit,MISC,,,de,1
+amerikanischen,amerikanischen,MISC,,,de,2
+Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1
+goldenen Herbst,goldenen Herbst,MISC,,,de,1
 griechischen,griechischen,MISC,,,de,1
+T…,T…,MISC,,,de,1
+tauender Permafrost,tauender Permafrost,MISC,,,de,1
+Steinschlags,Steinschlags,MISC,,,de,1
+Busunglück“,Busunglück“,MISC,,,de,1
+Hotel-Evakuierung“,Hotel-Evakuierung“,MISC,,,de,1
+Wetter“,Wetter“,MISC,,,de,1
+05.10.2025,05.10.2025,MISC,,,de,1
+Eis,Eis,MISC,,,de,1
+Chaos“,Chaos“,MISC,,,de,1
+Party-Insel,Party-Insel,MISC,,,de,1
+Erdbeben auf den Philippinen,Erdbeben auf den Philippinen,MISC,,,de,1
+Zahl der Toten,Zahl der Toten,MISC,,,de,1
+schwedischen,schwedischen,MISC,,,de,1
+Die meisten Bewohner,Die meisten Bewohner,MISC,,,de,1
