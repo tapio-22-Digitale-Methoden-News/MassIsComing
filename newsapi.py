@@ -137,9 +137,11 @@ def addNewsToCollection(data):
 def storeCollection():
     global collectedNews
     print("Inside store")
-    cols = ['url','valid','domain','title','description','image','published','archive','content','quote','language','keyword']
+    #cols = ['url','valid','domain','title','description','image','published','archive','content','quote','language','keyword']
+    cols = ['published','keyword','domain','language','valid','title','description','url','image','archive','content','quote']
     for dateFile in collectedNews:
         df = pd.DataFrame.from_dict(collectedNews[dateFile], orient='index', columns=cols)
+        df.index = keywordsDF['url'].apply( lambda x: hashlib.sha256(x.encode()).hexdigest())   
         df = removeDuplicates(df)
         #df.to_csv(DATA_PATH / dateFile, index=True) 
         if(not os.path.exists(DATA_PATH / 'csv')):
