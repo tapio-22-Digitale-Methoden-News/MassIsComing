@@ -2,10 +2,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.319782535432307
 'Neuschnee',de,Grund,#9e3215,#638ed4,3,0.1920454403716936
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.1819527073118979
-'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.17865178873686166
+'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.1786517887368616
 'Permafrost',de,Grund,#9e3215,#477515,1,0.1754118557927612
 'Felssturz',de,Gefahr,#4287f5,#77731f,2,0.1731036259538121
-'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.160911462567291
+'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.13692475818219735
 'Starkregen Hang',de,Grund,#9e3215,#802d16,2,0.1356552945280806
 'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.1356552645280806
 'Frostsprengung',de,Grund,#9e3215,#9e3215,1,0.126558154424412
