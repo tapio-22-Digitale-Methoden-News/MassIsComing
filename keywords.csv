@@ -1,8 +1,8 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.319782535432307
-'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.1936589937011207
 'Neuschnee',de,Grund,#9e3215,#638ed4,3,0.1920454403716936
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.1819527073118979
+'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.17865178873686166
 'Permafrost',de,Grund,#9e3215,#477515,1,0.1754118557927612
 'Felssturz',de,Gefahr,#4287f5,#77731f,2,0.1731036259538121
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.160911462567291
@@ -12,5 +12,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Gefahr,#4287f5,#802d16,2,0.1154570025988685
 'Massenbewegung',de,Gefahr,#4287f5,#a89216,1,0.1101364444939982
 'Lawine Tod',de,Folge,#802d16,#4287f5,1,0.1003424437829226
-'Tauwetter Rutschung',de,Grund,#4287f5,#315fa8,1,0.09956350138512948
+'Tauwetter Rutschung',de,Grund,#4287f5,#315fa8,1,0.0995635013851294
 'Lawine',de,Gefahr,#4287f5,#c4b03b,3,0.0189477276160136
