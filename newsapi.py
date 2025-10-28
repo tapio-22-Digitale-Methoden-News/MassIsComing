@@ -237,10 +237,10 @@ def archiveUrl(data):
         timetravelDate = pubDate.strftime('%Y%m%d')
     timetravelUrl = 'http://timetravel.mementoweb.org/api/json/'+timetravelDate+'/'+data['url']
     try:
-        page = requests.get(timetravelUrl, timeout=30)
+        page = requests.get(timetravelUrl, timeout=60)
         if page.status_code == 200:
             content = page.content
-            #print(content)
+            print(content)
             if(content):
                 #print(content)
                 jsonData = json.loads(content)
