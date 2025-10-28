@@ -127,10 +127,10 @@ def addNewsToCollection(data):
     pubDate = parser.parse(data['published'])
     fileDate = 'news_'+pubDate.strftime('%Y_%m')+'.csv'
     if(fileDate in collectedNews):
-      if(not data['url'] in collectedNews[fileDate]):
+      if(not data['hash'] in collectedNews[fileDate]):
         if(not 'archive' in data):
            data = archiveUrl(data)
-        collectedNews[fileDate][data['url']] = data
+        collectedNews[fileDate][data['hash']] = data
         return True
     return False
 
@@ -304,8 +304,9 @@ def extractData(article, language, keyWord):
     if('publishedAt' in article):    
         published = article['publishedAt']
     content = article['content']
+    hashStr = hashlib.sha256(url.encode()).hexdigest()[:32]
     data = {'url':url, 'valid':0, 'domain':domain,'published':published, 'description':description, 'title':title, 
-            'image':image, 'content':content, 'quote':'', 'language': language, 'keyword':keyWord}
+            'image':image, 'content':content, 'quote':'', 'language': language, 'keyword':keyWord, 'hash':hashStr}
     return data  
 
 def checkKeywordInQuote(keyword, quote, case=True):
@@ -377,7 +378,7 @@ def filterNewAndArchive(articles, language, keyWord):
                     collectedNews[fileDate] = df.to_dict('index')
                 else:
                     collectedNews[fileDate] = {}
-            if(not data['url'] in collectedNews[fileDate]):
+            if(not data['hash'] in collectedNews[fileDate]):
                 data = archiveUrl(data)
                 newArticles.append(data)
         if((time.time() - startTime) > 60*10):
