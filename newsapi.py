@@ -141,7 +141,7 @@ def storeCollection():
     cols = ['published','keyword','domain','language','valid','title','description','url','image','archive','content','quote']
     for dateFile in collectedNews:
         df = pd.DataFrame.from_dict(collectedNews[dateFile], orient='index', columns=cols)
-        df.index = df['url'].apply( lambda x: hashlib.sha256(x.encode()).hexdigest())   
+        df.index = df['url'].apply( lambda x: hashlib.sha256(x.encode()).hexdigest()[:32])   
         df = removeDuplicates(df)
         #df.to_csv(DATA_PATH / dateFile, index=True) 
         if(not os.path.exists(DATA_PATH / 'csv')):
@@ -261,7 +261,13 @@ def archiveUrl(data):
 
         ##  pip3 install aiohttp
         try:
-           loop = asyncio.get_event_loop()
+          loop = asyncio.get_running_loop()
+        except RuntimeError:
+          loop = asyncio.new_event_loop()
+        asyncio.set_event_loop(loop)
+
+        try:
+           ##loop = asyncio.get_event_loop()
            loop.run_until_complete(saveArchive(saveUrl))
         except:
            e2 = sys.exc_info()[0]
