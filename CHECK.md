@@ -1,10 +1,7 @@
 # BASICS  
 ### Github Organization  
 :white_check_mark: Github Organization exists  
-:no_entry: Github Organization **not** assigned (or not public):  
-1. Goto https://github.com/orgs/tapio-22-Digitale-Methoden-News/people  
-2. Check if KMicha is listed as Members  
-3. Else: 'Invite member' KMicha  
+:white_check_mark: Github Organization assigned  
 
 ---
   
