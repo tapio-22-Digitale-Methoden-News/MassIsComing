@@ -638,6 +638,17 @@ def addRegisterGeonamesToResults(results=[]):
     results.append("   * Value: **Your username here** ") 
     return False
 
+def recheckRegisterGeonamesToResults(results=[]):
+    gitOrg = os.getenv('GITHUB_OWNER')
+    newGitOrg = gitOrg.replace("-","_")
+    results.append("1. Please recheck the username (i.e.: "+newGitOrg+") at https://www.geonames.org/login")
+    results.append("2. Modify the organization secret at https://github.com/organizations/"+gitOrg+"/settings/secrets/actions/GEONAMES_KEY")       
+    results.append("   * Choose 'enter a new value.'")
+    results.append("   * Make sure to enter your username ('Welcome <username>.') - without the trailing dot!") 
+    results.append("   * Save") 
+    return False
+
+
 def inqGeonamesApi(results=[]):
   apiKey = os.getenv('GEONAMES_KEY')
   url = ('http://api.geonames.org/searchJSON?name=Freiburg&country=DE&maxRows=10&username='+apiKey)
@@ -664,7 +675,7 @@ def inqGeonamesApi(results=[]):
           return False
         if('invalid user' in status['message']):
           results.append(":no_entry: **Not** registered at Geonames (or invalid)")
-          addRegisterGeonamesToResults(results)
+          recheckRegisterGeonamesToResults(results)
           return False
         if(('user account not enabled to use the free webservice' in status['message']) or ('Please enable it on your account page' in status['message'])):
           results.append(":no_entry: **Not** enabled at Geonames - enable at https://www.geonames.org/manageaccount ")
