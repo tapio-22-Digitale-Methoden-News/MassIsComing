@@ -4,7 +4,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felssturz',de,Gefahr,#4287f5,#77731f,2,0.1731036259538121
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.1674065236858856
 'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.1658956645172414
-'Neuschnee',de,Grund,#9e3215,#638ed4,2,0.1632392093159395
+'Neuschnee Lawine',de,Grund,#9e3215,#638ed4,2,0.1632392093159395
 'Permafrost',de,Grund,#9e3215,#477515,1,0.161350302423847
 'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.1356552645280806
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.1165360594548677
