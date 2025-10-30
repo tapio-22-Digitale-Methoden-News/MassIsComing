@@ -646,11 +646,26 @@ def inqGeonamesApi(results=[]):
   if(response.text):
     results.append(":white_check_mark: Geonames respone fine") 
     jsonData = json.loads(response.text)
+    print(jsonData)
+
     if('message' in jsonData):
       if(('credits for demo has been exceeded' in jsonData['message']) or ('user does not exist' in jsonData['message'])):
         results.append(":no_entry: **Not** registered at Geonames")
         addRegisterGeonamesToResults(results)
         return False
+
+    if('status' in jsonData):
+      status = jsonData['status']
+      if('message' in status):
+        if(('credits for demo has been exceeded' in status['message']) or ('user does not exist' in status['message'])):
+          results.append(":no_entry: **Not** registered at Geonames")
+          addRegisterGeonamesToResults(results)
+          return False
+        if(('user account not enabled to use the free webservice' in status['message']) or ('Please enable it on your account page' in status['message'])):
+          results.append(":no_entry: **Not** enabled at Geonames - enable at https://www.geonames.org/manageaccount ")
+          #addRegisterGeonamesToResults(results)
+          return False
+
     if ('totalResultsCount' in jsonData):
       results.append(":white_check_mark: Geonames result fine")
       if(jsonData['totalResultsCount']>0):
