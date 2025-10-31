@@ -5,11 +5,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Neuschnee Lawine',de,Grund,#9e3215,#638ed4,2,0.1632392093159395
 'Permafrost',de,Grund,#9e3215,#477515,1,0.161350302423847
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.1596108212151132
-'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.14526490032515857
-'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.1356552645280806
+'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.1452649003251585
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.1165360594548677
 'Starkregen Hang',de,Grund,#9e3215,#802d16,2,0.1156070303488685
 'Schlammlawine',de,Gefahr,#4287f5,#802d16,2,0.1154570025988685
+'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.11530697484886851
 'Massenbewegung',de,Gefahr,#4287f5,#a89216,1,0.1101364444939982
 'Frostsprengung',de,Grund,#9e3215,#9e3215,1,0.1075744312607502
 'Tauwetter Rutschung',de,Grund,#4287f5,#315fa8,1,0.0995635013851294
