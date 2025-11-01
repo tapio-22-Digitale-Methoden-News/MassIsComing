@@ -4,7 +4,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schnee',de,Winter,#4287f5,#638ed4,3,0.2089751189887505
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.2067549364423859
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.1874250406393348
-'Herbst',de,Herbst,#9e3215,#9e3215,3,0.176620474108934
+'Herbst',de,Herbst,#9e3215,#9e3215,3,0.18240218026532118
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1750849712487367
 'Winter',de,Winter,#4287f5,#315fa8,3,0.1655113218935419
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1606631394541691
@@ -16,7 +16,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Hasel',de,Winter,#4287f5,#537ee4,2,0.1362694044506345
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.1309137447868061
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1173761163574029
-'Pollen',de,Frühling,#679e2c,#61d01c,1,0.11689506882996546
+'Pollen',de,Frühling,#679e2c,#61d01c,1,0.1168950688299654
 'Aussaat',de,Frühling,#679e2c,#7db344,2,0.1106190471962736
 'Forsythie Blüte',de,Frühling,#679e2c,#8db354,1,0.0793156493480145
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
