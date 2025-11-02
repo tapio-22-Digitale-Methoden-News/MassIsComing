@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Spätfrost',de,Frühling,#679e2c,#477515,2,0.230053320215809
 'Schnee',de,Winter,#4287f5,#638ed4,3,0.2144044729586197
-'Schneeglöckchen',de,Winter,#3288e5,#638ed4,2,0.21172672806878517
+'Schneeglöckchen',de,Winter,#3288e5,#638ed4,2,0.2117267280687851
 'Apfelernte',de,Sommer,#a89216,#77731f,1,0.2101023035264386
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.2067549364423859
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.1874250406393348
@@ -29,4 +29,4 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Holunderbeere',de,Herbst,#9e3215,#e63128,1,0.0088015664833718
 'Laubfall',de,Herbst,#9e3215,#802d16,1,0.0069198641101001
 'Holunder Blüte',de,Sommer,#a89216,#97731f,1,0.006125953790798
-'Laubfall',de,Winter,#3288e5,#737ee4,1,0.0006900184579816
+'Laubfall',de,Winter,#3288e5,#737ee4,1,0.0005865156892843601
