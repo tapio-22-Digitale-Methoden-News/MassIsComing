@@ -1,57 +1,65 @@
 ,phrase,label,sentiment,subjectivity,language,count
+Bayern,Bayern,LOC,0.0,0.0,de,11
 Philippinen,Philippinen,LOC,-0.034999999999999996,0.05,de,10
-Oberstdorf,Oberstdorf,LOC,0.0,0.0,de,9
 Ibiza,Ibiza,LOC,-0.09444444444444444,0.0,de,9
-Rubihorn,Rubihorn,LOC,-0.31875,0.0,de,8
+Oberstdorf,Oberstdorf,LOC,0.0,0.0,de,9
 Indien,Indien,LOC,-0.2125,0.5,de,8
-Bayern,Bayern,LOC,0.0,0.0,de,7
+Rubihorn,Rubihorn,LOC,-0.31875,0.0,de,8
 Felssturz am Rubihorn,Felssturz am Rubihorn,LOC,0.0,0.0,de,6
-Alpen,Alpen,LOC,0.0,0.0,de,5
 Indiens,Indiens,LOC,0.21999999999999992,0.0,de,5
-Felssturz,Felssturz,LOC,0.0,0.0,de,4
-Freistaat,Freistaat,LOC,0.0,0.0,de,4
-Erde,Erde,LOC,-0.175,0.0,de,4
-Urlaubsinsel,Urlaubsinsel,LOC,-0.2125,0.0,de,4
+Alpen,Alpen,LOC,0.0,0.0,de,5
+Freistaat,Freistaat,LOC,0.0,0.0,de,5
 Dauerregen,Dauerregen,LOC,0.0,0.0,de,4
-Hotel-Evakuierung,Hotel-Evakuierung,LOC,0.0,0.0,de,3
-Nepal,Nepal,LOC,0.4666666666666666,0.3333333333333333,de,3
+Erde,Erde,LOC,-0.175,0.0,de,4
+Felssturz,Felssturz,LOC,0.0,0.0,de,4
+Urlaubsinsel,Urlaubsinsel,LOC,-0.2125,0.0,de,4
+Oslo,Oslo,LOC,0.35,0.0,de,4
 Leichensäcke,Leichensäcke,LOC,0.0,0.0,de,3
-Bayerns Alpen,Bayerns Alpen,LOC,0.0,0.0,de,3
+Nepal,Nepal,LOC,0.4666666666666666,0.3333333333333333,de,3
 Krankenhäusern,Krankenhäusern,LOC,0.0,0.0,de,3
-Mexiko,Mexiko,LOC,0.0,0.3333333333333333,de,3
+Hotel-Evakuierung,Hotel-Evakuierung,LOC,0.0,0.0,de,3
 Deutschland,Deutschland,LOC,-0.3333333333333333,0.0,de,3
-Nordindien,Nordindien,LOC,-0.35,0.0,de,2
+Bayerns Alpen,Bayerns Alpen,LOC,0.0,0.0,de,3
+Mexiko,Mexiko,LOC,0.0,0.3333333333333333,de,3
+Bergen,Bergen,LOC,0.0,0.0,de,3
 Mount Everest,Mount Everest,LOC,-0.35,0.0,de,2
 Verkehrsbehinderungen,Verkehrsbehinderungen,LOC,0.0,0.0,de,2
-Fährausfälle,Fährausfälle,LOC,0.0,0.0,de,2
-Hamburg,Hamburg,LOC,0.0,0.0,de,2
-Allgäuer Alpen,Allgäuer Alpen,LOC,-0.35,0.0,de,2
 Alaska,Alaska,LOC,0.0,0.0,de,2
-Darjeeling,Darjeeling,LOC,0.0,1.0,de,2
 Wochenanfang,Wochenanfang,LOC,-0.7,0.0,de,2
-Berchtesgaden,Berchtesgaden,LOC,0.0,0.0,de,2
-Mittelmeerinsel,Mittelmeerinsel,LOC,-0.925,0.0,de,2
-SZ,SZ,LOC,0.0,0.0,de,2
+Darjeeling,Darjeeling,LOC,0.0,1.0,de,2
+Forstau,Forstau,LOC,0.0,0.0,de,2
+Nordindien,Nordindien,LOC,-0.35,0.0,de,2
+Methan,Methan,LOC,0.0,0.0,de,2
+Hamburg,Hamburg,LOC,0.0,0.0,de,2
+Fährausfälle,Fährausfälle,LOC,0.0,0.0,de,2
 Brienz,Brienz,LOC,-0.4083333333333333,0.41666666666666663,de,2
-Ankara,Ankara,LOC,-0.85,0.0,de,2
 Hochgebirge,Hochgebirge,LOC,-0.35,0.0,de,2
+Allgäuer Alpen,Allgäuer Alpen,LOC,-0.35,0.0,de,2
 Aschaffenburg,Aschaffenburg,LOC,0.0,0.0,de,2
-Dörfchens,Dörfchens,LOC,-0.4666666666666666,0.3333333333333333,de,1
-Schwaben,Schwaben,LOC,0.0,0.0,de,1
-Nordzypern,Nordzypern,LOC,0.0,0.0,de,1
-Genf,Genf,LOC,-1.0,0.0,de,1
+Berchtesgaden,Berchtesgaden,LOC,0.0,0.0,de,2
+SZ,SZ,LOC,0.0,0.0,de,2
+Ankara,Ankara,LOC,-0.85,0.0,de,2
+Mittelmeerinsel,Mittelmeerinsel,LOC,-0.925,0.0,de,2
+Dorf Brienz,Dorf Brienz,LOC,-1.0,0.0,de,1
+Bewohner,Bewohner,LOC,-0.5,0.5,de,1
 Bezirk Bilaspur im …,Bezirk Bilaspur im …,LOC,0.0,0.0,de,1
 Neu-Delhi,Neu-Delhi,LOC,0.7,0.0,de,1
-Insel wiedervereinigen,Insel wiedervereinigen,LOC,0.0,0.0,de,1
+Erdrutschen,Erdrutschen,LOC,0.0,0.0,de,1
+Nordzypern,Nordzypern,LOC,0.0,0.0,de,1
 Bezirk Bilaspur im,Bezirk Bilaspur im,LOC,0.0,0.0,de,1
 Himachal P…,Himachal P…,LOC,0.0,0.0,de,1
 Thurgauer,Thurgauer,LOC,0.7,0.0,de,1
-Dorf Brienz,Dorf Brienz,LOC,-1.0,0.0,de,1
-Niederbayern,Niederbayern,LOC,-0.7,0.0,de,1
-Franken,Franken,LOC,0.0,0.0,de,1
+Genf,Genf,LOC,-1.0,0.0,de,1
+Rätsel,Rätsel,LOC,0.0,0.0,de,1
+absacken,absacken,LOC,0.0,0.0,de,1
+Insel wiedervereinigen,Insel wiedervereinigen,LOC,0.0,0.0,de,1
+Westsibirien,Westsibirien,LOC,-1.0,0.0,de,1
+Dörfchens,Dörfchens,LOC,-0.4666666666666666,0.3333333333333333,de,1
+Kohlenstoff,Kohlenstoff,LOC,0.0,0.0,de,1
+Sibirien,Sibirien,LOC,0.15000000000000002,0.0,de,1
 Gestein,Gestein,LOC,0.7,0.0,de,1
-Meteorologen,Meteorologen,LOC,0.0,0.0,de,1
-Bergen,Bergen,LOC,0.0,0.0,de,1
+Pongau,Pongau,LOC,0.0,0.0,de,1
+Böen,Böen,LOC,0.0,0.0,de,1
 Polizeipräsidiums Schwaben Sü…,Polizeipräsidiums Schwaben Sü…,LOC,0.0,0.0,de,1
 lby,lby,LOC,0.0,0.0,de,1
 Bergwacht,Bergwacht,LOC,0.0,0.0,de,1
@@ -62,11 +70,16 @@ Berg Rubihorn im Allgäu,Berg Rubihorn im Allgäu,LOC,-1.0,0.0,de,1
 Baleareninsel,Baleareninsel,LOC,0.0,0.0,de,1
 Permafrostböden,Permafrostböden,LOC,0.0,0.0,de,1
 Permafrostboden,Permafrostboden,LOC,0.0,0.0,de,1
-Böen,Böen,LOC,0.0,0.0,de,1
 Sturmtief,Sturmtief,LOC,0.0,0.0,de,1
-D…,D…,LOC,0.0,0.0,de,1
+L223,L223,LOC,0.0,0.0,de,1
 Regen,Regen,LOC,0.0,0.0,de,1
 Schnee,Schnee,LOC,0.0,0.0,de,1
 Ostsee,Ostsee,LOC,0.0,0.0,de,1
+D…,D…,LOC,0.0,0.0,de,1
 Neuschnee,Neuschnee,LOC,0.0,0.0,de,1
-Bewohner,Bewohner,LOC,-0.5,0.5,de,1
+Meteorologen,Meteorologen,LOC,0.0,0.0,de,1
+Niederbayern,Niederbayern,LOC,-0.7,0.0,de,1
+Franken,Franken,LOC,0.0,0.0,de,1
+Schwaben,Schwaben,LOC,0.0,0.0,de,1
+Forstauer Landesstraße,Forstauer Landesstraße,LOC,0.0,0.0,de,1
+Norwegen,Norwegen,LOC,0.7,0.0,de,1
