@@ -9,9 +9,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Neuschnee Lawine',de,Grund,#9e3215,#638ed4,2,0.1029506745336512
 'Tauwetter Rutschung',de,Grund,#4287f5,#315fa8,1,0.0995635013851294
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.0992056655366375
-'Starkregen Hang',de,Grund,#9e3215,#802d16,1,0.0982660057965382
 'Schlammlawine',de,Gefahr,#4287f5,#802d16,1,0.0981384672090382
 'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.0943161923996878
 'Lawine Tod',de,Folge,#802d16,#4287f5,1,0.0855911072154842
-'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.08330928932830746
+'Starkregen Hang',de,Grund,#9e3215,#802d16,1,0.08382613492705747
+'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.0833092893283074
 'Lawine',de,Gefahr,#4287f5,#c4b03b,3,0.0189477276160136
