@@ -644,7 +644,7 @@ def recheckRegisterGeonamesToResults(results=[]):
     results.append("1. Please recheck the username (i.e.: "+newGitOrg+") at https://www.geonames.org/login")
     results.append("2. Modify the organization secret at https://github.com/organizations/"+gitOrg+"/settings/secrets/actions/GEONAMES_KEY")       
     results.append("   * Choose 'enter a new value.'")
-    results.append("   * Make sure to enter your username ('Welcome <username>.') - without the trailing dot!") 
+    results.append("   * Make sure to enter your username ('Welcome **username**.') - but without the trailing dot!") 
     results.append("   * Save") 
     return False
 
