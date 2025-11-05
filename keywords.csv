@@ -12,13 +12,13 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Laub',de,Herbst,#9e3215,#802d16,3,0.1595944288565655
 'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1580593631070705
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1526633281875707
-'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.15023166238285418
+'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.1502316623828541
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1495075770466531
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1430732403329144
 'Hasel',de,Winter,#4287f5,#537ee4,2,0.1362694044506345
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1173761163574029
 'Pollen',de,Frühling,#679e2c,#61d01c,1,0.1168950688299654
-'Aussaat',de,Frühling,#679e2c,#7db344,2,0.1106190471962736
+'Aussaat',de,Frühling,#679e2c,#7db344,1,0.09402635511683256
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
 'Erle',de,Winter,#4287f5,#537ef4,1,0.0609745510162653
 'Apfel Blüte',de,Frühling,#679e2c,#6dc344,1,0.0583126057799248
