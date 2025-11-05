@@ -2,9 +2,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Gefahr,#5282c5,#d64118,1,0.3144510832846233
 'Permafrost',de,Grund,#9e3215,#477515,1,0.161350302423847
 'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.1254295829517122
-'Massenbewegung',de,Gefahr,#4287f5,#a89216,1,0.1101364444939982
 'Frostsprengung',de,Grund,#9e3215,#9e3215,1,0.1075744312607502
-'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.10523834810373131
+'Massenbewegung',de,Gefahr,#4287f5,#a89216,1,0.10710463435836001
+'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.1052383481037313
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.1043521857085944
 'Neuschnee Lawine',de,Grund,#9e3215,#638ed4,2,0.1029506745336512
 'Tauwetter Rutschung',de,Grund,#4287f5,#315fa8,1,0.0995635013851294
