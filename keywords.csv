@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Gefahr,#5282c5,#d64118,1,0.3144510832846233
 'Permafrost',de,Grund,#9e3215,#477515,1,0.161350302423847
-'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.1254295829517122
+'Erdrutsch',de,Gefahr,#4287f5,#022f78,2,0.11611559550895535
 'Massenbewegung',de,Gefahr,#4287f5,#a89216,1,0.10710463435836
 'Steinschlag',de,Gefahr,#4287f5,#d64118,3,0.1052383481037313
 'Erdrutsch Zerstörung',de,Folge,#802d16,#4248f4,1,0.1043521857085944
@@ -10,7 +10,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Lawine Zerstörung',de,Folge,#802d16,#4257f4,1,0.0992056655366375
 'Schlammlawine',de,Gefahr,#4287f5,#802d16,1,0.0981384672090382
 'Felssturz',de,Gefahr,#4287f5,#77731f,1,0.0943161923996878
-'Frostsprengung',de,Grund,#9e3215,#9e3215,1,0.09143826657163767
+'Frostsprengung',de,Grund,#9e3215,#9e3215,1,0.0914382665716376
 'Lawine Tod',de,Folge,#802d16,#4287f5,1,0.0855911072154842
 'Starkregen Hang',de,Grund,#9e3215,#802d16,1,0.0838261349270574
 'Steinschlag Zaun',de,Anpassung,#4257f5,#802d16,1,0.0833092893283074
