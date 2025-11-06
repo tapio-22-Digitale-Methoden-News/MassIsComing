@@ -434,22 +434,34 @@ def getDay(dateString):
 #topics per date
 indexTopics = {}
 for index, column in newsDf.iterrows():
+    #print(column['keyword'])
     dayDate = getDay(column.published)
     if(not dayDate in indexTopics):
         indexTopics[dayDate] = {}
         for index2, column2 in topicsColorsDF.iterrows():
            indexTopics[dayDate][column2['topic']] = 0
-    quote = str(column.text)
+    quote = str(column.text).lower()
     foundTopics = {}
     for index2, column2 in topicsColorsDF.iterrows():
        foundTopics[column2['topic']] = False
 
+    #found by matching Keywords chunks
     for index3, column3 in keywordsColorsDF.iterrows():
-        #if(not column3['topic'] in indexTopics[dayDate]):
-        #    indexTopic[dayDate][column3['topic']] = 0
-        keyword = column3['keyword'].strip("'") 
-        if(keyword in quote):
-            foundTopics[column3['topic']] = True
+      keyword = column3['keyword'].strip("'").lower() 
+      anyFound = True
+      for key in keyword.split(' '): 
+        if(not key in quote):
+            anyFound = False
+      foundTopics[column3['topic']] = anyFound
+
+    #use found as assigned in search
+    for index3, column3 in keywordsColorsDF.iterrows():
+      print([column3['keyword'],column['keyword']])
+      if(column3['keyword'] == column['keyword']):   
+        foundTopics[column3['topic']] = True
+        #print("fOUND") 
+
+    #print([column['keyword'], foundTopics[column3['topic']]])
     for index2, column2 in topicsColorsDF.iterrows():
         if(foundTopics[column2['topic']]):
             indexTopics[dayDate][column2['topic']] += 1
