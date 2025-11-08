@@ -2,15 +2,15 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.2702837207919298
 'Permafrost',de,Causes,#9e3215,#477515,1,0.1542972875012294
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.1043521857085944
-'Erdrutsch',de,Hazard,#4287f5,#022f78,1,0.0986986911826119
 'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.0981384672090382
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
 'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0894533458881716
+'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.08809430750522011
 'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.0875083733536035
 'Lawine Tod',de,Impacts,#802d16,#4287f5,1,0.0855911072154842
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0846289761773599
-'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.08432481570614186
+'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0843248157061418
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0838261349270574
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0833092893283074
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0660641475980081
