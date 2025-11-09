@@ -2,9 +2,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schnee',de,Winter,#4287f5,#638ed4,3,0.220443103326239
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.2079682332487553
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.2061691637028284
-'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1950871079974728
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,2,0.1804177638584673
-'Spätfrost',de,Frühling,#679e2c,#477515,2,0.16689609210592196
+'Apfelernte',de,Sommer,#a89216,#77731f,1,0.16732419179785188
+'Spätfrost',de,Frühling,#679e2c,#477515,2,0.1668960921059219
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1628665546523352
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1597787967178619
 'Laub',de,Herbst,#9e3215,#802d16,3,0.1595944288565655
