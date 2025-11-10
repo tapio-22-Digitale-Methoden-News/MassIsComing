@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.2327414626731403
 'Lawine',de,Hazard,#4287f5,#c4b03b,3,0.2162597073616607
-'Permafrost',de,Causes,#9e3215,#477515,2,0.1628744379474735
+'Permafrost',de,Causes,#9e3215,#477515,2,0.1485617840735343
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
 'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0894533458881716
@@ -14,4 +14,4 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0833092893283074
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0719346297507559
 'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0716760933502205
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.05615452545830689
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0561545254583068
