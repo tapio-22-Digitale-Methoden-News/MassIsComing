@@ -328,20 +328,23 @@ def checkArticlesForKeywords(articles, keywordsDF, seldomDF, language, keyWord):
       fullQuote = str(data['content'])
       foundKeywords = []
       found = False
+      valid = 0.1
       for index2, column2 in keywordsLangDF.iterrows(): 
          keyword = column2['keyword']
          if(keyword.strip("'") in searchQuote):
              foundKeywords.append(keyword) 
              found = True
+             valid = max(valid,0.9)
          allFound = checkKeywordInQuote(keyword, searchQuote, case=True)
          if(allFound):
              foundKeywords.append(keyword) 
              found = True
-             
+             valid = max(valid,0.8)
          allFound = checkKeywordInQuote(keyword, searchQuote, case=False)
          if(allFound):
              foundKeywords.append(keyword) 
              found = True
+             max(valid,0.7)
       # add seldom keywords twice if
       keywordsSeldomLangDF = seldomDF[seldomDF['language']==language]
       for index2, column2 in keywordsSeldomLangDF.iterrows(): 
@@ -356,9 +359,14 @@ def checkArticlesForKeywords(articles, keywordsDF, seldomDF, language, keyWord):
            if(allFound):
              foundKeywords.append(keyword) 
              found = True
+             max(valid,0.6) 
+      data['valid'] = valid
       if(found):
         foundKeywords.append(keyWord) 
         data['keyword'] = random.choice(foundKeywords)
+        foundArticles.append(data)
+      else:
+        data['keyword'] = keyWord
         foundArticles.append(data)
 
     return foundArticles
