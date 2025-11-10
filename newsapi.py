@@ -513,9 +513,9 @@ def inqRandomNews():
                     print("sleep")   
                     time.sleep(60)
                 print("add to collection")
-
-
-                currRatio += len(newArticles)/len(jsonData['articles'])
+                ##currRatio += len(newArticles)/len(jsonData['articles'])
+                for oneArticle in newArticles:
+                  currRatio += oneArticle['valid']/len(jsonData['articles'])
                 if(currRatio>0.5):
                     deltaLimit += 1
                     #newLimit = max(currPage+2,limitPages)
