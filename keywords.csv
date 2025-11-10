@@ -17,7 +17,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1495075770466531
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1430732403329144
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1173761163574029
-'Pollen',de,Frühling,#679e2c,#61d01c,1,0.1168950688299654
+'Pollen',de,Frühling,#679e2c,#61d01c,2,0.11585463176634016
 'Hasel',de,Winter,#4287f5,#537ee4,1,0.0987547002155834
 'Aussaat',de,Frühling,#679e2c,#7db344,1,0.0940263551168325
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
