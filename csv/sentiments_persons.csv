@@ -1,4 +1,8 @@
 ,phrase,label,sentiment,subjectivity,language,count
 Thomas Kleinen,Thomas Kleinen,PER,0.0,0.0,de,2
 Tufan Erhürman,Tufan Erhürman,PER,-0.5,0.0,de,2
+Lula da Silva,Lula da Silva,PER,0.0,0.0,de,2
 Susan Tessier,Susan Tessier,PER,0.0,0.0,de,1
+Gottfried Is,Gottfried Is,PER,0.0,0.0,de,1
+Christina Biasi,Christina Biasi,PER,1.0,0.0,de,1
+Selma Lugtmeijer,Selma Lugtmeijer,PER,0.0,0.0,de,1

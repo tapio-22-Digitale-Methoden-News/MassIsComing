@@ -1,15 +1,30 @@
 ,phrase,label,sentiment,subjectivity,language,count
-Permafrost,Permafrost,ORG,-0.5,0.0,de,2
-Bayern-Team,Bayern-Team,ORG,0.0,0.0,de,2
+Permafrost,Permafrost,ORG,-0.3333333333333333,0.0,de,3
 Ex-Hurrikans Gabrielle,Ex-Hurrikans Gabrielle,ORG,0.0,0.0,de,2
 DWD,DWD,ORG,0.0,0.0,de,2
 Geobrugg,Geobrugg,ORG,0.0,0.0,de,2
-Universität Colorado Boulder,Universität Colorado Boulder,ORG,0.0,0.0,de,1
-Daily Mail,Daily Mail,ORG,-1.0,0.0,de,1
-Deutschem Wetterdienst,Deutschem Wetterdienst,ORG,0.0,0.0,de,1
-ge…,ge…,ORG,0.0,0.0,de,1
-ei…,ei…,ORG,0.0,0.0,de,1
-zahl…,zahl…,ORG,0.0,0.0,de,1
-Max-Plan…,Max-Plan…,ORG,0.0,0.0,de,1
-Deutsche Wetterdienst,Deutsche Wetterdienst,ORG,0.0,0.0,de,1
+Bayern-Team,Bayern-Team,ORG,0.0,0.0,de,2
+Deutschen …,Deutschen …,ORG,0.0,0.0,de,1
+Survival-Spiel Permafrost,Survival-Spiel Permafrost,ORG,1.0,0.0,de,1
+Europäischen Forschungsrats  ,Europäischen Forschungsrats  ,ORG,1.0,0.0,de,1
+Synergy Grant,Synergy Grant,ORG,1.0,0.0,de,1
+Institut für Ökologie der Uni Innsbruck,Institut für Ökologie der Uni Innsbruck,ORG,1.0,0.0,de,1
+Y…,Y…,ORG,-1.0,0.0,de,1
+BILD,BILD,ORG,0.0,0.0,de,1
+Windschutzscheibe,Windschutzscheibe,ORG,0.0,0.0,de,1
+Deutschen Presse-Agentur,Deutschen Presse-Agentur,ORG,0.7,0.0,de,1
+Die Lawine,Die Lawine,ORG,0.0,0.0,de,1
+Deutschen Pre…,Deutschen Pre…,ORG,0.0,0.0,de,1
 1.000-Meter-Marke,1.000-Meter-Marke,ORG,0.0,0.0,de,1
+Drogendea…,Drogendea…,ORG,0.0,0.0,de,1
+Geschlossene Gesellschaft,Geschlossene Gesellschaft,ORG,0.0,0.0,de,1
+Deutsche Wetterdienst,Deutsche Wetterdienst,ORG,0.0,0.0,de,1
+Max-Plan…,Max-Plan…,ORG,0.0,0.0,de,1
+Medizinischen Universität Innsbruck,Medizinischen Universität Innsbruck,ORG,1.0,0.0,de,1
+zahl…,zahl…,ORG,0.0,0.0,de,1
+ei…,ei…,ORG,0.0,0.0,de,1
+ge…,ge…,ORG,0.0,0.0,de,1
+Deutschem Wetterdienst,Deutschem Wetterdienst,ORG,0.0,0.0,de,1
+Daily Mail,Daily Mail,ORG,-1.0,0.0,de,1
+Universität Colorado Boulder,Universität Colorado Boulder,ORG,0.0,0.0,de,1
+GB,GB,ORG,0.0,0.0,de,1

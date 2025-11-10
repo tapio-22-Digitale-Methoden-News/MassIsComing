@@ -1,31 +1,51 @@
 ,phrase,label,sentiment,subjectivity,language,count
+deutsche,deutsche,MISC,,,de,13
 "Link
 ","Link
-",MISC,,,de,10
+",MISC,,,de,13
+Deutsche,Deutsche,MISC,,,de,11
 “,“,MISC,,,de,4
 Schweizer,Schweizer,MISC,,,de,4
+italienischen,italienischen,MISC,,,de,4
 spanische,spanische,MISC,,,de,4
-Freistaat,Freistaat,MISC,-0.13999999999999999,0.0,de,2
+deutschen,deutschen,MISC,,,de,3
 türkischen,türkischen,MISC,,,de,2
+Todesopfer des Lawinenunglücks,Todesopfer des Lawinenunglücks,MISC,,,de,2
 amerikanischen,amerikanischen,MISC,,,de,2
-Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1
-Steinschlags,Steinschlags,MISC,,,de,1
+italienische,italienische,MISC,,,de,2
+S…,S…,MISC,,,de,2
+Freistaat,Freistaat,MISC,-0.13999999999999999,0.0,de,2
 Wetterbericht“,Wetterbericht“,MISC,,,de,1
+Todesopfer des L…,Todesopfer des L…,MISC,,,de,1
+Sonntagnachmittag,Sonntagnachmittag,MISC,,,de,1
+Lawi…,Lawi…,MISC,,,de,1
+Ökologin,Ökologin,MISC,,,de,1
+Survival-Spiel,Survival-Spiel,MISC,,,de,1
+Fünf Deutsche,Fünf Deutsche,MISC,,,de,1
+Tragödie in Südtirol,Tragödie in Südtirol,MISC,,,de,1
+Lawinenun…,Lawinenun…,MISC,,,de,1
+Lawinenunglück,Lawinenunglück,MISC,0.0,0.0,de,1
+Survival-Spiele,Survival-Spiele,MISC,,,de,1
+Wahrnehmung von Zeit,Wahrnehmung von Zeit,MISC,,,de,1
+Ein Stein im Ausmaß,Ein Stein im Ausmaß,MISC,,,de,1
+Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1
 Die meisten Bewohner,Die meisten Bewohner,MISC,,,de,1
 griechischen,griechischen,MISC,,,de,1
-Zeit,Zeit,MISC,,,de,1
-norwegische,norwegische,MISC,,,de,1
-T…,T…,MISC,,,de,1
-tauender Permafrost,tauender Permafrost,MISC,,,de,1
-Wetter“,Wetter“,MISC,,,de,1
-Busunglück“,Busunglück“,MISC,,,de,1
-goldenen Herbst,goldenen Herbst,MISC,,,de,1
-Eis,Eis,MISC,,,de,1
-05.10.2025,05.10.2025,MISC,,,de,1
-Hotel-Evakuierung“,Hotel-Evakuierung“,MISC,,,de,1
-Chaos“,Chaos“,MISC,,,de,1
-Party-Insel,Party-Insel,MISC,,,de,1
-Erdbeben auf den Philippinen,Erdbeben auf den Philippinen,MISC,,,de,1
-Zahl der Toten,Zahl der Toten,MISC,,,de,1
 schwedischen,schwedischen,MISC,,,de,1
-S…,S…,MISC,,,de,1
+Zahl der Toten,Zahl der Toten,MISC,,,de,1
+Erdbeben auf den Philippinen,Erdbeben auf den Philippinen,MISC,,,de,1
+Party-Insel,Party-Insel,MISC,,,de,1
+Chaos“,Chaos“,MISC,,,de,1
+Hotel-Evakuierung“,Hotel-Evakuierung“,MISC,,,de,1
+05.10.2025,05.10.2025,MISC,,,de,1
+Wetter“,Wetter“,MISC,,,de,1
+goldenen Herbst,goldenen Herbst,MISC,,,de,1
+Busunglück“,Busunglück“,MISC,,,de,1
+Steinschlags,Steinschlags,MISC,,,de,1
+deutschsprachige,deutschsprachige,MISC,,,de,1
+tauender Permafrost,tauender Permafrost,MISC,,,de,1
+T…,T…,MISC,,,de,1
+norwegische,norwegische,MISC,,,de,1
+Zeit,Zeit,MISC,,,de,1
+Eis,Eis,MISC,,,de,1
+Zeit mit jedem Jahr schneller,Zeit mit jedem Jahr schneller,MISC,,,de,1
