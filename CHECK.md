@@ -47,7 +47,8 @@
 ### RapidAPI: Google-News-25  
 :white_check_mark: Google-News-25 respone fine  
 :white_check_mark: Google-News-25 status fine  
-:white_check_mark: Google-News-25 results found  
+:no_entry: Google-News-25 results **not** found  
+Maybe retry later...?  
 
 ---
   
