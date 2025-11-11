@@ -10,8 +10,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.0875083733536035
 'Lawine Tod',de,Impacts,#802d16,#4287f5,1,0.0855911072154842
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0838261349270574
-'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.0835677121276824
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0833092893283074
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0719346297507559
 'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0716760933502205
+'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.07118257030853004
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0561545254583068
