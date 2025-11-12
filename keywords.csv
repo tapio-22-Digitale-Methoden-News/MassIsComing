@@ -9,9 +9,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0892994178523052
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
 'Lawine Tod',de,Impacts,#802d16,#4287f5,1,0.0855911072154842
+'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.07565519976225049
 'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0716760933502205
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0712522146879987
-'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.07118257030853
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.07081289592906129
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0708128959290612
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0611444352881425
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
