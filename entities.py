@@ -175,12 +175,12 @@ for index, column in objNewsDF.iterrows():
                       if(not foundInOlDf.empty):
                         indexLocations[entity.text]['geonames'] = int(foundInOlDf['geonames'].median())
                         if (foundInOlDf['geonames'].median()>0):
+                          indexLocations[entity.text]['geotype'] = foundInOlDf['geotype'].min()
                           indexLocations[entity.text]['latitude'] = float(foundInOlDf['latitude'].mean())
                           indexLocations[entity.text]['longitude'] = float(foundInOlDf['longitude'].mean())
                           indexLocations[entity.text]['country'] = foundInOlDf['country'].min()
                           indexLocations[entity.text]['ipcc'] = foundInOlDf['ipcc'].min()
-                          if ('geotype' in oldLocationsDf.columns):
-                            indexLocations[entity.text]['geotype'] = foundInOlDf['geotype'].min()
+
 
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
