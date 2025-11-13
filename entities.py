@@ -174,6 +174,7 @@ for index, column in objNewsDF.iterrows():
                       if(not foundInOlDf.empty):
                         indexLocations[entity.text]['latitude'] = foundInOlDf['latitude'].mean()
                         indexLocations[entity.text]['longitude'] = foundInOlDf['longitude'].mean()
+                        indexLocations[entity.text]['geonames'] = foundInOlDf['geonames'].median()
 
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
