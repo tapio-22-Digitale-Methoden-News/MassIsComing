@@ -170,11 +170,12 @@ for index, column in objNewsDF.iterrows():
                                                    'count':1, 'geonames':-1, 'latitude':None, 'longitude':None}
                     if ('geonames' in oldLocationsDf.columns):
                       foundInOlDf = oldLocationsDf[oldLocationsDf['phrase']==entity.text]
-                      foundInOlDf = foundInOlDf[foundInOlDf['geonames']>0]
+                      foundInOlDf = foundInOlDf[foundInOlDf['geonames']>-0.5]
                       if(not foundInOlDf.empty):
-                        indexLocations[entity.text]['latitude'] = foundInOlDf['latitude'].mean()
-                        indexLocations[entity.text]['longitude'] = foundInOlDf['longitude'].mean()
                         indexLocations[entity.text]['geonames'] = foundInOlDf['geonames'].median()
+                        if (foundInOlDf['geonames'].median()>0):
+                          indexLocations[entity.text]['latitude'] = foundInOlDf['latitude'].mean()
+                          indexLocations[entity.text]['longitude'] = foundInOlDf['longitude'].mean()
 
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
