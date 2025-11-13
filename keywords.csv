@@ -1,12 +1,12 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Lawine',de,Hazard,#4287f5,#c4b03b,3,0.2826853172573434
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.2114804832721692
-'Permafrost',de,Causes,#9e3215,#477515,2,0.1485617840735343
+'Permafrost',de,Causes,#9e3215,#477515,2,0.1492930788538085
 'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.1364425168956501
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
 'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0894533458881716
-'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.08865458017445942
+'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0886545801744594
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
 'Lawine Tod',de,Impacts,#802d16,#4287f5,1,0.0855911072154842
 'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.0756551997622504
