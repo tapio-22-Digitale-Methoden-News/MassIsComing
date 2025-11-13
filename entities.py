@@ -51,6 +51,8 @@ def getNewsDF():
 keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',')
 keywordsDF = keywordsDF.drop(columns = ['language'])
 
+oldLocationsDf = pd.read_csv(DATA_PATH / 'csv' / 'sentiments_locations.csv', delimiter=',')
+
 newsDf = getNewsDF()
 print(newsDf)   
 
@@ -164,7 +166,15 @@ for index, column in objNewsDF.iterrows():
                     indexLocations[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:      
                     indexLocations[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
-                                                   'subjectivity':sentence.sentiment.subjectivity, 'language':lang,'count':1}
+                                                   'subjectivity':sentence.sentiment.subjectivity, 'language':lang,
+                                                   'count':1, 'geonames':-1, 'latitude':None, 'longitude':None}
+                    if ('geonames' in oldLocationsDf.columns):
+                      foundInOlDf = oldLocationsDf[oldLocationsDf['phrase']==entity.text]
+                      foundInOlDf = foundInOlDf[foundInOlDf['geonames']>0]
+                      if(not foundInOlDf.empty):
+                        indexLocations[entity.text]['latitude'] = foundInOlDf['latitude'].mean()
+                        indexLocations[entity.text]['longitude'] = foundInOlDf['longitude'].mean()
+
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
              personText = personText.strip(" .,!?;:'…/-").strip('"')
@@ -202,7 +212,7 @@ for index, column in objNewsDF.iterrows():
                     indexMissing[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
 
-colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count']
+colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 'geonames', 'latitude', 'longitude']
 indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colSent)
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
