@@ -167,7 +167,8 @@ for index, column in objNewsDF.iterrows():
                 else:      
                     indexLocations[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                    'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1, 
-                                                   'geonames':-1, 'latitude':None, 'longitude':None, 'country':None, 'ipcc':None}
+                                                   'geonames':-1, 'geotype':None, 'latitude':None, 'longitude':None, 
+                                                   'country':None, 'ipcc':None}
                     if ('geonames' in oldLocationsDf.columns):
                       foundInOlDf = oldLocationsDf[oldLocationsDf['phrase']==entity.text]
                       foundInOlDf = foundInOlDf[foundInOlDf['geonames']>-0.5]
@@ -176,9 +177,10 @@ for index, column in objNewsDF.iterrows():
                         if (foundInOlDf['geonames'].median()>0):
                           indexLocations[entity.text]['latitude'] = float(foundInOlDf['latitude'].mean())
                           indexLocations[entity.text]['longitude'] = float(foundInOlDf['longitude'].mean())
-                          if ('ipcc' in oldLocationsDf.columns):
-                            indexLocations[entity.text]['country'] = foundInOlDf['country'].min()
-                            indexLocations[entity.text]['ipcc'] = foundInOlDf['ipcc'].min()
+                          indexLocations[entity.text]['country'] = foundInOlDf['country'].min()
+                          indexLocations[entity.text]['ipcc'] = foundInOlDf['ipcc'].min()
+                          if ('geotype' in oldLocationsDf.columns):
+                            indexLocations[entity.text]['geotype'] = foundInOlDf['geotype'].min()
 
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
@@ -217,7 +219,7 @@ for index, column in objNewsDF.iterrows():
                     indexMissing[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
 
-colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 'geonames', 'latitude', 'longitude', 'country', 'ipcc']
+colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 'geonames', 'geotype', 'latitude', 'longitude', 'country', 'ipcc']
 indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colSent)
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
