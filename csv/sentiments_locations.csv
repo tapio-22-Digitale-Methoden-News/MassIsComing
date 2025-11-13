@@ -8,7 +8,7 @@ Brandenburg,Brandenburg,LOC,0.09181818181818183,0.1,de,55,-1,,,,,
 NRW,NRW,LOC,-0.11018518518518519,0.08333333333333333,de,54,-1,,,,,
 Saarland,Saarland,LOC,-0.04308510638297873,0.19148936170212766,de,47,-1,,,,,
 Sachsen-Anhalt,Sachsen-Anhalt,LOC,-0.04503968253968254,0.14285714285714285,de,42,-1,,,,,
-Hamburg,Hamburg,LOC,-0.09634146341463415,0.10975609756097561,de,41,2911298,,53.55073,9.99302,Germany,WCE
+Hamburg,Hamburg,LOC,-0.09634146341463415,0.10975609756097561,de,41,2911298,P,53.55073,9.99302,Germany,WCE
 Sachsen,Sachsen,LOC,-0.008974358974358977,0.057692307692307696,de,39,-1,,,,,
 Ukraine,Ukraine,LOC,0.07105263157894737,0.10526315789473684,de,38,-1,,,,,
 Niedersachsen,Niedersachsen,LOC,0.07631578947368423,0.09210526315789473,de,38,-1,,,,,
@@ -624,6 +624,7 @@ Bezirk Gmünd,Bezirk Gmünd,LOC,0.0,0.0,de,1,-1,,,,,
 Afrika,Afrika,LOC,-0.7,0.0,de,1,-1,,,,,
 "Fort Myers
 ","Fort Myers
+
 ",LOC,0.0,0.0,de,1,-1,,,,,
 Festprogramm,Festprogramm,LOC,0.0,0.0,de,1,-1,,,,,
 Wohnwagen,Wohnwagen,LOC,0.0,0.0,de,1,-1,,,,,
