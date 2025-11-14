@@ -321,15 +321,15 @@ def checkKeywordInQuote(keyword, quote, case=True, anyKey=False):
     keywords = keyword.split(" ")  
     for keyw in keywords:
        if('+' in keyw):
-          allKeywords.append[keyw.replace("+","")]
-          anyKeywords.append[keyw.replace("+","")]
+          allKeywords.append(keyw.replace("+",""))
+          anyKeywords.append(keyw.replace("+",""))
        elif('-' in keyw):
-          noneKeywords.append[keyw.replace("-","")]
+          noneKeywords.append(keyw.replace("-",""))
        elif(anyKey):
-          anyKeywords.append[keyw]
+          anyKeywords.append(keyw)
        else:
-          allKeywords.append[keyw]
-          anyKeywords.append[keyw]
+          allKeywords.append(keyw)
+          anyKeywords.append(keyw)
     found = False
     for keyw in anyKeywords:
        found = found or (keyw in quote)   
