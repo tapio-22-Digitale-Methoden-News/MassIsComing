@@ -513,8 +513,7 @@ def inqRandomNews():
             'apiKey='+apiKey
             #'excludeDomains=www.zeit.de,www.reuters.com'
             )
-            
-            # sortBy=relevancy   : relevancy, popularity, publishedAt
+        print(['query', 'q='+keyWord+'&'])    
         response = requests.get(url)
         response.encoding = response.apparent_encoding
         
