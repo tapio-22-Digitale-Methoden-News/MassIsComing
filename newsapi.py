@@ -311,12 +311,40 @@ def extractData(article, language, keyWord):
     return data  
 
 def checkKeywordInQuote(keyword, quote, case=True, anyKey=False):
+    allKeywords = []
+    anyKeywords = []
+    noneKeywords = []
+    keyword = keyword.strip("'")
+    if(not case):
+      keywords = keyword.lower()
+      quote = quote.lower()
+    keywords = keyword.split(" ")  
+    for keyw in keywords:
+       if('+' in keyw):
+          allKeywords.append[keyw]
+          anyKeywords.append[keyw]
+       elif('-' in keyw):
+          noneKeywords.append[keyw]
+       elif(anyKey):
+          anyKeywords.append[keyw]
+       else:
+          allKeywords.append[keyw]
+          anyKeywords.append[keyw]
+    found = False
+    for keyw in anyKeywords:
+       found = found or (keyw in quote)   
+    for keyw in allKeywords:
+       found = found and (keyw in quote)  
+    for keyw in noneKeywords:
+       found = found and (not keyw in quote)  
+    return found
+
+def checkKeywordInQuoteOld(keyword, quote, case=True, anyKey=False):
     keyword = keyword.replace("+","").replace("-","")
     keywords = keyword.strip("'").split(" ")
     if(not case):
         keywords = keyword.strip("'").lower().split(" ")
         quote = quote.lower()
-
     if(anyKey):
       allFound = False
       for keyw in keywords:
