@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.521586507813438
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.44424862164142226
 'Lawine',de,Hazard,#4287f5,#c4b03b,3,0.2826853172573434
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.1821586507813438
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,2,0.1492930788538085
@@ -13,6 +13,6 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.0756551997622504
 'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0716760933502205
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0708128959290612
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.06056438248479889
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0605643824847988
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0375503263213304
