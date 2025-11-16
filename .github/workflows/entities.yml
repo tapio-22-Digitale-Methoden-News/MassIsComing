@@ -17,6 +17,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: credocker/crecoding:2020.0
+      env:
+        GEONAMES_KEY: ${{ secrets.GEONAMES_KEY }}
       volumes:
         - ${{ github.workspace }}:/cre/python
     steps:
