@@ -150,9 +150,12 @@ if(geonamesKey == '1a2b3c4d5'):
     print('Please set geonames.org key in file: secrets.py');
     foundGeonames = False
 
+print(['foundGeonames',foundGeonames])
+
 geomax = 250
 def enrichFromGeonames(df):
     global geomax
+    print('Starting with geonames')
     if(not foundGeonames):
         return df
     ipccRegions = geopandas.read_file('https://github.com/creDocker/creAssets/blob/main/cre/versions/u24.04/assets/public/ipcc/IPCC-WGI-reference-regions-v4.geojson?raw=true')
@@ -161,6 +164,7 @@ def enrichFromGeonames(df):
         lang = str(column.language)
         phrase = str(column.keyword)
         if(str(column.geonames) == '-1'):
+          print('things to do')
           gn = geocoder.geonames(phrase, lang=lang, key=geonamesKey)
           print([phrase,gn,gn.geonames_id]) 
           if(gn.geonames_id):  
@@ -181,7 +185,7 @@ def enrichFromGeonames(df):
             if(not whichIpcc.empty):
                 df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
                 df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
-          imax -= 1
+          geomax -= 1
           time.sleep(0.1) 
     return df
 
