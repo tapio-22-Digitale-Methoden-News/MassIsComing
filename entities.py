@@ -181,8 +181,8 @@ def enrichFromGeonames(df):
             if(not whichIpcc.empty):
                 df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
                 df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
-            imax -= 1
-            time.sleep(0.1) 
+          imax -= 1
+          time.sleep(0.1) 
     return df
 
 def strangeCharacters(testString, testCharacters):
