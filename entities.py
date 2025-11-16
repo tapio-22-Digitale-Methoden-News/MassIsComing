@@ -1,3 +1,4 @@
+#import mysecrets
 import pandas as pd
 
 from pathlib import Path
@@ -149,6 +150,10 @@ if(geonamesKey):
 if(geonamesKey == '1a2b3c4d5'): 
     print('Please set geonames.org key in file: secrets.py');
     foundGeonames = False
+if(geonamesKey == 'demo_demo_123'): 
+    print('Please set geonames.org key in file: secrets.py');
+    foundGeonames = False
+foundGeonames = True
 
 print(['foundGeonames',foundGeonames])
 

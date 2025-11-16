@@ -29,6 +29,8 @@ jobs:
 #          ref: main
       - name: cd /cre/python/
         run: (cd /cre/python/)
+      - name: cp mysecrets.py
+        run: (cp mysecrets.orig.py mysecrets.py)
       - name: Install spacy textblob_de
         run: (pip3 install spacy==2.2.4 textblob==0.15.3 textblob_de==0.4.3 nltk==3.8)
       - name: Install geocoder
