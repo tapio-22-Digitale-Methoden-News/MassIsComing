@@ -36,7 +36,7 @@ jobs:
       - name: Install spacy textblob_de
         run: (pip3 install spacy==2.2.4 textblob==0.15.3 textblob_de==0.4.3 nltk==3.8)
       - name: Install geocoder
-        run: (pip3 install geocoder)
+        run: (pip3 install geocoder geopandas==0.9)
       - name: Install download de_core_news_md
         run: (python3 -m spacy download de_core_news_md)
       - name: Run entities

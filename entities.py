@@ -182,10 +182,12 @@ def enrichFromGeonames(df):
             print(['geo',gn.lat,gn.lng, gn])
             #(get country) get ipcc
             coordinates = geopandas.points_from_xy([float(gn.lng)], [float(gn.lat)])
+            print(['points_from_xy',coordinates])
             Coords = geopandas.GeoDataFrame({
               'geometry': coordinates,
               'name': [phrase]
              }, crs={'init': 'epsg:4326', 'no_defs': True})
+            print(['GeoDataFrame',Coords])  
             whichIpcc = geopandas.sjoin(ipccRegions, Coords, how='inner', op='intersects')
             print(whichIpcc)
             if(not whichIpcc.empty):
