@@ -4,433 +4,433 @@ Hessen,Hessen,LOC,0.01837431693989069,0.06489071038251366,de,122,2905330,A,50.55
 Bayern,Bayern,LOC,0.03684210526315789,0.1087719298245614,de,95,2951839,A,49.0,11.5,EUROPE,Deutschland,WCE
 Rheinland-Pfalz,Rheinland-Pfalz,LOC,-0.009926470588235299,0.08088235294117647,de,68,2847618,A,49.66667,7.5,EUROPE,Deutschland,WCE
 Berlin,Berlin,LOC,0.07016129032258066,0.04032258064516129,de,62,2950159,P,52.52437,13.41053,EUROPE,Deutschland,WCE
-Saarland,Saarland,LOC,-0.022844827586206897,0.15517241379310345,de,58,2842635,A,49.40472,6.96083,EUROPE,Deutschland,WCE
+Saarland,Saarland,LOC,-0.022844827586206904,0.15517241379310345,de,58,2842635,A,49.40472,6.96083,EUROPE,Deutschland,WCE
 Brandenburg,Brandenburg,LOC,0.09181818181818183,0.1,de,55,2945356,A,52.45905,13.01582,EUROPE,Deutschland,WCE
 NRW,NRW,LOC,-0.11018518518518519,0.08333333333333333,de,54,2886242,P,50.93333,6.95,EUROPE,Deutschland,WCE
 Hamburg,Hamburg,LOC,-0.08206521739130436,0.09782608695652174,de,46,2911298,P,53.55073,9.99302,,Germany,WCE
 Niedersachsen,Niedersachsen,LOC,0.05909090909090909,0.07954545454545454,de,44,2862926,A,52.83333,9.16667,EUROPE,Deutschland,WCE
-Sachsen-Anhalt,Sachsen-Anhalt,LOC,-0.02073643410852713,0.13953488372093023,de,43,2874545,P,52.12773,11.62916,EUROPE,Deutschland,WCE
+Sachsen-Anhalt,Sachsen-Anhalt,LOC,-0.020736434108527137,0.13953488372093023,de,43,2874545,P,52.12773,11.62916,EUROPE,Deutschland,WCE
 Sachsen,Sachsen,LOC,-0.008536585365853661,0.054878048780487805,de,41,2842565,A,52.0,11.7333,EUROPE,Deutschland,WCE
 Ukraine,Ukraine,LOC,0.07105263157894737,0.10526315789473684,de,38,690791,A,49.0,32.0,EUROPE,Ukraine,WCE
 Nordrhein-Westfalen,Nordrhein-Westfalen,LOC,-0.019736842105263164,0.11842105263157894,de,38,2886242,P,50.93333,6.95,EUROPE,Deutschland,WCE
 Thüringen,Thüringen,LOC,-0.17105263157894737,0.05263157894736842,de,38,2822542,A,50.91667,11.0,EUROPE,Deutschland,WCE
 Baden-Württemberg,Baden-Württemberg,LOC,0.05162037037037034,0.1111111111111111,de,36,2953481,A,48.5,9.0,EUROPE,Deutschland,WCE
 Elbe,Elbe,LOC,0.024747474747474747,0.4292929292929293,de,33,2868531,P,51.43453,13.22177,EUROPE,Deutschland,WCE
-…,…,LOC,0.12142857142857144,0.10119047619047619,de,28,-1,,,,,,
+…,…,LOC,0.12142857142857144,0.10119047619047619,de,28,0,,,,,,
 Europa,Europa,LOC,0.21049382716049383,0.18518518518518517,de,27,6255148,L,48.69096,9.14062,EUROPE,,WCE
-Deutschlands,Deutschlands,LOC,0.11133333333333333,0.14666666666666667,de,25,-1,,,,,,
+Deutschlands,Deutschlands,LOC,0.11133333333333333,0.14666666666666667,de,25,0,,,,,,
 Schleswig-Holstein,Schleswig-Holstein,LOC,-0.20104166666666667,0.10416666666666667,de,24,2838632,A,54.2,9.75,EUROPE,Deutschland,NEU
 Nordseeküste,Nordseeküste,LOC,-0.09242424242424242,0.0,de,22,12076810,L,53.83568,8.11677,EUROPE,Deutschland,NEU
 Nordsee,Nordsee,LOC,0.009090909090909094,0.06818181818181818,de,22,2960848,H,55.33333,3.0,EUROPE,,NEU
-“,“,LOC,0.019047619047619042,0.0,de,21,-1,,,,,,
+“,“,LOC,0.019047619047619042,0.0,de,21,0,,,,,,
 Italien,Italien,LOC,0.195,0.0,de,20,3175395,A,42.83333,12.83333,EUROPE-AFRICA,Italien,MED
 Offenbach,Offenbach,LOC,0.0456140350877193,0.07017543859649122,de,19,2857807,P,50.10061,8.76647,EUROPE,Deutschland,WCE
 Sturmböen,Sturmböen,LOC,-0.12105263157894736,0.0,de,19,0,,,,,,
 Alpen,Alpen,LOC,0.14736842105263157,0.0,de,19,682673,T,45.5,24.25,EUROPE,Rumänien,WCE
 Jamaika,Jamaika,LOC,-0.0911764705882353,0.029411764705882353,de,17,3489940,A,18.16667,-77.25,CENTRAL-AMERICA,Jamaika,CAR
 Bremen,Bremen,LOC,0.17352941176470588,0.0,de,17,2944388,P,53.07582,8.80717,EUROPE,Deutschland,NEU
-Bayerns,Bayerns,LOC,0.18437499999999998,0.03125,de,16,-1,,,,,,
+Bayerns,Bayerns,LOC,0.18437499999999998,0.03125,de,16,0,,,,,,
 Mount Everest,Mount Everest,LOC,0.059375000000000004,0.03125,de,16,1283416,T,27.98791,86.92529,ASIA,Nepal,TIB
 Philippinen,Philippinen,LOC,-0.2375,0.125,de,16,1694008,A,13.40882,122.56155,ASIA,Philippinen,SEA
 Mecklenburg-Vorpommern,Mecklenburg-Vorpommern,LOC,-0.19777777777777777,0.02222222222222222,de,15,2872567,A,53.83333,12.5,EUROPE,Deutschland,WCE
 Gewitter,Gewitter,LOC,0.0,0.0,de,15,0,,,,,,
 München,München,LOC,0.15714285714285717,0.03571428571428571,de,14,2867714,P,48.13743,11.57549,EUROPE,Deutschland,WCE
 Erde,Erde,LOC,-0.10357142857142856,0.4642857142857143,de,14,6295630,L,0.0,0.0,ATLANTIC,,EAO
-Temperaturen,Temperaturen,LOC,0.0923076923076923,0.038461538461538464,de,13,-1,,,,,,
+Temperaturen,Temperaturen,LOC,0.0923076923076923,0.038461538461538464,de,13,0,,,,,,
 Freistaat,Freistaat,LOC,-0.053846153846153835,0.15384615384615385,de,13,2822542,A,50.91667,11.0,EUROPE,Deutschland,WCE
 Harz,Harz,LOC,0.012500000000000002,0.0,de,12,2909965,T,51.75619,10.63462,EUROPE,Deutschland,WCE
 Korsika,Korsika,LOC,-0.225,0.0,de,12,3038334,P,41.91886,8.73812,EUROPE-AFRICA,Frankreich,MED
 Weinlese,Weinlese,LOC,0.14166666666666666,0.16666666666666666,de,12,0,,,,,,
 Russland,Russland,LOC,0.12727272727272726,0.0,de,11,2017370,A,60.0,100.0,ASIA,Russland,ESB
-Eicheln,Eicheln,LOC,0.18181818181818182,0.18181818181818182,de,11,-1,,,,,,
-Bali,Bali,LOC,-0.12727272727272726,0.0,de,11,1650534,T,-8.33333,115.0,ASIA,Indonesien,SEA
+Eicheln,Eicheln,LOC,0.18181818181818182,0.18181818181818182,de,11,0,,,,,,
 Österreich,Österreich,LOC,0.1909090909090909,0.0,de,11,2782113,A,47.33333,13.33333,EUROPE,Österreich,WCE
 lsw,lsw,LOC,0.2583333333333333,0.0,de,11,1214658,P,5.1801,97.1507,ASIA,Indonesien,SEA
 Frankfurt,Frankfurt,LOC,0.09545454545454546,0.13636363636363635,de,11,2925533,P,50.11552,8.68417,EUROPE,Deutschland,WCE
+Bali,Bali,LOC,-0.12727272727272726,0.0,de,11,1650534,T,-8.33333,115.0,ASIA,Indonesien,SEA
 Türkei,Türkei,LOC,-0.32,0.05,de,10,298795,A,39.0,35.0,EUROPE-AFRICA,Türkei,MED
 Thüringens,Thüringens,LOC,0.08166666666666667,0.0,de,10,11550794,S,50.2772,10.8018,EUROPE,Deutschland,WCE
 Mond,Mond,LOC,0.10499999999999998,0.45,de,10,293354,P,32.24995,34.91737,EUROPE-AFRICA,Israel,MED
 Indien,Indien,LOC,0.33999999999999997,0.0,de,10,1269750,A,22.0,79.0,ASIA,Indien,SAS
 Stuttgart,Stuttgart,LOC,0.11416666666666667,0.0,de,10,2825297,P,48.78232,9.17702,EUROPE,Deutschland,WCE
 Niederösterreich,Niederösterreich,LOC,0.06999999999999999,0.1,de,10,2770542,A,48.33333,15.75,EUROPE,Österreich,WCE
-Herbststurm,Herbststurm,LOC,-0.13,0.3,de,10,-1,,,,,,
-Regen,Regen,LOC,-0.3444444444444444,0.0,de,9,2849495,P,48.9719,13.12824,EUROPE,Deutschland,WCE
-Sturmflut,Sturmflut,LOC,0.0,0.0,de,9,-1,,,,,,
-Wochenmitte,Wochenmitte,LOC,0.03333333333333334,0.0,de,9,-1,,,,,,
-Schnee,Schnee,LOC,-0.3888888888888889,0.0,de,9,2837468,T,50.72938,8.54329,EUROPE,Deutschland,WCE
-d…,d…,LOC,-0.1111111111111111,0.1111111111111111,de,9,-1,,,,,,
-Südkorea,Südkorea,LOC,0.0,0.0,de,9,1835841,A,36.5,127.75,ASIA,Südkorea,EAS
+Herbststurm,Herbststurm,LOC,-0.13,0.3,de,10,0,,,,,,
 Land,Land,LOC,0.07777777777777778,0.0,de,9,3421288,L,81.9,-56.75,POLAR,Grönland,GIC
-Europas,Europas,LOC,-0.1722222222222222,0.0,de,9,-1,,,,,,
-Starkregen,Starkregen,LOC,-0.2222222222222222,0.0,de,9,-1,,,,,,
 Bergen,Bergen,LOC,-0.1111111111111111,0.0,de,9,3161732,P,60.39299,5.32415,EUROPE,Norwegen,NEU
+Sturmflut,Sturmflut,LOC,0.0,0.0,de,9,0,,,,,,
+Starkregen,Starkregen,LOC,-0.2222222222222222,0.0,de,9,0,,,,,,
+Wochenmitte,Wochenmitte,LOC,0.03333333333333334,0.0,de,9,0,,,,,,
+d…,d…,LOC,-0.1111111111111111,0.1111111111111111,de,9,0,,,,,,
+Europas,Europas,LOC,-0.1722222222222222,0.0,de,9,0,,,,,,
+Schnee,Schnee,LOC,-0.3888888888888889,0.0,de,9,2837468,T,50.72938,8.54329,EUROPE,Deutschland,WCE
+Regen,Regen,LOC,-0.3444444444444444,0.0,de,9,2849495,P,48.9719,13.12824,EUROPE,Deutschland,WCE
+Südkorea,Südkorea,LOC,0.0,0.0,de,9,1835841,A,36.5,127.75,ASIA,Südkorea,EAS
+Landes,Landes,LOC,-0.0875,0.125,de,8,3007868,L,44.25,-1.0,EUROPE-AFRICA,Frankreich,MED
 Nepal,Nepal,LOC,0.0875,0.25,de,8,1282988,A,28.0,84.0,ASIA,Nepal,TIB
 Brandenburgs,Brandenburgs,LOC,0.0,0.125,de,8,8181624,S,52.36213,13.50168,EUROPE,Deutschland,WCE
+Keltereien,Keltereien,LOC,0.775,0.0,de,8,0,,,,,,
+Großaspach,Großaspach,LOC,-0.175,0.0,de,8,2917036,P,48.96641,9.401,EUROPE,Deutschland,WCE
 Mexiko,Mexiko,LOC,0.0,0.25,de,8,3996063,A,23.0,-102.0,CENTRAL-AMERICA,Mexiko,NCA
-Keltereien,Keltereien,LOC,0.775,0.0,de,8,-1,,,,,,
-Stadt,Stadt,LOC,0.0,0.0,de,8,2950159,P,52.52437,13.41053,EUROPE,Deutschland,WCE
-Landes,Landes,LOC,-0.0875,0.125,de,8,3007868,L,44.25,-1.0,EUROPE-AFRICA,Frankreich,MED
-Sachsens,Sachsens,LOC,0.175,0.0,de,8,-1,,,,,,
+Sachsens,Sachsens,LOC,0.175,0.0,de,8,0,,,,,,
 Wiesbaden,Wiesbaden,LOC,-0.175,0.0,de,8,2809346,P,50.08258,8.24932,EUROPE,Deutschland,WCE
 Apfel,Apfel,LOC,0.0,0.625,de,8,6632905,H,-66.34944,100.75389,POLAR,Antarktis,EAN
-Glatteis,Glatteis,LOC,-0.3,0.0,de,8,-1,,,,,,
-Herbstferien,Herbstferien,LOC,0.175,0.5,de,8,-1,,,,,,
+Glatteis,Glatteis,LOC,-0.3,0.0,de,8,0,,,,,,
+Herbstferien,Herbstferien,LOC,0.175,0.5,de,8,0,,,,,,
 Rheingau,Rheingau,LOC,0.0,0.0,de,8,2847636,L,50.03552,8.08212,EUROPE,Deutschland,WCE
 Frankreich,Frankreich,LOC,-0.4458333333333333,0.041666666666666664,de,8,3017382,A,46.0,2.0,EUROPE,Frankreich,WCE
-Großaspach,Großaspach,LOC,-0.175,0.0,de,8,2917036,P,48.96641,9.401,EUROPE,Deutschland,WCE
-Supermond,Supermond,LOC,0.2125,0.0,de,8,-1,,,,,,
+Supermond,Supermond,LOC,0.2125,0.0,de,8,0,,,,,,
+Stadt,Stadt,LOC,0.0,0.0,de,8,2950159,P,52.52437,13.41053,EUROPE,Deutschland,WCE
+Oberrhein,Oberrhein,LOC,0.24285714285714285,0.14285714285714285,de,7,12077021,L,48.95947,8.36214,EUROPE,Deutschland,WCE
 Spanien,Spanien,LOC,0.07142857142857142,0.07142857142857142,de,7,2510769,A,40.0,-4.0,EUROPE-AFRICA,Spanien,MED
 USA,USA,LOC,0.24999999999999997,0.07142857142857142,de,7,6255150,L,-14.60485,-57.65625,SOUTH-AMERICA,,SAM
 Alten Land,Alten Land,LOC,-0.23333333333333334,0.23809523809523808,de,7,2957761,P,50.62218,8.75322,EUROPE,Deutschland,WCE
-US-Präsident,US-Präsident,LOC,-0.042857142857142864,0.0,de,7,-1,,,,,,
-Privacy Center,Privacy Center,LOC,0.0,0.0,de,7,-1,,,,,,
+US-Präsident,US-Präsident,LOC,-0.042857142857142864,0.0,de,7,0,,,,,,
+Privacy Center,Privacy Center,LOC,0.0,0.0,de,7,0,,,,,,
 Brocken,Brocken,LOC,0.19999999999999998,0.0,de,7,10787462,T,-54.48333,-36.06667,SOUTHERN,Südgeorgien und die Südlichen Sandwichinseln,SOO
-Chemnitz,Chemnitz,LOC,0.0,0.42857142857142855,de,7,2940132,P,50.8357,12.92922,EUROPE,Deutschland,WCE
-Oberrhein,Oberrhein,LOC,0.24285714285714285,0.14285714285714285,de,7,12077021,L,48.95947,8.36214,EUROPE,Deutschland,WCE
 Flores,Flores,LOC,-0.19999999999999998,0.0,de,7,9062332,T,-8.62354,121.12899,ASIA,Indonesien,SEA
+Chemnitz,Chemnitz,LOC,0.0,0.42857142857142855,de,7,2940132,P,50.8357,12.92922,EUROPE,Deutschland,WCE
 Wien,Wien,LOC,0.19999999999999998,0.0,de,7,2761369,P,48.20849,16.37208,EUROPE,Österreich,WCE
-Orkanböen,Orkanböen,LOC,-0.42857142857142855,0.0,de,7,-1,,,,,,
+Orkanböen,Orkanböen,LOC,-0.42857142857142855,0.0,de,7,0,,,,,,
 Odessa,Odessa,LOC,-0.09999999999999999,0.0,de,7,698740,P,46.48572,30.74383,EUROPE,Ukraine,WCE
 Norddeutschland,Norddeutschland,LOC,-0.24999999999999997,0.21428571428571427,de,7,11978817,T,51.47087,6.56787,EUROPE,Deutschland,WCE
-Rekordtempo,Rekordtempo,LOC,0.0,0.0,de,7,-1,,,,,,
 Garten,Garten,LOC,0.2642857142857143,0.2857142857142857,de,7,7535595,S,52.50717,13.33189,EUROPE,Deutschland,WCE
-Ibiza,Ibiza,LOC,0.0,0.3333333333333333,de,6,6299339,S,38.87286,1.37312,EUROPE-AFRICA,Spanien,MED
-Himalaya,Himalaya,LOC,0.0,0.0,de,6,1252558,T,28.0,84.0,ASIA,,TIB
-Punjab,Punjab,LOC,0.29166666666666663,0.08333333333333333,de,6,1167710,A,30.85,72.31667,ASIA,Pakistan,WCA
-Gelsenkirchen,Gelsenkirchen,LOC,-0.7083333333333334,0.0,de,6,2921466,P,51.50508,7.09654,EUROPE,Deutschland,WCE
-Bad Sulza,Bad Sulza,LOC,-0.2333333333333333,0.0,de,6,2953330,P,51.08929,11.62474,EUROPE,Deutschland,WCE
-Steiermark,Steiermark,LOC,-0.16666666666666666,0.16666666666666666,de,6,2764581,A,47.25,15.16667,EUROPE,Österreich,WCE
-Sturm,Sturm,LOC,0.0,0.0,de,6,6626207,T,-71.05,162.96667,POLAR,Antarktis,EAN
-Schwarze Elster,Schwarze Elster,LOC,0.0,0.6666666666666666,de,6,2835077,H,51.81587,12.83211,EUROPE,Deutschland,WCE
-Erzgebirge,Erzgebirge,LOC,-0.11666666666666665,0.0,de,6,2929226,T,50.5,13.16667,EUROPE,Tschechien,WCE
-Paris,Paris,LOC,0.11666666666666665,0.0,de,6,2988507,P,48.85341,2.3488,EUROPE,Frankreich,WCE
-Hannover,Hannover,LOC,-0.11666666666666665,0.0,de,6,2910831,P,52.37052,9.73322,EUROPE,Deutschland,WCE
+Rekordtempo,Rekordtempo,LOC,0.0,0.0,de,7,0,,,,,,
 Leverkusen,Leverkusen,LOC,0.0,0.0,de,6,2878234,P,51.0303,6.98432,EUROPE,Deutschland,WCE
-lrs,lrs,LOC,-0.2333333333333333,0.16666666666666666,de,6,5880061,S,70.13395,-143.58045,NORTH-AMERICA,USA,NWN
+Ibiza,Ibiza,LOC,0.0,0.3333333333333333,de,6,6299339,S,38.87286,1.37312,EUROPE-AFRICA,Spanien,MED
+Straßenmeistereien,Straßenmeistereien,LOC,0.16666666666666666,0.0,de,6,0,,,,,,
+Sturm,Sturm,LOC,0.0,0.0,de,6,6626207,T,-71.05,162.96667,POLAR,Antarktis,EAN
+Japan,Japan,LOC,-0.11666666666666665,0.0,de,6,1861060,A,35.68536,139.75309,ASIA,Japan,EAS
 Fischmarkt,Fischmarkt,LOC,0.11666666666666665,0.0,de,6,8468817,S,50.97782,11.029,EUROPE,Deutschland,WCE
 Franken,Franken,LOC,-0.16666666666666666,0.0,de,6,2803465,L,50.0,9.0,EUROPE,Deutschland,WCE
-Japan,Japan,LOC,-0.11666666666666665,0.0,de,6,1861060,A,35.68536,139.75309,ASIA,Japan,EAS
-Straßenmeistereien,Straßenmeistereien,LOC,0.16666666666666666,0.0,de,6,-1,,,,,,
-Österreichs,Österreichs,LOC,0.17499999999999996,0.08333333333333333,de,6,-1,,,,,,
-Hitze,Hitze,LOC,0.0,0.2,de,5,2903464,S,50.36667,12.0,EUROPE,Deutschland,WCE
+Himalaya,Himalaya,LOC,0.0,0.0,de,6,1252558,T,28.0,84.0,ASIA,,TIB
+Paris,Paris,LOC,0.11666666666666665,0.0,de,6,2988507,P,48.85341,2.3488,EUROPE,Frankreich,WCE
+Hannover,Hannover,LOC,-0.11666666666666665,0.0,de,6,2910831,P,52.37052,9.73322,EUROPE,Deutschland,WCE
+Erzgebirge,Erzgebirge,LOC,-0.11666666666666665,0.0,de,6,2929226,T,50.5,13.16667,EUROPE,Tschechien,WCE
+Gelsenkirchen,Gelsenkirchen,LOC,-0.7083333333333334,0.0,de,6,2921466,P,51.50508,7.09654,EUROPE,Deutschland,WCE
+lrs,lrs,LOC,-0.2333333333333333,0.16666666666666666,de,6,5880061,S,70.13395,-143.58045,NORTH-AMERICA,USA,NWN
+Punjab,Punjab,LOC,0.29166666666666663,0.08333333333333333,de,6,1167710,A,30.85,72.31667,ASIA,Pakistan,WCA
+Bad Sulza,Bad Sulza,LOC,-0.2333333333333333,0.0,de,6,2953330,P,51.08929,11.62474,EUROPE,Deutschland,WCE
+Österreichs,Österreichs,LOC,0.17499999999999996,0.08333333333333333,de,6,0,,,,,,
+Schwarze Elster,Schwarze Elster,LOC,0.0,0.6666666666666666,de,6,2835077,H,51.81587,12.83211,EUROPE,Deutschland,WCE
+Steiermark,Steiermark,LOC,-0.16666666666666666,0.16666666666666666,de,6,2764581,A,47.25,15.16667,EUROPE,Österreich,WCE
 Ahrtal,Ahrtal,LOC,-0.33999999999999997,0.0,de,5,12470173,T,50.5333,7.0667,EUROPE,Deutschland,WCE
-Dauerregen,Dauerregen,LOC,-0.13999999999999999,0.0,de,5,-1,,,,,,
 Rheinhessen,Rheinhessen,LOC,-0.27999999999999997,0.0,de,5,12076806,L,49.85488,8.08504,EUROPE,Deutschland,WCE
 Mailand,Mailand,LOC,0.5599999999999999,0.0,de,5,3173435,P,45.46427,9.18951,EUROPE,Italien,WCE
-Hessens,Hessens,LOC,0.11333333333333333,0.06666666666666667,de,5,-1,,,,,,
-Neuseeland,Neuseeland,LOC,-0.47000000000000003,0.1,de,5,2186224,A,-42.0,174.0,OCEANIA,Neuseeland,NZ
-den USA,den USA,LOC,-0.13999999999999999,0.4,de,5,2747373,P,52.07667,4.29861,EUROPE,Niederlande,NEU
-Baden-Württembergs,Baden-Württembergs,LOC,-0.030000000000000006,0.0,de,5,-1,,,,,,
-Dortmund,Dortmund,LOC,-0.09,0.0,de,5,2935517,P,51.51494,7.466,EUROPE,Deutschland,WCE
-Mittwochabend,Mittwochabend,LOC,0.0,0.0,de,5,-1,,,,,,
-Orkanartige Böen,Orkanartige Böen,LOC,-0.5599999999999999,0.0,de,5,-1,,,,,,
 Hoym,Hoym,LOC,0.13999999999999999,0.0,de,5,2898299,P,51.78292,11.31244,EUROPE,Deutschland,WCE
-Mittwoch,Mittwoch,LOC,0.41999999999999993,0.0,de,5,-1,,,,,,
-Polen,Polen,LOC,0.4,0.0,de,5,798544,A,52.0,20.0,EUROPE,Polen,WCE
-Gewittern,Gewittern,LOC,-0.12000000000000002,0.0,de,5,-1,,,,,,
+Gewittern,Gewittern,LOC,-0.12000000000000002,0.0,de,5,0,,,,,,
+Mittwochabend,Mittwochabend,LOC,0.0,0.0,de,5,0,,,,,,
 sn,sn,LOC,0.4,0.0,de,5,6255146,L,7.1881,21.09375,AFRICA,,CAF
-Kiew,Kiew,LOC,0.27999999999999997,0.0,de,5,703448,P,50.45466,30.5238,EUROPE,Ukraine,WCE
+Baden-Württembergs,Baden-Württembergs,LOC,-0.030000000000000006,0.0,de,5,0,,,,,,
+Neuseeland,Neuseeland,LOC,-0.47000000000000003,0.1,de,5,2186224,A,-42.0,174.0,OCEANIA,Neuseeland,NZ
+Hitze,Hitze,LOC,0.0,0.2,de,5,2903464,S,50.36667,12.0,EUROPE,Deutschland,WCE
+Dortmund,Dortmund,LOC,-0.09,0.0,de,5,2935517,P,51.51494,7.466,EUROPE,Deutschland,WCE
 Thüringer,Thüringer,LOC,-0.06999999999999999,0.5,de,5,2822540,T,50.66667,10.83333,EUROPE,Deutschland,WCE
+Hessens,Hessens,LOC,0.11333333333333333,0.06666666666666667,de,5,0,,,,,,
+Traubenernte,Traubenernte,LOC,-0.13999999999999999,0.0,de,5,0,,,,,,
+Polen,Polen,LOC,0.4,0.0,de,5,798544,A,52.0,20.0,EUROPE,Polen,WCE
+Dauerregen,Dauerregen,LOC,-0.13999999999999999,0.0,de,5,0,,,,,,
+Kiew,Kiew,LOC,0.27999999999999997,0.0,de,5,703448,P,50.45466,30.5238,EUROPE,Ukraine,WCE
+Streuobstwiesen,Streuobstwiesen,LOC,0.0,0.6,de,5,0,,,,,,
 Böen,Böen,LOC,-0.13999999999999999,0.0,de,5,3160910,P,59.75,8.78333,EUROPE,Norwegen,NEU
+Orkanartige Böen,Orkanartige Böen,LOC,-0.5599999999999999,0.0,de,5,0,,,,,,
+den USA,den USA,LOC,-0.13999999999999999,0.4,de,5,2747373,P,52.07667,4.29861,EUROPE,Niederlande,NEU
 Fichtelberg,Fichtelberg,LOC,-0.13999999999999999,0.0,de,5,2926982,T,50.42858,12.95371,EUROPE,Deutschland,WCE
-Wetter-Vorhersage,Wetter-Vorhersage,LOC,0.13999999999999999,0.0,de,5,-1,,,,,,
-Traubenernte,Traubenernte,LOC,-0.13999999999999999,0.0,de,5,-1,,,,,,
-Schneepflügen,Schneepflügen,LOC,-0.53,0.1,de,5,-1,,,,,,
-Schloss Wackerbarth,Schloss Wackerbarth,LOC,0.6,0.0,de,5,-1,,,,,,
-Streuobstwiesen,Streuobstwiesen,LOC,0.0,0.6,de,5,-1,,,,,,
-MV,MV,LOC,-0.175,0.0,de,4,6255147,L,29.84064,89.29688,ASIA,,TIB
-St. Pölten,St. Pölten,LOC,-0.25,0.0,de,4,2766429,P,48.2,15.63333,EUROPE,Österreich,WCE
-Sylt,Sylt,LOC,-1.0,0.0,de,4,2824454,T,54.90439,8.33819,EUROPE,Deutschland,NEU
-Erle,Erle,LOC,-0.28750000000000003,0.0,de,4,5949271,L,45.70197,-71.60018,NORTH-AMERICA,Kanada,ENA
-Kaltfront,Kaltfront,LOC,0.0,0.0,de,4,-1,,,,,,
-Bewohner,Bewohner,LOC,0.0,0.0,de,4,-1,,,,,,
-Südtirol,Südtirol,LOC,0.0,0.0,de,4,3165244,A,46.5,11.33333,EUROPE,Italien,WCE
-Schweiz,Schweiz,LOC,0.175,0.25,de,4,2658434,A,47.00016,8.01427,EUROPE,Schweiz,WCE
-Rhein,Rhein,LOC,0.6,0.0,de,4,12077024,L,49.31885,8.77012,EUROPE,Deutschland,WCE
-Mönchengladbach,Mönchengladbach,LOC,0.175,0.0,de,4,2869894,P,51.18539,6.44172,EUROPE,Deutschland,WCE
-Küste,Küste,LOC,0.2125,0.0,de,4,2287781,A,8.0,-5.5,AFRICA,Elfenbeinküste,WAF
-Regenschauer,Regenschauer,LOC,0.0,0.0,de,4,-1,,,,,,
-Vorarlberg,Vorarlberg,LOC,-0.045833333333333344,0.0,de,4,2762300,A,47.25,9.91667,EUROPE,Österreich,WCE
-Brandenburger,Brandenburger,LOC,0.675,0.08333333333333333,de,4,2956825,V,52.45,12.48333,EUROPE,Deutschland,WCE
-Riesling,Riesling,LOC,0.0,0.0,de,4,7534795,R,-33.97098,138.63476,OCEANIA,Australien,SAU
-Köln,Köln,LOC,0.0,0.0,de,4,2886242,P,50.93333,6.95,EUROPE,Deutschland,WCE
-England,England,LOC,-0.175,0.0,de,4,11919979,L,44.0,-71.0,NORTH-AMERICA,USA,ENA
+Schloss Wackerbarth,Schloss Wackerbarth,LOC,0.6,0.0,de,5,0,,,,,,
+Wetter-Vorhersage,Wetter-Vorhersage,LOC,0.13999999999999999,0.0,de,5,0,,,,,,
+Mittwoch,Mittwoch,LOC,0.41999999999999993,0.0,de,5,0,,,,,,
+Schneepflügen,Schneepflügen,LOC,-0.53,0.1,de,5,0,,,,,,
 Spitzbergen,Spitzbergen,LOC,-0.175,0.0,de,4,2729907,P,78.22334,15.64689,ARCTIC,Spitzbergen und Jan Mayen,ARO
-Tettnang,Tettnang,LOC,-0.175,0.0,de,4,2823368,P,47.66857,9.59132,EUROPE,Deutschland,WCE
-Blüte,Blüte,LOC,0.0,0.5,de,4,-1,,,,,,
-Hiddensee,Hiddensee,LOC,-0.25,0.0,de,4,3209281,P,54.56689,13.10411,EUROPE,Deutschland,NEU
-Ostsee,Ostsee,LOC,-0.0875,0.125,de,4,2919765,P,54.83503,9.55218,EUROPE,Deutschland,NEU
-Herbst,Herbst,LOC,-0.5249999999999999,0.0,de,4,4921347,P,40.51476,-85.7872,NORTH-AMERICA,USA,ENA
-Norderney,Norderney,LOC,-0.175,0.0,de,4,2862042,T,53.71417,7.2415,EUROPE,Deutschland,NEU
-Alpenraum,Alpenraum,LOC,-0.5249999999999999,0.0,de,4,-1,,,,,,
-Fährausfälle,Fährausfälle,LOC,-0.5,0.0,de,4,-1,,,,,,
-Eisbachwelle,Eisbachwelle,LOC,0.0,0.0,de,4,-1,,,,,,
-Schönebeck,Schönebeck,LOC,0.175,0.0,de,4,2836809,P,52.01682,11.7307,EUROPE,Deutschland,WCE
+Riesling,Riesling,LOC,0.0,0.0,de,4,7534795,R,-33.97098,138.63476,OCEANIA,Australien,SAU
 Mazedonien,Mazedonien,LOC,0.09583333333333333,0.0,de,4,729441,L,41.40544,23.09373,EUROPE-AFRICA,Bulgarien,MED
+Schönebeck,Schönebeck,LOC,0.175,0.0,de,4,2836809,P,52.01682,11.7307,EUROPE,Deutschland,WCE
+Rhein,Rhein,LOC,0.6,0.0,de,4,12077024,L,49.31885,8.77012,EUROPE,Deutschland,WCE
 Malta,Malta,LOC,0.575,0.0,de,4,2562770,A,35.91667,14.43333,EUROPE-AFRICA,Malta,MED
-Lappland,Lappland,LOC,0.0,0.0,de,4,2696973,L,65.9,18.06667,EUROPE,Schweden,NEU
-China,China,LOC,-0.0875,0.125,de,4,1814991,A,35.0,105.0,ASIA,China,EAS
-Wolfsburg,Wolfsburg,LOC,-0.037500000000000006,0.0,de,4,2806654,P,52.42452,10.7815,EUROPE,Deutschland,WCE
-Zürich,Zürich,LOC,-0.25,0.0,de,4,2657896,P,47.36667,8.55,EUROPE,Schweiz,WCE
-Nordseeinseln,Nordseeinseln,LOC,-0.175,0.0,de,4,-1,,,,,,
-Winzern,Winzern,LOC,0.0,0.0,de,4,-1,,,,,,
-Potsdam,Potsdam,LOC,0.25,0.25,de,4,2852458,P,52.39886,13.06566,EUROPE,Deutschland,WCE
 Ohlsdorf,Ohlsdorf,LOC,0.0,0.25,de,4,2857650,P,53.62594,10.03145,EUROPE,Deutschland,NEU
 Union,Union,LOC,0.25,0.0,de,4,3584767,A,13.55,-87.9,CENTRAL-AMERICA,El Salvador,SCA
-Bodensee,Bodensee,LOC,0.26666666666666666,0.0,de,4,11919717,L,47.61495,9.39765,EUROPE,,WCE
+MV,MV,LOC,-0.175,0.0,de,4,6255147,L,29.84064,89.29688,ASIA,,TIB
+Klausur,Klausur,LOC,-0.35,0.0,de,4,0,,,,,,
+Köln,Köln,LOC,0.0,0.0,de,4,2886242,P,50.93333,6.95,EUROPE,Deutschland,WCE
 Schauer,Schauer,LOC,-0.25,0.0,de,4,5046138,H,44.65575,-94.05097,NORTH-AMERICA,USA,CNA
-Wismar,Wismar,LOC,0.0,0.0,de,4,2807465,P,53.89218,11.45563,EUROPE,Deutschland,NEU
-Klausur,Klausur,LOC,-0.35,0.0,de,4,-1,,,,,,
-Gatersleben,Gatersleben,LOC,0.0,0.0,de,4,2922342,P,51.82215,11.28661,EUROPE,Deutschland,WCE
+Potsdam,Potsdam,LOC,0.25,0.25,de,4,2852458,P,52.39886,13.06566,EUROPE,Deutschland,WCE
+Küste,Küste,LOC,0.2125,0.0,de,4,2287781,A,8.0,-5.5,AFRICA,Elfenbeinküste,WAF
+Lappland,Lappland,LOC,0.0,0.0,de,4,2696973,L,65.9,18.06667,EUROPE,Schweden,NEU
+Ostsee,Ostsee,LOC,-0.0875,0.125,de,4,2919765,P,54.83503,9.55218,EUROPE,Deutschland,NEU
 Baden,Baden,LOC,0.11666666666666667,0.0,de,4,2825297,P,48.78232,9.17702,EUROPE,Deutschland,WCE
+Nordseeinseln,Nordseeinseln,LOC,-0.175,0.0,de,4,0,,,,,,
+Tettnang,Tettnang,LOC,-0.175,0.0,de,4,2823368,P,47.66857,9.59132,EUROPE,Deutschland,WCE
+Winzern,Winzern,LOC,0.0,0.0,de,4,0,,,,,,
+Fährausfälle,Fährausfälle,LOC,-0.5,0.0,de,4,0,,,,,,
+Eisbachwelle,Eisbachwelle,LOC,0.0,0.0,de,4,0,,,,,,
+Bewohner,Bewohner,LOC,0.0,0.0,de,4,0,,,,,,
+Wolfsburg,Wolfsburg,LOC,-0.037500000000000006,0.0,de,4,2806654,P,52.42452,10.7815,EUROPE,Deutschland,WCE
+Norderney,Norderney,LOC,-0.175,0.0,de,4,2862042,T,53.71417,7.2415,EUROPE,Deutschland,NEU
+Blüte,Blüte,LOC,0.0,0.5,de,4,0,,,,,,
+Mönchengladbach,Mönchengladbach,LOC,0.175,0.0,de,4,2869894,P,51.18539,6.44172,EUROPE,Deutschland,WCE
+St. Pölten,St. Pölten,LOC,-0.25,0.0,de,4,2766429,P,48.2,15.63333,EUROPE,Österreich,WCE
+Regenschauer,Regenschauer,LOC,0.0,0.0,de,4,0,,,,,,
+Hiddensee,Hiddensee,LOC,-0.25,0.0,de,4,3209281,P,54.56689,13.10411,EUROPE,Deutschland,NEU
+Kaltfront,Kaltfront,LOC,0.0,0.0,de,4,0,,,,,,
+Schweiz,Schweiz,LOC,0.175,0.25,de,4,2658434,A,47.00016,8.01427,EUROPE,Schweiz,WCE
+Bodensee,Bodensee,LOC,0.26666666666666666,0.0,de,4,11919717,L,47.61495,9.39765,EUROPE,,WCE
+Wismar,Wismar,LOC,0.0,0.0,de,4,2807465,P,53.89218,11.45563,EUROPE,Deutschland,NEU
+Gatersleben,Gatersleben,LOC,0.0,0.0,de,4,2922342,P,51.82215,11.28661,EUROPE,Deutschland,WCE
+Südtirol,Südtirol,LOC,0.0,0.0,de,4,3165244,A,46.5,11.33333,EUROPE,Italien,WCE
 Selke,Selke,LOC,0.35,0.0,de,4,91417,P,37.0494,44.08273,ASIA,Irak,WCA
 Freital,Freital,LOC,0.0,0.0,de,4,2925017,P,51.00166,13.6488,EUROPE,Deutschland,WCE
-Lüneburg,Lüneburg,LOC,0.0,0.0,de,3,2875115,P,53.2509,10.41409,EUROPE,Deutschland,WCE
-Bürgergeld,Bürgergeld,LOC,0.4666666666666666,0.0,de,3,-1,,,,,,
-Oldenburg,Oldenburg,LOC,-0.10000000000000002,0.0,de,3,2857458,P,53.14118,8.21467,EUROPE,Deutschland,NEU
-Pokrowsk,Pokrowsk,LOC,-0.3333333333333333,0.0,de,3,2017824,P,61.47923,129.13864,ASIA,Russland,ESB
-Mostereien,Mostereien,LOC,0.4666666666666666,0.0,de,3,-1,,,,,,
-Seidenstraße,Seidenstraße,LOC,0.0,0.0,de,3,-1,,,,,,
-Überflutungen,Überflutungen,LOC,0.0,0.0,de,3,-1,,,,,,
-Moskau,Moskau,LOC,0.2333333333333333,0.0,de,3,524901,P,55.75222,37.61556,EUROPE,Russland,WCE
-Los Angeles,Los Angeles,LOC,-0.2333333333333333,0.3333333333333333,de,3,5368361,P,34.05223,-118.24368,NORTH-AMERICA,USA,WNA
+Erle,Erle,LOC,-0.28750000000000003,0.0,de,4,5949271,L,45.70197,-71.60018,NORTH-AMERICA,Kanada,ENA
+Alpenraum,Alpenraum,LOC,-0.5249999999999999,0.0,de,4,0,,,,,,
+China,China,LOC,-0.0875,0.125,de,4,1814991,A,35.0,105.0,ASIA,China,EAS
+Herbst,Herbst,LOC,-0.5249999999999999,0.0,de,4,4921347,P,40.51476,-85.7872,NORTH-AMERICA,USA,ENA
+Vorarlberg,Vorarlberg,LOC,-0.045833333333333344,0.0,de,4,2762300,A,47.25,9.91667,EUROPE,Österreich,WCE
+Sylt,Sylt,LOC,-1.0,0.0,de,4,2824454,T,54.90439,8.33819,EUROPE,Deutschland,NEU
+Brandenburger,Brandenburger,LOC,0.675,0.08333333333333333,de,4,2956825,V,52.45,12.48333,EUROPE,Deutschland,WCE
+Zürich,Zürich,LOC,-0.25,0.0,de,4,2657896,P,47.36667,8.55,EUROPE,Schweiz,WCE
+England,England,LOC,-0.175,0.0,de,4,11919979,L,44.0,-71.0,NORTH-AMERICA,USA,ENA
+Bodenheim,Bodenheim,LOC,-0.19999999999999996,0.1111111111111111,de,3,2947133,P,49.93528,8.32,EUROPE,Deutschland,WCE
+Oberösterreich,Oberösterreich,LOC,0.0,0.3333333333333333,de,3,2772400,P,48.30639,14.28611,EUROPE,Österreich,WCE
+See,See,LOC,0.2333333333333333,0.0,de,3,3082253,H,53.65,14.28333,EUROPE,Deutschland,WCE
+Thaya,Thaya,LOC,0.0,0.3333333333333333,de,3,3076242,H,48.61667,16.93333,EUROPE,Tschechien,WCE
 Koblenz,Koblenz,LOC,0.3333333333333333,0.0,de,3,2886946,P,50.35357,7.57883,EUROPE,Deutschland,WCE
-Mittelrhein,Mittelrhein,LOC,-0.2333333333333333,0.0,de,3,12076805,L,50.37449,7.56047,EUROPE,Deutschland,WCE
+RB-Fußballerin,RB-Fußballerin,LOC,0.0,0.0,de,3,0,,,,,,
+t3n.de,t3n.de,LOC,0.0,0.0,de,3,0,,,,,,
+Thüringer Obstbauern,Thüringer Obstbauern,LOC,0.5666666666666667,0.0,de,3,0,,,,,,
+Frostjahr,Frostjahr,LOC,0.6999999999999998,0.0,de,3,0,,,,,,
 Odessas,Odessas,LOC,0.0,0.0,de,3,6300968,S,46.42677,30.67646,EUROPE,Ukraine,WCE
-RB-Fußballerin,RB-Fußballerin,LOC,0.0,0.0,de,3,-1,,,,,,
+Ambrosia,Ambrosia,LOC,-0.2333333333333333,0.0,de,3,9035699,S,-30.90272,132.18928,OCEANIA,Australien,SAU
+Saale-Unstrut-Region,Saale-Unstrut-Region,LOC,0.0,0.0,de,3,12076816,L,51.48436,11.96329,EUROPE,Deutschland,WCE
+lhe,lhe,LOC,0.2333333333333333,0.0,de,3,1172451,P,31.558,74.35071,ASIA,Pakistan,WCA
+Sachsen-Anhalts,Sachsen-Anhalts,LOC,0.10000000000000002,0.0,de,3,0,,,,,,
+Federweißer,Federweißer,LOC,-0.2333333333333333,0.0,de,3,0,,,,,,
+Fango,Fango,LOC,0.0,0.0,de,3,3442625,T,-34.78333,-53.75,SOUTH-AMERICA,Uruguay,SES
+Urlaub,Urlaub,LOC,0.2333333333333333,0.0,de,3,0,,,,,,
+Anmarsch,Anmarsch,LOC,0.0,0.0,de,3,0,,,,,,
+Sommer-Intermezzo,Sommer-Intermezzo,LOC,0.6999999999999998,0.0,de,3,0,,,,,,
+Mengen,Mengen,LOC,-0.05000000000000001,0.3333333333333333,de,3,8632492,A,40.94849,32.06535,EUROPE-AFRICA,Türkei,MED
+Tschechoslowakei,Tschechoslowakei,LOC,0.5666666666666667,0.0,de,3,8505031,A,50.08292,14.46672,EUROPE,,WCE
+Eppendorfer Mühlenteich,Eppendorfer Mühlenteich,LOC,-0.2333333333333333,0.3333333333333333,de,3,0,,,,,,
+Alte Land,Alte Land,LOC,0.7999999999999999,0.0,de,3,2957269,L,53.52937,9.66221,EUROPE,Deutschland,NEU
+Arizona,Arizona,LOC,-0.15555555555555553,0.1111111111111111,de,3,5551752,A,34.5003,-111.50098,NORTH-AMERICA,USA,WNA
+Sturmtief «Joshua,Sturmtief «Joshua,LOC,0.4666666666666666,0.0,de,3,0,,,,,,
+Würzburg,Würzburg,LOC,0.0,0.0,de,3,2805615,P,49.79391,9.95121,EUROPE,Deutschland,WCE
+Seidenstraße,Seidenstraße,LOC,0.0,0.0,de,3,0,,,,,,
+Mostereien,Mostereien,LOC,0.4666666666666666,0.0,de,3,0,,,,,,
+Bürgergeld,Bürgergeld,LOC,0.4666666666666666,0.0,de,3,0,,,,,,
+Oldenburg,Oldenburg,LOC,-0.10000000000000002,0.0,de,3,2857458,P,53.14118,8.21467,EUROPE,Deutschland,NEU
+Wettermix am Wochenende,Wettermix am Wochenende,LOC,0.0,0.0,de,3,0,,,,,,
+Pullis,Pullis,LOC,0.0,0.0,de,3,0,,,,,,
+Leipzig,Leipzig,LOC,0.0,0.0,de,3,2879139,P,51.33962,12.37129,EUROPE,Deutschland,WCE
+Provinz Punjab,Provinz Punjab,LOC,-0.07777777777777777,0.0,de,3,0,,,,,,
+Flüssen,Flüssen,LOC,0.0,0.3333333333333333,de,3,2926035,P,48.21861,10.27462,EUROPE,Deutschland,WCE
+Los Angeles,Los Angeles,LOC,-0.2333333333333333,0.3333333333333333,de,3,5368361,P,34.05223,-118.24368,NORTH-AMERICA,USA,WNA
+Brückl,Brückl,LOC,0.2333333333333333,0.0,de,3,2781364,P,46.75167,14.53667,EUROPE,Österreich,WCE
+Sonnenbrand,Sonnenbrand,LOC,0.0,0.0,de,3,0,,,,,,
+Getreide,Getreide,LOC,0.4666666666666666,0.0,de,3,0,,,,,,
+Schauern,Schauern,LOC,0.2333333333333333,0.0,de,3,0,,,,,,
 Norwegen,Norwegen,LOC,0.2833333333333333,0.0,de,3,3144096,A,62.0,10.0,EUROPE,Norwegen,NEU
 Jerichower Land,Jerichower Land,LOC,0.0,0.0,de,3,2921309,P,52.40668,12.1592,EUROPE,Deutschland,WCE
-Bodenfrost,Bodenfrost,LOC,0.0,0.0,de,3,-1,,,,,,
-Getreide,Getreide,LOC,0.4666666666666666,0.0,de,3,-1,,,,,,
-Afghanistan,Afghanistan,LOC,0.0,0.0,de,3,1149361,A,33.0,66.0,ASIA,Afghanistan,WCA
-Weltnaturerbe-Wald Grumsin,Weltnaturerbe-Wald Grumsin,LOC,0.0,0.0,de,3,-1,,,,,,
-Hörerlebnis,Hörerlebnis,LOC,0.0,0.0,de,3,-1,,,,,,
-Mengen,Mengen,LOC,-0.05000000000000001,0.3333333333333333,de,3,8632492,A,40.94849,32.06535,EUROPE-AFRICA,Türkei,MED
-Bihar,Bihar,LOC,0.0,0.0,de,3,721472,P,47.53167,21.62444,EUROPE,Ungarn,WCE
-Thaya,Thaya,LOC,0.0,0.3333333333333333,de,3,3076242,H,48.61667,16.93333,EUROPE,Tschechien,WCE
-Bodenheim,Bodenheim,LOC,-0.19999999999999996,0.1111111111111111,de,3,2947133,P,49.93528,8.32,EUROPE,Deutschland,WCE
-See,See,LOC,0.2333333333333333,0.0,de,3,3082253,H,53.65,14.28333,EUROPE,Deutschland,WCE
-t3n.de,t3n.de,LOC,0.0,0.0,de,3,-1,,,,,,
-Thüringer Obstbauern,Thüringer Obstbauern,LOC,0.5666666666666667,0.0,de,3,-1,,,,,,
-Obst,Obst,LOC,0.0,0.0,de,3,6092331,H,58.85016,-103.58383,NORTH-AMERICA,Kanada,NEN
-Niedrigwassers,Niedrigwassers,LOC,0.4666666666666666,0.0,de,3,-1,,,,,,
-Federweißer,Federweißer,LOC,-0.2333333333333333,0.0,de,3,-1,,,,,,
-Sonnenbrand,Sonnenbrand,LOC,0.0,0.0,de,3,-1,,,,,,
-Oberösterreich,Oberösterreich,LOC,0.0,0.3333333333333333,de,3,2772400,P,48.30639,14.28611,EUROPE,Österreich,WCE
-Brückl,Brückl,LOC,0.2333333333333333,0.0,de,3,2781364,P,46.75167,14.53667,EUROPE,Österreich,WCE
-Urlaub,Urlaub,LOC,0.2333333333333333,0.0,de,3,-1,,,,,,
-Tschechoslowakei,Tschechoslowakei,LOC,0.5666666666666667,0.0,de,3,8505031,A,50.08292,14.46672,EUROPE,,WCE
-Arizona,Arizona,LOC,-0.15555555555555553,0.1111111111111111,de,3,5551752,A,34.5003,-111.50098,NORTH-AMERICA,USA,WNA
-Saale-Unstrut-Region,Saale-Unstrut-Region,LOC,0.0,0.0,de,3,12076816,L,51.48436,11.96329,EUROPE,Deutschland,WCE
-Sachsen-Anhalts,Sachsen-Anhalts,LOC,0.10000000000000002,0.0,de,3,-1,,,,,,
-Frostjahr,Frostjahr,LOC,0.6999999999999998,0.0,de,3,-1,,,,,,
-Indonesien,Indonesien,LOC,0.2333333333333333,0.0,de,3,1643084,A,-5.0,120.0,ASIA,Indonesien,SEA
-Apfelbäume,Apfelbäume,LOC,0.0,0.0,de,3,-1,,,,,,
-Würzburg,Würzburg,LOC,0.0,0.0,de,3,2805615,P,49.79391,9.95121,EUROPE,Deutschland,WCE
+Nord-,Nord-,LOC,0.0,0.0,de,3,0,,,,,,
+Bodenfrost,Bodenfrost,LOC,0.0,0.0,de,3,0,,,,,,
 Phoenix,Phoenix,LOC,-0.16666666666666666,0.5,de,3,5308655,P,33.44838,-112.07404,CENTRAL-AMERICA,USA,NCA
-Leipzig,Leipzig,LOC,0.0,0.0,de,3,2879139,P,51.33962,12.37129,EUROPE,Deutschland,WCE
-Halle,Halle,LOC,0.9,0.0,de,3,2911522,P,51.48158,11.97947,EUROPE,Deutschland,WCE
-D…,D…,LOC,0.0,0.0,de,3,-1,,,,,,
-Fango,Fango,LOC,0.0,0.0,de,3,3442625,T,-34.78333,-53.75,SOUTH-AMERICA,Uruguay,SES
+Afghanistan,Afghanistan,LOC,0.0,0.0,de,3,1149361,A,33.0,66.0,ASIA,Afghanistan,WCA
+Mittelrhein,Mittelrhein,LOC,-0.2333333333333333,0.0,de,3,12076805,L,50.37449,7.56047,EUROPE,Deutschland,WCE
+Hörerlebnis,Hörerlebnis,LOC,0.0,0.0,de,3,0,,,,,,
+Bihar,Bihar,LOC,0.0,0.0,de,3,721472,P,47.53167,21.62444,EUROPE,Ungarn,WCE
+Magdeburg,Magdeburg,LOC,0.0,0.0,de,3,0,,,,,,
+Regenjacke,Regenjacke,LOC,-0.11666666666666665,0.0,de,3,0,,,,,,
+Obst,Obst,LOC,0.0,0.0,de,3,6092331,H,58.85016,-103.58383,NORTH-AMERICA,Kanada,NEN
+Niedrigwassers,Niedrigwassers,LOC,0.4666666666666666,0.0,de,3,0,,,,,,
+Weltnaturerbe-Wald Grumsin,Weltnaturerbe-Wald Grumsin,LOC,0.0,0.0,de,3,0,,,,,,
+Apfelbäume,Apfelbäume,LOC,0.0,0.0,de,3,0,,,,,,
+Grimma,Grimma,LOC,0.0,0.0,de,3,2917325,P,51.23367,12.71959,EUROPE,Deutschland,WCE
 British Columbia,British Columbia,LOC,0.033333333333333326,0.0,de,3,7281922,L,49.08333,-122.35,NORTH-AMERICA,Kanada,WNA
-Kanadas,Kanadas,LOC,-0.2333333333333333,0.0,de,3,6251999,A,60.10867,-113.64258,NORTH-AMERICA,Kanada,NWN
-Baunatal,Baunatal,LOC,0.4666666666666666,0.0,de,3,2951923,P,51.25182,9.40747,EUROPE,Deutschland,WCE
-Sauvignon Blanc,Sauvignon Blanc,LOC,0.0,0.0,de,3,-1,,,,,,
-Eppendorfer Mühlenteich,Eppendorfer Mühlenteich,LOC,-0.2333333333333333,0.3333333333333333,de,3,-1,,,,,,
+Portugal,Portugal,LOC,0.16666666666666666,0.16666666666666666,de,3,2264397,A,39.6945,-8.13057,EUROPE-AFRICA,Portugal,MED
+Halle,Halle,LOC,0.9,0.0,de,3,2911522,P,51.48158,11.97947,EUROPE,Deutschland,WCE
+Regenpause,Regenpause,LOC,0.0,0.0,de,3,0,,,,,,
+Oldenburgia,Oldenburgia,LOC,0.4666666666666666,0.0,de,3,0,,,,,,
 Oberweyer,Oberweyer,LOC,0.0,0.0,de,3,2858556,P,50.45789,8.09421,EUROPE,Deutschland,WCE
 Kalifornien,Kalifornien,LOC,0.2333333333333333,0.3333333333333333,de,3,11071615,L,34.68743,-116.78467,NORTH-AMERICA,USA,WNA
-Grimma,Grimma,LOC,0.0,0.0,de,3,2917325,P,51.23367,12.71959,EUROPE,Deutschland,WCE
-Oldenburgia,Oldenburgia,LOC,0.4666666666666666,0.0,de,3,-1,,,,,,
-Bäume,Bäume,LOC,0.2333333333333333,0.0,de,3,-1,,,,,,
-lhe,lhe,LOC,0.2333333333333333,0.0,de,3,1172451,P,31.558,74.35071,ASIA,Pakistan,WCA
-Sturmtief «Joshua,Sturmtief «Joshua,LOC,0.4666666666666666,0.0,de,3,-1,,,,,,
-Sommer-Intermezzo,Sommer-Intermezzo,LOC,0.6999999999999998,0.0,de,3,-1,,,,,,
-Alte Land,Alte Land,LOC,0.7999999999999999,0.0,de,3,2957269,L,53.52937,9.66221,EUROPE,Deutschland,NEU
-Pariser,Pariser,LOC,0.0,0.0,de,3,2943127,T,47.40555,11.28725,EUROPE,Deutschland,WCE
-Portugal,Portugal,LOC,0.16666666666666666,0.16666666666666666,de,3,2264397,A,39.6945,-8.13057,EUROPE-AFRICA,Portugal,MED
-Anmarsch,Anmarsch,LOC,0.0,0.0,de,3,-1,,,,,,
-Ambrosia,Ambrosia,LOC,-0.2333333333333333,0.0,de,3,9035699,S,-30.90272,132.18928,OCEANIA,Australien,SAU
-Flüssen,Flüssen,LOC,0.0,0.3333333333333333,de,3,2926035,P,48.21861,10.27462,EUROPE,Deutschland,WCE
 Himalaja,Himalaja,LOC,0.0,0.0,de,3,12631325,T,61.47832,22.29583,EUROPE,Finnland,NEU
-Wettermix am Wochenende,Wettermix am Wochenende,LOC,0.0,0.0,de,3,-1,,,,,,
-Hochlagen,Hochlagen,LOC,0.0,0.0,de,3,-1,,,,,,
-Kopenhagen,Kopenhagen,LOC,0.3333333333333333,0.0,de,3,-1,,,,,,
-Pullis,Pullis,LOC,0.0,0.0,de,3,-1,,,,,,
-Magdeburg,Magdeburg,LOC,0.0,0.0,de,3,-1,,,,,,
-Augsburg,Augsburg,LOC,0.0,0.6666666666666666,de,3,-1,,,,,,
-Weser,Weser,LOC,0.0,0.0,de,3,-1,,,,,,
-Ems,Ems,LOC,0.0,0.0,de,3,-1,,,,,,
-Nord-,Nord-,LOC,0.0,0.0,de,3,-1,,,,,,
-Provinz Punjab,Provinz Punjab,LOC,-0.07777777777777777,0.0,de,3,-1,,,,,,
-Inseln,Inseln,LOC,0.0,0.0,de,3,-1,,,,,,
-Blaualgen,Blaualgen,LOC,0.0,0.0,de,3,-1,,,,,,
-Raps,Raps,LOC,0.0,0.0,de,3,-1,,,,,,
-Uckermark,Uckermark,LOC,0.0,0.0,de,3,-1,,,,,,
-Regenjacke,Regenjacke,LOC,-0.11666666666666665,0.0,de,3,-1,,,,,,
-Regenpause,Regenpause,LOC,0.0,0.0,de,3,-1,,,,,,
-Schauern,Schauern,LOC,0.2333333333333333,0.0,de,3,-1,,,,,,
-Ministerien,Ministerien,LOC,-0.15000000000000002,0.0,de,2,-1,,,,,,
-St. Pauli-Landungsbrücken,St. Pauli-Landungsbrücken,LOC,0.0,0.0,de,2,-1,,,,,,
-Grönland,Grönland,LOC,-0.5,0.0,de,2,-1,,,,,,
-Haus,Haus,LOC,0.0,0.0,de,2,-1,,,,,,
-Millionär,Millionär,LOC,0.0,0.0,de,2,-1,,,,,,
-Biosp…,Biosp…,LOC,0.0,0.0,de,2,-1,,,,,,
-Crecy,Crecy,LOC,0.0,0.0,de,2,-1,,,,,,
-Galopprennbahn,Galopprennbahn,LOC,0.0,0.0,de,2,-1,,,,,,
-Misstrauens,Misstrauens,LOC,0.0,0.0,de,2,-1,,,,,,
-Erntehochsaison,Erntehochsaison,LOC,0.0,0.0,de,2,-1,,,,,,
-Norditalien,Norditalien,LOC,0.7,0.0,de,2,-1,,,,,,
-Hitzewellen,Hitzewellen,LOC,0.0,0.0,de,2,-1,,,,,,
-Vorräte,Vorräte,LOC,0.35,0.0,de,2,-1,,,,,,
-Basel,Basel,LOC,0.0,0.0,de,2,-1,,,,,,
-Jahreszeitenwechsel,Jahreszeitenwechsel,LOC,0.0,0.0,de,2,-1,,,,,,
-Neue Ringbahnbrücke,Neue Ringbahnbrücke,LOC,-1.0,0.0,de,2,-1,,,,,,
-Selkestraße,Selkestraße,LOC,1.0,0.0,de,2,-1,,,,,,
-Klimawandel,Klimawandel,LOC,0.7,0.0,de,2,-1,,,,,,
-Defizite,Defizite,LOC,0.0,0.0,de,2,-1,,,,,,
-Großbritanniens,Großbritanniens,LOC,0.925,0.0,de,2,-1,,,,,,
-Chihuahua,Chihuahua,LOC,-0.175,0.25,de,2,-1,,,,,,
-Obstschwemme,Obstschwemme,LOC,0.7,0.0,de,2,-1,,,,,,
-Feldberg,Feldberg,LOC,0.0,0.0,de,2,-1,,,,,,
-Zusammenschlusses,Zusammenschlusses,LOC,0.35,0.5,de,2,-1,,,,,,
-Frühherbst,Frühherbst,LOC,0.7,0.0,de,2,-1,,,,,,
-Hennef/Eitorf,Hennef/Eitorf,LOC,-0.07500000000000001,0.0,de,2,-1,,,,,,
-Kranichen,Kranichen,LOC,0.7,0.0,de,2,-1,,,,,,
-Pakistan,Pakistan,LOC,0.0,0.0,de,2,-1,,,,,,
-Verkehrsunternehmen Flix,Verkehrsunternehmen Flix,LOC,0.0,0.0,de,2,-1,,,,,,
-Usbekistan,Usbekistan,LOC,0.0,0.0,de,2,-1,,,,,,
-Ostpakistan,Ostpakistan,LOC,0.0,0.0,de,2,-1,,,,,,
-Westjordanland,Westjordanland,LOC,0.0,0.0,de,2,-1,,,,,,
-Freitagnachmittag,Freitagnachmittag,LOC,-0.35,0.0,de,2,-1,,,,,,
-Windböen,Windböen,LOC,-0.35,0.0,de,2,-1,,,,,,
-Berliner Staudenmarkt,Berliner Staudenmarkt,LOC,0.0,0.0,de,2,-1,,,,,,
-Balkon,Balkon,LOC,-0.35,0.0,de,2,-1,,,,,,
-Statistischen Amtes Mecklenburg-Vorpommern,Statistischen Amtes Mecklenburg-Vorpommern,LOC,-0.35,0.0,de,2,-1,,,,,,
-Kulturhauptstadt,Kulturhauptstadt,LOC,0.0,0.5,de,2,-1,,,,,,
-Kältestarre,Kältestarre,LOC,0.0,0.0,de,2,-1,,,,,,
-Grado,Grado,LOC,0.0,0.0,de,2,-1,,,,,,
-St…,St…,LOC,0.0,0.0,de,2,-1,,,,,,
-Reifenwechsel,Reifenwechsel,LOC,0.5,0.0,de,2,-1,,,,,,
-Sturmtief Joshua,Sturmtief Joshua,LOC,-0.7,0.0,de,2,-1,,,,,,
-Badewanne,Badewanne,LOC,0.5249999999999999,0.25,de,2,-1,,,,,,
-lno,lno,LOC,0.0,0.0,de,2,-1,,,,,,
-Rekordwerten</li><li,Rekordwerten</li><li,LOC,0.7,0.0,de,2,-1,,,,,,
-Sommerpause,Sommerpause,LOC,0.0,0.0,de,2,-1,,,,,,
-Wochenende,Wochenende,LOC,0.0,0.5,de,2,-1,,,,,,
-Tel Aviv,Tel Aviv,LOC,0.85,0.0,de,2,-1,,,,,,
-Schleswig-Holsteins,Schleswig-Holsteins,LOC,0.0,0.0,de,2,-1,,,,,,
-Seine,Seine,LOC,0.0,0.0,de,2,-1,,,,,,
-Ski-Saison,Ski-Saison,LOC,0.0,0.0,de,2,-1,,,,,,
-Dithmarscher,Dithmarscher,LOC,-1.0,0.0,de,2,-1,,,,,,
-Nordsachsen,Nordsachsen,LOC,0.0,0.5,de,2,-1,,,,,,
-Lebensgefahr,Lebensgefahr,LOC,0.0,0.0,de,2,-1,,,,,,
-Fahrpläne,Fahrpläne,LOC,0.7,0.0,de,2,-1,,,,,,
-Bemerkst du,Bemerkst du,LOC,1.0,0.0,de,2,-1,,,,,,
-Marokko,Marokko,LOC,0.0,0.0,de,2,-1,,,,,,
-Monte Rosa,Monte Rosa,LOC,0.0,0.0,de,2,-1,,,,,,
-Marokkaner,Marokkaner,LOC,0.35,0.0,de,2,-1,,,,,,
-Gundheim,Gundheim,LOC,-0.35,0.0,de,2,-1,,,,,,
-Diebe,Diebe,LOC,0.0,0.0,de,2,-1,,,,,,
-Wassermassen,Wassermassen,LOC,0.0,0.0,de,2,-1,,,,,,
-Kleingärten,Kleingärten,LOC,-0.35,0.0,de,2,-1,,,,,,
-Mount Everest Region,Mount Everest Region,LOC,0.0,0.0,de,2,-1,,,,,,
-Donbass,Donbass,LOC,0.0,0.5,de,2,-1,,,,,,
-Schnee-Chaos,Schnee-Chaos,LOC,-0.175,0.25,de,2,-1,,,,,,
-Fruchtsaftkeltereien,Fruchtsaftkeltereien,LOC,0.7,0.0,de,2,-1,,,,,,
-Statistische Landesamt,Statistische Landesamt,LOC,0.3,0.41666666666666663,de,2,-1,,,,,,
-Bergsturz,Bergsturz,LOC,0.0,0.0,de,2,-1,,,,,,
-Bedrängnis,Bedrängnis,LOC,0.35,0.0,de,2,-1,,,,,,
-niedersächsischen Küste,niedersächsischen Küste,LOC,-0.35,0.0,de,2,-1,,,,,,
-Tromsø,Tromsø,LOC,0.0,0.0,de,2,-1,,,,,,
-Donau-Pflanzen,Donau-Pflanzen,LOC,0.0,0.0,de,2,-1,,,,,,
-Apothekerverbands,Apothekerverbands,LOC,-0.5,0.5,de,2,-1,,,,,,
-Farbkombi,Farbkombi,LOC,0.35,0.0,de,2,-1,,,,,,
-Mitteldeutschland,Mitteldeutschland,LOC,0.35,0.0,de,2,-1,,,,,,
-Bayerns Alpen,Bayerns Alpen,LOC,0.0,0.0,de,2,-1,,,,,,
-Verkehrsbehinderungen,Verkehrsbehinderungen,LOC,0.0,0.0,de,2,-1,,,,,,
-Kreis L…,Kreis L…,LOC,0.0,0.0,de,2,-1,,,,,,
-Städtchens,Städtchens,LOC,0.0,0.0,de,2,-1,,,,,,
-Wettersturz,Wettersturz,LOC,-0.7,0.0,de,2,-1,,,,,,
-Rothenburg ob der Tauber,Rothenburg ob der Tauber,LOC,0.0,0.0,de,2,-1,,,,,,
-Föhr,Föhr,LOC,0.0,0.0,de,2,-1,,,,,,
-Sommerendspurt,Sommerendspurt,LOC,0.0,0.0,de,2,-1,,,,,,
-Sylt-Fähren,Sylt-Fähren,LOC,-0.7,0.0,de,2,-1,,,,,,
-Hochwasser,Hochwasser,LOC,-1.0,0.0,de,2,-1,,,,,,
-Unfälle,Unfälle,LOC,-0.35,0.0,de,2,-1,,,,,,
-Mittelhessen,Mittelhessen,LOC,0.7,0.0,de,2,-1,,,,,,
-Südschwarzwald,Südschwarzwald,LOC,-0.5,0.0,de,2,-1,,,,,,
-Klima-Protest,Klima-Protest,LOC,0.7,0.0,de,2,-1,,,,,,
-Rostock,Rostock,LOC,-0.35,0.0,de,2,-1,,,,,,
-Frankfurter Flughafens,Frankfurter Flughafens,LOC,-0.7,0.0,de,2,-1,,,,,,
-Erlebnis-Pyramide,Erlebnis-Pyramide,LOC,0.0,0.0,de,2,-1,,,,,,
-Sonnenlandpark,Sonnenlandpark,LOC,0.0,0.0,de,2,-1,,,,,,
-Gedser,Gedser,LOC,-0.35,0.0,de,2,-1,,,,,,
-Erntedankfest,Erntedankfest,LOC,1.0,0.0,de,2,-1,,,,,,
-Schwarzwald,Schwarzwald,LOC,0.0,0.0,de,2,-1,,,,,,
-Lainsitz,Lainsitz,LOC,0.35,0.0,de,2,-1,,,,,,
-Wochenendes,Wochenendes,LOC,0.7833333333333333,0.16666666666666666,de,2,-1,,,,,,
-Kastanien,Kastanien,LOC,0.0,0.0,de,2,-1,,,,,,
-Detlef,Detlef,LOC,0.7,0.0,de,2,-1,,,,,,
-Poel,Poel,LOC,0.0,0.0,de,2,-1,,,,,,
-Straßen-Profis,Straßen-Profis,LOC,0.0,0.0,de,2,-1,,,,,,
-Gebirgsregionen,Gebirgsregionen,LOC,0.0,0.0,de,2,-1,,,,,,
-Innsbruck,Innsbruck,LOC,0.0,0.0,de,2,-1,,,,,,
-Perl,Perl,LOC,0.15000000000000002,0.0,de,2,-1,,,,,,
-Geschenke-Saison,Geschenke-Saison,LOC,-0.7,0.0,de,2,-1,,,,,,
-Malaysia,Malaysia,LOC,0.75,0.25,de,2,-1,,,,,,
-Wetterwechsel,Wetterwechsel,LOC,0.0,0.0,de,2,-1,,,,,,
-Frostschäden,Frostschäden,LOC,-0.175,0.75,de,2,-1,,,,,,
-Potsdam-Eiche,Potsdam-Eiche,LOC,0.35,0.0,de,2,-1,,,,,,
-Nordmanntanne,Nordmanntanne,LOC,0.3,0.41666666666666663,de,2,-1,,,,,,
-Nächtigungszahlen,Nächtigungszahlen,LOC,1.0,0.0,de,2,-1,,,,,,
-Streusalz,Streusalz,LOC,0.25,0.25,de,2,-1,,,,,,
-Metnitz,Metnitz,LOC,0.0,0.0,de,2,-1,,,,,,
-Großbritannien,Großbritannien,LOC,0.0,0.0,de,2,-1,,,,,,
-TikTok,TikTok,LOC,0.0,0.0,de,2,-1,,,,,,
-Wassergesetzes,Wassergesetzes,LOC,-0.35,0.0,de,2,-1,,,,,,
-Flughafen BER,Flughafen BER,LOC,0.0,0.0,de,2,-1,,,,,,
-Wintersaison,Wintersaison,LOC,0.0,0.5,de,2,-1,,,,,,
-Mittelmeerraum,Mittelmeerraum,LOC,-1.0,0.0,de,2,-1,,,,,,
-Amprion,Amprion,LOC,-0.7,0.0,de,2,-1,,,,,,
-Nebel,Nebel,LOC,0.0,0.0,de,2,-1,,,,,,
-Horitschon,Horitschon,LOC,0.35,0.0,de,2,-1,,,,,,
-Arbeitsmodus,Arbeitsmodus,LOC,-1.0,0.0,de,2,-1,,,,,,
-Schwarz-Rot,Schwarz-Rot,LOC,-1.0,0.0,de,2,-1,,,,,,
-BGH,BGH,LOC,0.0,0.0,de,2,-1,,,,,,
-Schloßstraße,Schloßstraße,LOC,0.0,0.0,de,2,-1,,,,,,
-Alaskas,Alaskas,LOC,0.0,0.0,de,2,-1,,,,,,
-Taifun Halong,Taifun Halong,LOC,0.0,0.0,de,2,-1,,,,,,
-Park Wechselburg,Park Wechselburg,LOC,0.0,0.0,de,2,-1,,,,,,
-Wetterkarten,Wetterkarten,LOC,0.0,0.0,de,2,-1,,,,,,
-Krimi-Sommerpause,Krimi-Sommerpause,LOC,0.0,0.0,de,2,-1,,,,,,
-Lippe,Lippe,LOC,-0.43749999999999994,0.0,de,2,-1,,,,,,
-Ruhrgebiets,Ruhrgebiets,LOC,-0.43749999999999994,0.0,de,2,-1,,,,,,
-rheinland-pfälzische Landtag,rheinland-pfälzische Landtag,LOC,-0.925,0.0,de,2,-1,,,,,,
-Hilpoltstein,Hilpoltstein,LOC,-0.6333333333333333,0.16666666666666666,de,2,-1,,,,,,
-Kalender herumzuwerkeln,Kalender herumzuwerkeln,LOC,0.0,0.0,de,2,-1,,,,,,
-Sydney,Sydney,LOC,0.0,0.0,de,2,-1,,,,,,
-Adenauerallee,Adenauerallee,LOC,-0.5,0.0,de,2,-1,,,,,,
-Chile,Chile,LOC,0.175,0.25,de,2,-1,,,,,,
-Südafrika,Südafrika,LOC,0.5249999999999999,0.25,de,2,-1,,,,,,
-Apolda,Apolda,LOC,-0.35,0.0,de,2,-1,,,,,,
-Weimar,Weimar,LOC,-0.35,0.0,de,2,-1,,,,,,
-Gewitter-Radar,Gewitter-Radar,LOC,0.0,0.0,de,2,-1,,,,,,
-Mallorca,Mallorca,LOC,0.0,0.0,de,2,-1,,,,,,
-Ausfälle,Ausfälle,LOC,0.0,0.5,de,2,-1,,,,,,
-Hohen Dachstein,Hohen Dachstein,LOC,0.0,0.0,de,2,-1,,,,,,
-Apfelernte,Apfelernte,LOC,0.0,0.0,de,2,-1,,,,,,
-Waldeck,Waldeck,LOC,-0.11666666666666665,0.6666666666666666,de,2,-1,,,,,,
-Oberweser,Oberweser,LOC,-0.11666666666666665,0.6666666666666666,de,2,-1,,,,,,
-Insel-Hauptstadt,Insel-Hauptstadt,LOC,0.0,0.0,de,2,-1,,,,,,
-Heimisches Obst,Heimisches Obst,LOC,0.0,1.0,de,2,-1,,,,,,
-Bundes,Bundes,LOC,0.0,0.0,de,2,-1,,,,,,
-Streuobstwiese,Streuobstwiese,LOC,0.575,0.0,de,2,-1,,,,,,
-Fuxtec,Fuxtec,LOC,0.6999999999999998,0.0,de,2,-1,,,,,,
-Benzin-Laubbläser FX-LBS126P,Benzin-Laubbläser FX-LBS126P,LOC,0.6999999999999998,0.0,de,2,-1,,,,,,
-Benzin-Laubbläser Fuxtec,Benzin-Laubbläser Fuxtec,LOC,0.7,0.0,de,2,-1,,,,,,
-Finanzfragen,Finanzfragen,LOC,0.0,1.0,de,2,-1,,,,,,
-Eisglätte,Eisglätte,LOC,0.25,0.0,de,2,-1,,,,,,
-Ostseeküste,Ostseeküste,LOC,-0.35,0.0,de,2,-1,,,,,,
+Bäume,Bäume,LOC,0.2333333333333333,0.0,de,3,0,,,,,,
+D…,D…,LOC,0.0,0.0,de,3,0,,,,,,
+Ems,Ems,LOC,0.0,0.0,de,3,0,,,,,,
+Weser,Weser,LOC,0.0,0.0,de,3,0,,,,,,
+Moskau,Moskau,LOC,0.2333333333333333,0.0,de,3,524901,P,55.75222,37.61556,EUROPE,Russland,WCE
+Baunatal,Baunatal,LOC,0.4666666666666666,0.0,de,3,2951923,P,51.25182,9.40747,EUROPE,Deutschland,WCE
+Augsburg,Augsburg,LOC,0.0,0.6666666666666666,de,3,0,,,,,,
+Indonesien,Indonesien,LOC,0.2333333333333333,0.0,de,3,1643084,A,-5.0,120.0,ASIA,Indonesien,SEA
+Inseln,Inseln,LOC,0.0,0.0,de,3,0,,,,,,
+Hochlagen,Hochlagen,LOC,0.0,0.0,de,3,0,,,,,,
+Uckermark,Uckermark,LOC,0.0,0.0,de,3,0,,,,,,
+Pokrowsk,Pokrowsk,LOC,-0.3333333333333333,0.0,de,3,2017824,P,61.47923,129.13864,ASIA,Russland,ESB
+Überflutungen,Überflutungen,LOC,0.0,0.0,de,3,0,,,,,,
+Blaualgen,Blaualgen,LOC,0.0,0.0,de,3,0,,,,,,
+Lüneburg,Lüneburg,LOC,0.0,0.0,de,3,2875115,P,53.2509,10.41409,EUROPE,Deutschland,WCE
+Kanadas,Kanadas,LOC,-0.2333333333333333,0.0,de,3,6251999,A,60.10867,-113.64258,NORTH-AMERICA,Kanada,NWN
+Sauvignon Blanc,Sauvignon Blanc,LOC,0.0,0.0,de,3,0,,,,,,
+Pariser,Pariser,LOC,0.0,0.0,de,3,2943127,T,47.40555,11.28725,EUROPE,Deutschland,WCE
+Raps,Raps,LOC,0.0,0.0,de,3,0,,,,,,
+Kopenhagen,Kopenhagen,LOC,0.3333333333333333,0.0,de,3,0,,,,,,
+Kranichen,Kranichen,LOC,0.7,0.0,de,2,0,,,,,,
+Chihuahua,Chihuahua,LOC,-0.175,0.25,de,2,0,,,,,,
+St. Pauli-Landungsbrücken,St. Pauli-Landungsbrücken,LOC,0.0,0.0,de,2,0,,,,,,
+Feldberg,Feldberg,LOC,0.0,0.0,de,2,0,,,,,,
+Straßen-Profis,Straßen-Profis,LOC,0.0,0.0,de,2,0,,,,,,
+Poel,Poel,LOC,0.0,0.0,de,2,0,,,,,,
+Detlef,Detlef,LOC,0.7,0.0,de,2,0,,,,,,
+Frühherbst,Frühherbst,LOC,0.7,0.0,de,2,0,,,,,,
+Hennef/Eitorf,Hennef/Eitorf,LOC,-0.07500000000000001,0.0,de,2,0,,,,,,
+lno,lno,LOC,0.0,0.0,de,2,0,,,,,,
+Mitteldeutschland,Mitteldeutschland,LOC,0.35,0.0,de,2,0,,,,,,
+Frankfurter Flughafens,Frankfurter Flughafens,LOC,-0.7,0.0,de,2,0,,,,,,
+Obstschwemme,Obstschwemme,LOC,0.7,0.0,de,2,0,,,,,,
+Fahrpläne,Fahrpläne,LOC,0.7,0.0,de,2,0,,,,,,
+Lebensgefahr,Lebensgefahr,LOC,0.0,0.0,de,2,0,,,,,,
+Kältestarre,Kältestarre,LOC,0.0,0.0,de,2,0,,,,,,
+Kulturhauptstadt,Kulturhauptstadt,LOC,0.0,0.5,de,2,0,,,,,,
+Balkon,Balkon,LOC,-0.35,0.0,de,2,0,,,,,,
+Berliner Staudenmarkt,Berliner Staudenmarkt,LOC,0.0,0.0,de,2,0,,,,,,
+Nordsachsen,Nordsachsen,LOC,0.0,0.5,de,2,0,,,,,,
+Ski-Saison,Ski-Saison,LOC,0.0,0.0,de,2,0,,,,,,
+Dithmarscher,Dithmarscher,LOC,-1.0,0.0,de,2,0,,,,,,
+Ostpakistan,Ostpakistan,LOC,0.0,0.0,de,2,0,,,,,,
+Usbekistan,Usbekistan,LOC,0.0,0.0,de,2,0,,,,,,
+Kastanien,Kastanien,LOC,0.0,0.0,de,2,0,,,,,,
+Bayerns Alpen,Bayerns Alpen,LOC,0.0,0.0,de,2,0,,,,,,
+Zusammenschlusses,Zusammenschlusses,LOC,0.35,0.5,de,2,0,,,,,,
+Verkehrsbehinderungen,Verkehrsbehinderungen,LOC,0.0,0.0,de,2,0,,,,,,
+Wochenende,Wochenende,LOC,0.0,0.5,de,2,0,,,,,,
+Hohen Dachstein,Hohen Dachstein,LOC,0.0,0.0,de,2,0,,,,,,
+Pakistan,Pakistan,LOC,0.0,0.0,de,2,0,,,,,,
+Crecy,Crecy,LOC,0.0,0.0,de,2,0,,,,,,
+Südschwarzwald,Südschwarzwald,LOC,-0.5,0.0,de,2,0,,,,,,
+Defizite,Defizite,LOC,0.0,0.0,de,2,0,,,,,,
+Mittelhessen,Mittelhessen,LOC,0.7,0.0,de,2,0,,,,,,
+Selkestraße,Selkestraße,LOC,1.0,0.0,de,2,0,,,,,,
+Unfälle,Unfälle,LOC,-0.35,0.0,de,2,0,,,,,,
+Hochwasser,Hochwasser,LOC,-1.0,0.0,de,2,0,,,,,,
+Haus,Haus,LOC,0.0,0.0,de,2,0,,,,,,
+Millionär,Millionär,LOC,0.0,0.0,de,2,0,,,,,,
+Sylt-Fähren,Sylt-Fähren,LOC,-0.7,0.0,de,2,0,,,,,,
+Kreis L…,Kreis L…,LOC,0.0,0.0,de,2,0,,,,,,
+Misstrauens,Misstrauens,LOC,0.0,0.0,de,2,0,,,,,,
+Sommerendspurt,Sommerendspurt,LOC,0.0,0.0,de,2,0,,,,,,
+Föhr,Föhr,LOC,0.0,0.0,de,2,0,,,,,,
+Jahreszeitenwechsel,Jahreszeitenwechsel,LOC,0.0,0.0,de,2,0,,,,,,
+Rothenburg ob der Tauber,Rothenburg ob der Tauber,LOC,0.0,0.0,de,2,0,,,,,,
+Wettersturz,Wettersturz,LOC,-0.7,0.0,de,2,0,,,,,,
+Städtchens,Städtchens,LOC,0.0,0.0,de,2,0,,,,,,
+Neue Ringbahnbrücke,Neue Ringbahnbrücke,LOC,-1.0,0.0,de,2,0,,,,,,
+Klima-Protest,Klima-Protest,LOC,0.7,0.0,de,2,0,,,,,,
+Rostock,Rostock,LOC,-0.35,0.0,de,2,0,,,,,,
+Wochenendes,Wochenendes,LOC,0.7833333333333333,0.16666666666666666,de,2,0,,,,,,
+Statistischen Amtes Mecklenburg-Vorpommern,Statistischen Amtes Mecklenburg-Vorpommern,LOC,-0.35,0.0,de,2,0,,,,,,
+Westjordanland,Westjordanland,LOC,0.0,0.0,de,2,0,,,,,,
+Lainsitz,Lainsitz,LOC,0.35,0.0,de,2,0,,,,,,
+Marokko,Marokko,LOC,0.0,0.0,de,2,0,,,,,,
+Schwarzwald,Schwarzwald,LOC,0.0,0.0,de,2,0,,,,,,
+Verkehrsunternehmen Flix,Verkehrsunternehmen Flix,LOC,0.0,0.0,de,2,0,,,,,,
+Freitagnachmittag,Freitagnachmittag,LOC,-0.35,0.0,de,2,0,,,,,,
+Windböen,Windböen,LOC,-0.35,0.0,de,2,0,,,,,,
+Erntedankfest,Erntedankfest,LOC,1.0,0.0,de,2,0,,,,,,
+Grado,Grado,LOC,0.0,0.0,de,2,0,,,,,,
+Rekordwerten</li><li,Rekordwerten</li><li,LOC,0.7,0.0,de,2,0,,,,,,
+Gedser,Gedser,LOC,-0.35,0.0,de,2,0,,,,,,
+St…,St…,LOC,0.0,0.0,de,2,0,,,,,,
+Sonnenlandpark,Sonnenlandpark,LOC,0.0,0.0,de,2,0,,,,,,
+Reifenwechsel,Reifenwechsel,LOC,0.5,0.0,de,2,0,,,,,,
+Erlebnis-Pyramide,Erlebnis-Pyramide,LOC,0.0,0.0,de,2,0,,,,,,
+Sturmtief Joshua,Sturmtief Joshua,LOC,-0.7,0.0,de,2,0,,,,,,
+Badewanne,Badewanne,LOC,0.5249999999999999,0.25,de,2,0,,,,,,
+Klimawandel,Klimawandel,LOC,0.7,0.0,de,2,0,,,,,,
+Bemerkst du,Bemerkst du,LOC,1.0,0.0,de,2,0,,,,,,
+Diebe,Diebe,LOC,0.0,0.0,de,2,0,,,,,,
+Monte Rosa,Monte Rosa,LOC,0.0,0.0,de,2,0,,,,,,
+Marokkaner,Marokkaner,LOC,0.35,0.0,de,2,0,,,,,,
+Adenauerallee,Adenauerallee,LOC,-0.5,0.0,de,2,0,,,,,,
+Malaysia,Malaysia,LOC,0.75,0.25,de,2,0,,,,,,
+Wetterwechsel,Wetterwechsel,LOC,0.0,0.0,de,2,0,,,,,,
+Sydney,Sydney,LOC,0.0,0.0,de,2,0,,,,,,
+Frostschäden,Frostschäden,LOC,-0.175,0.75,de,2,0,,,,,,
+Kalender herumzuwerkeln,Kalender herumzuwerkeln,LOC,0.0,0.0,de,2,0,,,,,,
+Potsdam-Eiche,Potsdam-Eiche,LOC,0.35,0.0,de,2,0,,,,,,
+Nordmanntanne,Nordmanntanne,LOC,0.3,0.41666666666666663,de,2,0,,,,,,
+Nächtigungszahlen,Nächtigungszahlen,LOC,1.0,0.0,de,2,0,,,,,,
+Streusalz,Streusalz,LOC,0.25,0.25,de,2,0,,,,,,
+Metnitz,Metnitz,LOC,0.0,0.0,de,2,0,,,,,,
+Hilpoltstein,Hilpoltstein,LOC,-0.6333333333333333,0.16666666666666666,de,2,0,,,,,,
+Großbritannien,Großbritannien,LOC,0.0,0.0,de,2,0,,,,,,
+TikTok,TikTok,LOC,0.0,0.0,de,2,0,,,,,,
+Geschenke-Saison,Geschenke-Saison,LOC,-0.7,0.0,de,2,0,,,,,,
+Innsbruck,Innsbruck,LOC,0.0,0.0,de,2,0,,,,,,
+Wassergesetzes,Wassergesetzes,LOC,-0.35,0.0,de,2,0,,,,,,
+Seine,Seine,LOC,0.0,0.0,de,2,0,,,,,,
+Flughafen BER,Flughafen BER,LOC,0.0,0.0,de,2,0,,,,,,
+Krimi-Sommerpause,Krimi-Sommerpause,LOC,0.0,0.0,de,2,0,,,,,,
+Chile,Chile,LOC,0.175,0.25,de,2,0,,,,,,
+Südafrika,Südafrika,LOC,0.5249999999999999,0.25,de,2,0,,,,,,
+Gewitter-Radar,Gewitter-Radar,LOC,0.0,0.0,de,2,0,,,,,,
+Oberweser,Oberweser,LOC,-0.11666666666666665,0.6666666666666666,de,2,0,,,,,,
+Insel-Hauptstadt,Insel-Hauptstadt,LOC,0.0,0.0,de,2,0,,,,,,
+Heimisches Obst,Heimisches Obst,LOC,0.0,1.0,de,2,0,,,,,,
+Bundes,Bundes,LOC,0.0,0.0,de,2,0,,,,,,
+rheinland-pfälzische Landtag,rheinland-pfälzische Landtag,LOC,-0.925,0.0,de,2,0,,,,,,
+Ausfälle,Ausfälle,LOC,0.0,0.5,de,2,0,,,,,,
+Streuobstwiese,Streuobstwiese,LOC,0.575,0.0,de,2,0,,,,,,
+Mallorca,Mallorca,LOC,0.0,0.0,de,2,0,,,,,,
+Fuxtec,Fuxtec,LOC,0.6999999999999998,0.0,de,2,0,,,,,,
+Lippe,Lippe,LOC,-0.43749999999999994,0.0,de,2,0,,,,,,
+Benzin-Laubbläser FX-LBS126P,Benzin-Laubbläser FX-LBS126P,LOC,0.6999999999999998,0.0,de,2,0,,,,,,
+Benzin-Laubbläser Fuxtec,Benzin-Laubbläser Fuxtec,LOC,0.7,0.0,de,2,0,,,,,,
+Finanzfragen,Finanzfragen,LOC,0.0,1.0,de,2,0,,,,,,
+Eisglätte,Eisglätte,LOC,0.25,0.0,de,2,0,,,,,,
+Apfelernte,Apfelernte,LOC,0.0,0.0,de,2,0,,,,,,
+Ruhrgebiets,Ruhrgebiets,LOC,-0.43749999999999994,0.0,de,2,0,,,,,,
+Weimar,Weimar,LOC,-0.35,0.0,de,2,0,,,,,,
+Apolda,Apolda,LOC,-0.35,0.0,de,2,0,,,,,,
+Gebirgsregionen,Gebirgsregionen,LOC,0.0,0.0,de,2,0,,,,,,
+Wintersaison,Wintersaison,LOC,0.0,0.5,de,2,0,,,,,,
+Farbkombi,Farbkombi,LOC,0.35,0.0,de,2,0,,,,,,
+Kleingärten,Kleingärten,LOC,-0.35,0.0,de,2,0,,,,,,
+Schnee-Chaos,Schnee-Chaos,LOC,-0.175,0.25,de,2,0,,,,,,
+Donbass,Donbass,LOC,0.0,0.5,de,2,0,,,,,,
+Basel,Basel,LOC,0.0,0.0,de,2,0,,,,,,
+Vorräte,Vorräte,LOC,0.35,0.0,de,2,0,,,,,,
+Hitzewellen,Hitzewellen,LOC,0.0,0.0,de,2,0,,,,,,
+Norditalien,Norditalien,LOC,0.7,0.0,de,2,0,,,,,,
+Erntehochsaison,Erntehochsaison,LOC,0.0,0.0,de,2,0,,,,,,
+Mount Everest Region,Mount Everest Region,LOC,0.0,0.0,de,2,0,,,,,,
+Biosp…,Biosp…,LOC,0.0,0.0,de,2,0,,,,,,
+Statistische Landesamt,Statistische Landesamt,LOC,0.3,0.41666666666666663,de,2,0,,,,,,
+Wassermassen,Wassermassen,LOC,0.0,0.0,de,2,0,,,,,,
+Grönland,Grönland,LOC,-0.5,0.0,de,2,0,,,,,,
+Ministerien,Ministerien,LOC,-0.15000000000000002,0.0,de,2,0,,,,,,
+Galopprennbahn,Galopprennbahn,LOC,0.0,0.0,de,2,0,,,,,,
+Waldeck,Waldeck,LOC,-0.11666666666666665,0.6666666666666666,de,2,0,,,,,,
+Großbritanniens,Großbritanniens,LOC,0.925,0.0,de,2,0,,,,,,
+Sommerpause,Sommerpause,LOC,0.0,0.0,de,2,0,,,,,,
+Gundheim,Gundheim,LOC,-0.35,0.0,de,2,0,,,,,,
+Fruchtsaftkeltereien,Fruchtsaftkeltereien,LOC,0.7,0.0,de,2,0,,,,,,
+Bergsturz,Bergsturz,LOC,0.0,0.0,de,2,0,,,,,,
+Mittelmeerraum,Mittelmeerraum,LOC,-1.0,0.0,de,2,0,,,,,,
+Schwarz-Rot,Schwarz-Rot,LOC,-1.0,0.0,de,2,0,,,,,,
+Apothekerverbands,Apothekerverbands,LOC,-0.5,0.5,de,2,0,,,,,,
+Donau-Pflanzen,Donau-Pflanzen,LOC,0.0,0.0,de,2,0,,,,,,
+Amprion,Amprion,LOC,-0.7,0.0,de,2,0,,,,,,
+Ostseeküste,Ostseeküste,LOC,-0.35,0.0,de,2,0,,,,,,
+Nebel,Nebel,LOC,0.0,0.0,de,2,0,,,,,,
+Tromsø,Tromsø,LOC,0.0,0.0,de,2,0,,,,,,
+Horitschon,Horitschon,LOC,0.35,0.0,de,2,0,,,,,,
+Arbeitsmodus,Arbeitsmodus,LOC,-1.0,0.0,de,2,0,,,,,,
+BGH,BGH,LOC,0.0,0.0,de,2,0,,,,,,
+Bedrängnis,Bedrängnis,LOC,0.35,0.0,de,2,0,,,,,,
+Schloßstraße,Schloßstraße,LOC,0.0,0.0,de,2,0,,,,,,
+Alaskas,Alaskas,LOC,0.0,0.0,de,2,0,,,,,,
+Taifun Halong,Taifun Halong,LOC,0.0,0.0,de,2,0,,,,,,
+Park Wechselburg,Park Wechselburg,LOC,0.0,0.0,de,2,0,,,,,,
+niedersächsischen Küste,niedersächsischen Küste,LOC,-0.35,0.0,de,2,0,,,,,,
+Wetterkarten,Wetterkarten,LOC,0.0,0.0,de,2,0,,,,,,
+Perl,Perl,LOC,0.15000000000000002,0.0,de,2,0,,,,,,
+Schleswig-Holsteins,Schleswig-Holsteins,LOC,0.0,0.0,de,2,0,,,,,,
+Tel Aviv,Tel Aviv,LOC,0.85,0.0,de,2,0,,,,,,
 Estland,Estland,LOC,-0.07500000000000001,0.0,de,2,-1,,,,,,
 Valencia,Valencia,LOC,0.0,0.5,de,2,-1,,,,,,
 Landkreis Fulda,Landkreis Fulda,LOC,0.0,0.0,de,2,-1,,,,,,
@@ -438,8 +438,8 @@ Malawi,Malawi,LOC,0.0,1.0,de,2,-1,,,,,,
 Kostenseite,Kostenseite,LOC,0.35,0.5,de,2,-1,,,,,,
 Deichsystem,Deichsystem,LOC,0.0,0.0,de,2,-1,,,,,,
 Norwegens,Norwegens,LOC,0.5,0.0,de,2,-1,,,,,,
-Montafon,Montafon,LOC,0.5,0.0,de,2,-1,,,,,,
 Elbdeichs,Elbdeichs,LOC,0.0,0.0,de,2,-1,,,,,,
+Montafon,Montafon,LOC,0.5,0.0,de,2,-1,,,,,,
 Viktring,Viktring,LOC,0.35,0.0,de,2,-1,,,,,,
 Beet,Beet,LOC,0.0,0.0,de,2,-1,,,,,,
 Nordfinnland,Nordfinnland,LOC,0.0,0.0,de,2,-1,,,,,,
@@ -464,8 +464,8 @@ Kärnten,Kärnten,LOC,0.0,0.0,de,2,-1,,,,,,
 Australien,Australien,LOC,0.0,0.0,de,2,-1,,,,,,
 Kärntens,Kärntens,LOC,-0.25,0.25,de,2,-1,,,,,,
 Sommer-Wochenende,Sommer-Wochenende,LOC,0.0,0.0,de,2,-1,,,,,,
-Baumkronen,Baumkronen,LOC,-0.35,0.0,de,2,-1,,,,,,
 Luzon,Luzon,LOC,-0.35,0.0,de,2,-1,,,,,,
+Baumkronen,Baumkronen,LOC,-0.35,0.0,de,2,-1,,,,,,
 Flughafen Berlin Brandenburg,Flughafen Berlin Brandenburg,LOC,0.0,0.0,de,2,-1,,,,,,
 st…,st…,LOC,0.0,0.0,de,2,-1,,,,,,
 Gepäck,Gepäck,LOC,0.0,0.0,de,2,-1,,,,,,
@@ -484,9 +484,9 @@ Rathaus-Chef,Rathaus-Chef,LOC,0.0,0.0,de,2,-1,,,,,,
 Hausarrest,Hausarrest,LOC,0.0,0.0,de,2,-1,,,,,,
 Waldbränden,Waldbränden,LOC,0.0,0.5,de,2,-1,,,,,,
 Griechenland,Griechenland,LOC,-0.07500000000000001,0.5,de,2,-1,,,,,,
-Unstrut,Unstrut,LOC,0.0,0.0,de,2,-1,,,,,,
 Meteorologe,Meteorologe,LOC,0.75,0.25,de,2,-1,,,,,,
 Erfurt,Erfurt,LOC,0.0,0.0,de,2,-1,,,,,,
+Unstrut,Unstrut,LOC,0.0,0.0,de,2,-1,,,,,,
 Herbstsaison,Herbstsaison,LOC,0.0,0.0,de,2,-1,,,,,,
 Donau,Donau,LOC,0.5,0.0,de,2,-1,,,,,,
 Heide,Heide,LOC,0.425,0.0,de,2,-1,,,,,,
@@ -515,94 +515,107 @@ Ernteausfälle,Ernteausfälle,LOC,0.0,0.0,de,2,-1,,,,,,
 St. Pauli,St. Pauli,LOC,-0.35,0.0,de,2,-1,,,,,,
 Belém,Belém,LOC,0.35,0.0,de,2,-1,,,,,,
 Stadt Halle,Stadt Halle,LOC,0.0,0.0,de,2,-1,,,,,,
-Sächsischen Schweiz,Sächsischen Schweiz,LOC,0.0,0.0,de,2,-1,,,,,,
-Altes Land,Altes Land,LOC,-0.7,0.0,de,2,-1,,,,,,
-Roggen,Roggen,LOC,-0.35,0.0,de,2,-1,,,,,,
-Moritzburg,Moritzburg,LOC,-0.35,0.0,de,2,-1,,,,,,
+Aschenbrödel-Saison,Aschenbrödel-Saison,LOC,0.0,0.0,de,2,-1,,,,,,
 Bezirk St. Pölten,Bezirk St. Pölten,LOC,0.5,0.0,de,2,-1,,,,,,
-Eichel-Saatgut,Eichel-Saatgut,LOC,0.0,0.0,de,2,-1,,,,,,
 "Shutterstock.com
 ","Shutterstock.com
 ",LOC,0.0,0.0,de,2,-1,,,,,,
-Weizen,Weizen,LOC,-0.35,0.0,de,2,-1,,,,,,
-Feldern,Feldern,LOC,-0.35,0.0,de,2,-1,,,,,,
 Nuss-Nougat-Produkten,Nuss-Nougat-Produkten,LOC,-0.75,0.25,de,2,-1,,,,,,
 Strandbad Plötzensee,Strandbad Plötzensee,LOC,0.0,0.0,de,2,-1,,,,,,
-Sommerwetterkurve,Sommerwetterkurve,LOC,0.0,0.0,de,2,-1,,,,,,
 Dorfdrama,Dorfdrama,LOC,0.0,0.0,de,2,-1,,,,,,
 Glyphosat-Streit,Glyphosat-Streit,LOC,0.0,0.0,de,2,-1,,,,,,
 Vibrionen,Vibrionen,LOC,0.0,0.0,de,2,-1,,,,,,
-sa,sa,LOC,0.35,0.0,de,2,-1,,,,,,
-Aschenbrödel-Saison,Aschenbrödel-Saison,LOC,0.0,0.0,de,2,-1,,,,,,
-Niederösterreichs,Niederösterreichs,LOC,0.0,0.5,de,2,-1,,,,,,
-Hagelschäden,Hagelschäden,LOC,0.0,0.0,de,2,-1,,,,,,
 Herausforderungen,Herausforderungen,LOC,0.5,0.0,de,2,-1,,,,,,
 Osttirol,Osttirol,LOC,0.5,0.0,de,2,-1,,,,,,
+Hagelschäden,Hagelschäden,LOC,0.0,0.0,de,2,-1,,,,,,
+Niederösterreichs,Niederösterreichs,LOC,0.0,0.5,de,2,-1,,,,,,
+sa,sa,LOC,0.35,0.0,de,2,-1,,,,,,
+Altes Land,Altes Land,LOC,-0.7,0.0,de,2,-1,,,,,,
+Sächsischen Schweiz,Sächsischen Schweiz,LOC,0.0,0.0,de,2,-1,,,,,,
+Feldern,Feldern,LOC,-0.35,0.0,de,2,-1,,,,,,
+Weizen,Weizen,LOC,-0.35,0.0,de,2,-1,,,,,,
+Eichel-Saatgut,Eichel-Saatgut,LOC,0.0,0.0,de,2,-1,,,,,,
+Moritzburg,Moritzburg,LOC,-0.35,0.0,de,2,-1,,,,,,
+Roggen,Roggen,LOC,-0.35,0.0,de,2,-1,,,,,,
 Post-Trio,Post-Trio,LOC,0.0,0.0,de,2,-1,,,,,,
-Wasserkuppe,Wasserkuppe,LOC,-0.35,0.0,de,2,-1,,,,,,
-Halle-Saale-Schleife,Halle-Saale-Schleife,LOC,0.0,0.0,de,2,-1,,,,,,
-Varanasi,Varanasi,LOC,0.0,0.0,de,2,-1,,,,,,
-Mecklenburg-Vorpommerns,Mecklenburg-Vorpommerns,LOC,0.5,0.5,de,2,-1,,,,,,
-Apulien,Apulien,LOC,0.0,0.0,de,2,-1,,,,,,
-Italiens,Italiens,LOC,0.0,0.0,de,2,-1,,,,,,
-Peißnitzinsel,Peißnitzinsel,LOC,0.0,0.0,de,2,-1,,,,,,
-Bern,Bern,LOC,0.35,0.0,de,2,-1,,,,,,
-Ernte-Einbußen,Ernte-Einbußen,LOC,-0.07500000000000001,0.0,de,2,-1,,,,,,
 Bad Schandau,Bad Schandau,LOC,0.0,0.0,de,2,-1,,,,,,
-Comer See,Comer See,LOC,0.7,0.0,de,1,-1,,,,,,
-Millionen-Metropole,Millionen-Metropole,LOC,0.0,0.0,de,1,-1,,,,,,
-Bad König-Zell,Bad König-Zell,LOC,0.0,0.0,de,1,-1,,,,,,
-Hanse-Stadt,Hanse-Stadt,LOC,0.0,0.0,de,1,-1,,,,,,
-B42,B42,LOC,0.425,0.0,de,1,-1,,,,,,
-Bundesstraße 45,Bundesstraße 45,LOC,0.0,0.0,de,1,-1,,,,,,
-Schwarze Meer,Schwarze Meer,LOC,0.7,0.0,de,1,-1,,,,,,
-Sankt Martin,Sankt Martin,LOC,0.0,0.0,de,1,-1,,,,,,
-Fahrbahn,Fahrbahn,LOC,0.7,0.0,de,1,-1,,,,,,
-Lago …,Lago …,LOC,0.7,0.0,de,1,-1,,,,,,
-Konditionen,Konditionen,LOC,0.0,0.0,de,1,-1,,,,,,
-Ri,Ri,LOC,0.0,0.0,de,1,-1,,,,,,
-Varese,Varese,LOC,0.7,0.0,de,1,-1,,,,,,
-Schnee-Klatsche,Schnee-Klatsche,LOC,0.0,0.0,de,1,-1,,,,,,
-Laufsteg,Laufsteg,LOC,0.0,0.0,de,1,-1,,,,,,
-Mond-Spektakel,Mond-Spektakel,LOC,0.0,0.0,de,1,-1,,,,,,
-Schwebebahn Fichtelberg,Schwebebahn Fichtelberg,LOC,0.0,0.0,de,1,-1,,,,,,
+Bern,Bern,LOC,0.35,0.0,de,2,-1,,,,,,
+Italiens,Italiens,LOC,0.0,0.0,de,2,-1,,,,,,
+Ernte-Einbußen,Ernte-Einbußen,LOC,-0.07500000000000001,0.0,de,2,-1,,,,,,
+Wasserkuppe,Wasserkuppe,LOC,-0.35,0.0,de,2,-1,,,,,,
+Apulien,Apulien,LOC,0.0,0.0,de,2,-1,,,,,,
+Mecklenburg-Vorpommerns,Mecklenburg-Vorpommerns,LOC,0.5,0.5,de,2,-1,,,,,,
+Peißnitzinsel,Peißnitzinsel,LOC,0.0,0.0,de,2,-1,,,,,,
+Halle-Saale-Schleife,Halle-Saale-Schleife,LOC,0.0,0.0,de,2,-1,,,,,,
+Sommerwetterkurve,Sommerwetterkurve,LOC,0.0,0.0,de,2,-1,,,,,,
+Varanasi,Varanasi,LOC,0.0,0.0,de,2,-1,,,,,,
+Wiener Literaturmuseum,Wiener Literaturmuseum,LOC,0.7,0.0,de,1,-1,,,,,,
+Trentino,Trentino,LOC,0.0,0.0,de,1,-1,,,,,,
+Ital…,Ital…,LOC,0.0,0.0,de,1,-1,,,,,,
+Sommer-Transferfenster,Sommer-Transferfenster,LOC,-0.7,0.0,de,1,-1,,,,,,
 Berg Yalung Ri,Berg Yalung Ri,LOC,0.7,0.0,de,1,-1,,,,,,
+FIFA-Boss Infantino,FIFA-Boss Infantino,LOC,0.0,0.0,de,1,-1,,,,,,
+Schwebebahn Fichtelberg,Schwebebahn Fichtelberg,LOC,0.0,0.0,de,1,-1,,,,,,
+Watzmann-Hocheck,Watzmann-Hocheck,LOC,-1.0,0.0,de,1,-1,,,,,,
+Alles-Paket,Alles-Paket,LOC,0.7,0.0,de,1,-1,,,,,,
+Karacho,Karacho,LOC,0.0,0.0,de,1,-1,,,,,,
+Ri,Ri,LOC,0.0,0.0,de,1,-1,,,,,,
+Schnee-Klatsche,Schnee-Klatsche,LOC,0.0,0.0,de,1,-1,,,,,,
+Konditionen,Konditionen,LOC,0.0,0.0,de,1,-1,,,,,,
+Bad König-Zell,Bad König-Zell,LOC,0.0,0.0,de,1,-1,,,,,,
+Bundesstraße 45,Bundesstraße 45,LOC,0.0,0.0,de,1,-1,,,,,,
+Nepals,Nepals,LOC,0.7,0.0,de,1,-1,,,,,,
+Comer See,Comer See,LOC,0.7,0.0,de,1,-1,,,,,,
+Laufsteg,Laufsteg,LOC,0.0,0.0,de,1,-1,,,,,,
+Schwarze Meer,Schwarze Meer,LOC,0.7,0.0,de,1,-1,,,,,,
+Nachsaison,Nachsaison,LOC,0.0,0.0,de,1,-1,,,,,,
+Lago …,Lago …,LOC,0.7,0.0,de,1,-1,,,,,,
+Sankt Martin,Sankt Martin,LOC,0.0,0.0,de,1,-1,,,,,,
+Hanse-Stadt,Hanse-Stadt,LOC,0.0,0.0,de,1,-1,,,,,,
+Millionen-Metropole,Millionen-Metropole,LOC,0.0,0.0,de,1,-1,,,,,,
+Varese,Varese,LOC,0.7,0.0,de,1,-1,,,,,,
+Nestes,Nestes,LOC,0.0,0.0,de,1,-1,,,,,,
+Mond-Spektakel,Mond-Spektakel,LOC,0.0,0.0,de,1,-1,,,,,,
+Samstagnachmi…,Samstagnachmi…,LOC,0.0,0.0,de,1,-1,,,,,,
 Glarus,Glarus,LOC,-1.0,0.0,de,1,-1,,,,,,
 Herbststürme,Herbststürme,LOC,1.0,0.0,de,1,-1,,,,,,
 Schneesturm,Schneesturm,LOC,0.0,0.0,de,1,-1,,,,,,
 Qudang ge,Qudang ge,LOC,0.7,0.0,de,1,-1,,,,,,
-Haus am See,Haus am See,LOC,0.0,1.0,de,1,-1,,,,,,
 Monte San Martino,Monte San Martino,LOC,0.7,0.0,de,1,-1,,,,,,
 San Martino,San Martino,LOC,1.0,0.0,de,1,-1,,,,,,
-Nepals,Nepals,LOC,0.7,0.0,de,1,-1,,,,,,
-Karacho,Karacho,LOC,0.0,0.0,de,1,-1,,,,,,
-Straße,Straße,LOC,0.0,0.0,de,1,-1,,,,,,
-Pelzfarmen,Pelzfarmen,LOC,0.0,0.0,de,1,-1,,,,,,
-Herbstlaub,Herbstlaub,LOC,0.0,0.0,de,1,-1,,,,,,
-Berliner Sonne,Berliner Sonne,LOC,-1.0,0.0,de,1,-1,,,,,,
-Afghanistans,Afghanistans,LOC,-1.0,0.0,de,1,-1,,,,,,
-Schokoladenbraun,Schokoladenbraun,LOC,0.7,0.0,de,1,-1,,,,,,
-Erdbeben der Stärke,Erdbeben der Stärke,LOC,-1.0,0.0,de,1,-1,,,,,,
-Lehman-Pleite,Lehman-Pleite,LOC,-0.5,0.5,de,1,-1,,,,,,
-Fort Myers,Fort Myers,LOC,0.0,1.0,de,1,-1,,,,,,
-Bankhaus,Bankhaus,LOC,1.0,0.0,de,1,-1,,,,,,
-Kabul,Kabul,LOC,0.0,0.0,de,1,-1,,,,,,
-Erdbeben in Afghanistan,Erdbeben in Afghanistan,LOC,0.0,0.0,de,1,-1,,,,,,
-dreis…,dreis…,LOC,1.0,0.0,de,1,-1,,,,,,
-Morddrohungen,Morddrohungen,LOC,0.0,0.0,de,1,-1,,,,,,
+B42,B42,LOC,0.425,0.0,de,1,-1,,,,,,
 Nordhälfte,Nordhälfte,LOC,1.0,0.0,de,1,-1,,,,,,
-Watzmann-Hocheck,Watzmann-Hocheck,LOC,-1.0,0.0,de,1,-1,,,,,,
-Alles-Paket,Alles-Paket,LOC,0.7,0.0,de,1,-1,,,,,,
-FIFA-Boss Infantino,FIFA-Boss Infantino,LOC,0.0,0.0,de,1,-1,,,,,,
-Sommer-Transferfenster,Sommer-Transferfenster,LOC,-0.7,0.0,de,1,-1,,,,,,
-Ital…,Ital…,LOC,0.0,0.0,de,1,-1,,,,,,
-Trentino,Trentino,LOC,0.0,0.0,de,1,-1,,,,,,
-Samstagnachmi…,Samstagnachmi…,LOC,0.0,0.0,de,1,-1,,,,,,
-Nestes,Nestes,LOC,0.0,0.0,de,1,-1,,,,,,
-Wiener Literaturmuseum,Wiener Literaturmuseum,LOC,0.7,0.0,de,1,-1,,,,,,
-Celsius,Celsius,LOC,0.0,0.0,de,1,-1,,,,,,
 Behördenangaben,Behördenangaben,LOC,-1.0,0.0,de,1,-1,,,,,,
+Fort Myers,Fort Myers,LOC,0.0,1.0,de,1,-1,,,,,,
+Lehman-Pleite,Lehman-Pleite,LOC,-0.5,0.5,de,1,-1,,,,,,
+Erdbeben der Stärke,Erdbeben der Stärke,LOC,-1.0,0.0,de,1,-1,,,,,,
+"Fort Myers
+","Fort Myers
+",LOC,0.0,0.0,de,1,-1,,,,,,
+Nieder-Eschbach,Nieder-Eschbach,LOC,0.0,0.0,de,1,-1,,,,,,
+Berges,Berges,LOC,-0.35,0.5,de,1,-1,,,,,,
+Schokoladenbraun,Schokoladenbraun,LOC,0.7,0.0,de,1,-1,,,,,,
+Florida,Florida,LOC,0.0,1.0,de,1,-1,,,,,,
+Boris Rhein,Boris Rhein,LOC,0.0,0.0,de,1,-1,,,,,,
+Oldtimer,Oldtimer,LOC,0.0,0.0,de,1,-1,,,,,,
+Pfalzmarkt,Pfalzmarkt,LOC,0.0,0.0,de,1,-1,,,,,,
+halbe Land,halbe Land,LOC,0.0,0.0,de,1,-1,,,,,,
+Spätherbst,Spätherbst,LOC,0.0,0.0,de,1,-1,,,,,,
+Provinz Samangan,Provinz Samangan,LOC,-0.5,0.5,de,1,-1,,,,,,
+Afghanistans,Afghanistans,LOC,-1.0,0.0,de,1,-1,,,,,,
+Celsius,Celsius,LOC,0.0,0.0,de,1,-1,,,,,,
 Tür,Tür,LOC,0.0,0.0,de,1,-1,,,,,,
+Hundemantel,Hundemantel,LOC,-0.7,0.0,de,1,-1,,,,,,
+Morddrohungen,Morddrohungen,LOC,0.0,0.0,de,1,-1,,,,,,
+Bankhaus,Bankhaus,LOC,1.0,0.0,de,1,-1,,,,,,
+Fahrbahn,Fahrbahn,LOC,0.7,0.0,de,1,-1,,,,,,
+dreis…,dreis…,LOC,1.0,0.0,de,1,-1,,,,,,
+Straße,Straße,LOC,0.0,0.0,de,1,-1,,,,,,
+Haus am See,Haus am See,LOC,0.0,1.0,de,1,-1,,,,,,
+Herbstlaub,Herbstlaub,LOC,0.0,0.0,de,1,-1,,,,,,
+Erdbeben in Afghanistan,Erdbeben in Afghanistan,LOC,0.0,0.0,de,1,-1,,,,,,
+Kabul,Kabul,LOC,0.0,0.0,de,1,-1,,,,,,
+Berliner Sonne,Berliner Sonne,LOC,-1.0,0.0,de,1,-1,,,,,,
 Frankfurt flixen,Frankfurt flixen,LOC,0.35,0.5,de,1,-1,,,,,,
 Afrika,Afrika,LOC,-0.7,0.0,de,1,-1,,,,,,
 Dauerschleife,Dauerschleife,LOC,0.7,0.0,de,1,-1,,,,,,
@@ -610,27 +623,14 @@ Sirenen-Alarm,Sirenen-Alarm,LOC,0.0,0.0,de,1,-1,,,,,,
 nordafrikanische Land,nordafrikanische Land,LOC,-1.0,0.0,de,1,-1,,,,,,
 Besucherlimit,Besucherlimit,LOC,0.0,1.0,de,1,-1,,,,,,
 Madonna di Campiglio,Madonna di Campiglio,LOC,0.7,0.0,de,1,-1,,,,,,
-Hundemantel,Hundemantel,LOC,-0.7,0.0,de,1,-1,,,,,,
-"Fort Myers
-","Fort Myers
-",LOC,0.0,0.0,de,1,-1,,,,,,
-Provinz Samangan,Provinz Samangan,LOC,-0.5,0.5,de,1,-1,,,,,,
-Nieder-Eschbach,Nieder-Eschbach,LOC,0.0,0.0,de,1,-1,,,,,,
-Berges,Berges,LOC,-0.35,0.5,de,1,-1,,,,,,
-Florida,Florida,LOC,0.0,1.0,de,1,-1,,,,,,
-halbe Land,halbe Land,LOC,0.0,0.0,de,1,-1,,,,,,
-Boris Rhein,Boris Rhein,LOC,0.0,0.0,de,1,-1,,,,,,
-Oldtimer,Oldtimer,LOC,0.0,0.0,de,1,-1,,,,,,
-Pfalzmarkt,Pfalzmarkt,LOC,0.0,0.0,de,1,-1,,,,,,
-Spätherbst,Spätherbst,LOC,0.0,0.0,de,1,-1,,,,,,
-Nachsaison,Nachsaison,LOC,0.0,0.0,de,1,-1,,,,,,
+Pelzfarmen,Pelzfarmen,LOC,0.0,0.0,de,1,-1,,,,,,
 Hochwasser-Einsatz,Hochwasser-Einsatz,LOC,-1.0,0.0,de,1,-1,,,,,,
 Gletscher-Sterben,Gletscher-Sterben,LOC,-0.2333333333333333,0.0,de,1,-1,,,,,,
 Sturms,Sturms,LOC,0.0,0.0,de,1,-1,,,,,,
 Preisunterschiede,Preisunterschiede,LOC,0.0,1.0,de,1,-1,,,,,,
 Provinz Aurora,Provinz Aurora,LOC,-0.7,0.0,de,1,-1,,,,,,
-Geldbeutel,Geldbeutel,LOC,0.85,0.0,de,1,-1,,,,,,
 Archipel,Archipel,LOC,-0.7,0.0,de,1,-1,,,,,,
+Geldbeutel,Geldbeutel,LOC,0.85,0.0,de,1,-1,,,,,,
 Gartenzauns,Gartenzauns,LOC,0.0,0.0,de,1,-1,,,,,,
 Haustür,Haustür,LOC,0.0,0.0,de,1,-1,,,,,,
 Wirbelsturm,Wirbelsturm,LOC,0.0,0.0,de,1,-1,,,,,,
@@ -647,7 +647,7 @@ Osttirols,Osttirols,LOC,0.7,0.0,de,1,-1,,,,,,
 Dreierpack,Dreierpack,LOC,0.0,0.0,de,1,-1,,,,,,
 New York,New York,LOC,0.0,0.0,de,1,-1,,,,,,
 Oberbayern,Oberbayern,LOC,0.0,0.0,de,1,-1,,,,,,
-Gestein,Gestein,LOC,0.0,0.0,de,1,-1,,,,,,
+Sturmtief Detlef,Sturmtief Detlef,LOC,0.0,0.0,de,1,-1,,,,,,
 Schüssel,Schüssel,LOC,0.0,0.0,de,1,-1,,,,,,
 Millionenschaden,Millionenschaden,LOC,-1.0,0.0,de,1,-1,,,,,,
 Landeserntedankfest,Landeserntedankfest,LOC,0.0,0.0,de,1,-1,,,,,,
@@ -688,13 +688,13 @@ adressgenau,adressgenau,LOC,0.0,0.0,de,1,-1,,,,,,
 Braunaubaches,Braunaubaches,LOC,0.0,0.0,de,1,-1,,,,,,
 Dauereinsatz,Dauereinsatz,LOC,0.0,0.0,de,1,-1,,,,,,
 Wegweiser Überflutungsvorsorge,Wegweiser Überflutungsvorsorge,LOC,0.0,0.0,de,1,-1,,,,,,
-Sturmtief Detlef,Sturmtief Detlef,LOC,0.0,0.0,de,1,-1,,,,,,
+Gestein,Gestein,LOC,0.0,0.0,de,1,-1,,,,,,
 Kinderpornografie,Kinderpornografie,LOC,0.0,0.0,de,1,-1,,,,,,
 Hof,Hof,LOC,1.0,0.0,de,1,-1,,,,,,
 Iden im …,Iden im …,LOC,0.0,0.0,de,1,-1,,,,,,
 (30,(30,LOC,0.0,0.0,de,1,-1,,,,,,
-Wintertourismus,Wintertourismus,LOC,0.0,0.0,de,1,-1,,,,,,
 Pfarrplatz,Pfarrplatz,LOC,0.0,0.0,de,1,-1,,,,,,
+Wintertourismus,Wintertourismus,LOC,0.0,0.0,de,1,-1,,,,,,
 Herbsternte,Herbsternte,LOC,0.0,0.0,de,1,-1,,,,,,
 Emden,Emden,LOC,0.0,0.0,de,1,-1,,,,,,
 manövrierunfähiger,manövrierunfähiger,LOC,0.0,0.0,de,1,-1,,,,,,
@@ -759,8 +759,8 @@ Ozean,Ozean,LOC,0.0,0.0,de,1,-1,,,,,,
 Gartenarbeit,Gartenarbeit,LOC,-0.85,0.0,de,1,-1,,,,,,
 Hauptstadtflughafen,Hauptstadtflughafen,LOC,0.0,0.0,de,1,-1,,,,,,
 Vorj…,Vorj…,LOC,0.0,0.0,de,1,-1,,,,,,
-Jamaikas,Jamaikas,LOC,0.0,0.0,de,1,-1,,,,,,
 Bad Harzburg,Bad Harzburg,LOC,0.0,1.0,de,1,-1,,,,,,
+Jamaikas,Jamaikas,LOC,0.0,0.0,de,1,-1,,,,,,
 Landkreis Goslar,Landkreis Goslar,LOC,0.0,1.0,de,1,-1,,,,,,
 Kroatien,Kroatien,LOC,0.0,0.0,de,1,-1,,,,,,
 Zadar,Zadar,LOC,0.0,0.0,de,1,-1,,,,,,
@@ -818,14 +818,14 @@ St. Pauli-Fischmarkt,St. Pauli-Fischmarkt,LOC,0.0,0.0,de,1,-1,,,,,,
 Moritzburger Schloss,Moritzburger Schloss,LOC,0.0,0.0,de,1,-1,,,,,,
 Saarbrücken/Kaiserslautern/Laumersheim,Saarbrücken/Kaiserslautern/Laumersheim,LOC,0.0,0.0,de,1,-1,,,,,,
 Krisenfall,Krisenfall,LOC,0.0,1.0,de,1,-1,,,,,,
-Hohenwarthe/Magdeburg,Hohenwarthe/Magdeburg,LOC,0.0,0.0,de,1,-1,,,,,,
+Moselwinzer,Moselwinzer,LOC,0.0,0.0,de,1,-1,,,,,,
+Hohenwarthe,Hohenwarthe,LOC,0.0,0.0,de,1,-1,,,,,,
 Mosel,Mosel,LOC,-0.7,0.0,de,1,-1,,,,,,
-Trier,Trier,LOC,1.0,0.0,de,1,-1,,,,,,
 Denim-Trends,Denim-Trends,LOC,0.7,0.0,de,1,-1,,,,,,
-Einreise-Verbot,Einreise-Verbot,LOC,0.0,0.0,de,1,-1,,,,,,
+Dnipropetrowsk,Dnipropetrowsk,LOC,-1.0,0.0,de,1,-1,,,,,,
 Biogasanlagen,Biogasanlagen,LOC,0.0,1.0,de,1,-1,,,,,,
-Kreml,Kreml,LOC,0.0,0.0,de,1,-1,,,,,,
-Pipeline Kolzewoj,Pipeline Kolzewoj,LOC,0.7,0.0,de,1,-1,,,,,,
+Pokrowsk-Front,Pokrowsk-Front,LOC,0.0,0.0,de,1,-1,,,,,,
+russische Kommando,russische Kommando,LOC,0.0,0.0,de,1,-1,,,,,,
 Haus…,Haus…,LOC,0.0,0.0,de,1,-1,,,,,,
 Kängurus,Kängurus,LOC,0.0,0.0,de,1,-1,,,,,,
 Perth,Perth,LOC,0.0,0.0,de,1,-1,,,,,,
@@ -846,9 +846,9 @@ Landwirte,Landwirte,LOC,0.0,0.0,de,1,-1,,,,,,
 Kartoffelbauern,Kartoffelbauern,LOC,0.04999999999999999,0.0,de,1,-1,,,,,,
 Mexiko-Stadt,Mexiko-Stadt,LOC,0.0,0.0,de,1,-1,,,,,,
 chic,chic,LOC,1.0,0.0,de,1,-1,,,,,,
+Cherson,Cherson,LOC,-1.0,0.0,de,1,-1,,,,,,
+Hohenwarthe/Magdeburg,Hohenwarthe/Magdeburg,LOC,0.0,0.0,de,1,-1,,,,,,
 Sommerloch,Sommerloch,LOC,0.0,0.0,de,1,-1,,,,,,
-Jerichower …,Jerichower …,LOC,0.0,0.0,de,1,-1,,,,,,
-nordfriesischen Küste,nordfriesischen Küste,LOC,0.0,0.0,de,1,-1,,,,,,
 Raub,Raub,LOC,-1.0,0.0,de,1,-1,,,,,,
 Tours,Tours,LOC,1.0,0.0,de,1,-1,,,,,,
 Nestlé-Pflanzenlabor,Nestlé-Pflanzenlabor,LOC,1.0,0.0,de,1,-1,,,,,,
@@ -859,19 +859,19 @@ Ostantarktis,Ostantarktis,LOC,0.0,0.0,de,1,-1,,,,,,
 Deiche,Deiche,LOC,0.7,0.0,de,1,-1,,,,,,
 Everest,Everest,LOC,0.0,0.0,de,1,-1,,,,,,
 Antarktis,Antarktis,LOC,0.0,0.0,de,1,-1,,,,,,
-Pokrowsk-Front,Pokrowsk-Front,LOC,0.0,0.0,de,1,-1,,,,,,
-russische Kommando,russische Kommando,LOC,0.0,0.0,de,1,-1,,,,,,
+Pipeline Kolzewoj,Pipeline Kolzewoj,LOC,0.7,0.0,de,1,-1,,,,,,
+Kremls,Kremls,LOC,0.0,0.0,de,1,-1,,,,,,
 Landstriche,Landstriche,LOC,0.7,0.0,de,1,-1,,,,,,
 Stadtteile,Stadtteile,LOC,0.7,0.0,de,1,-1,,,,,,
 Rettung,Rettung,LOC,0.0,1.0,de,1,-1,,,,,,
 Erdrutschen,Erdrutschen,LOC,0.0,0.0,de,1,-1,,,,,,
-Dnipropetrowsk,Dnipropetrowsk,LOC,-1.0,0.0,de,1,-1,,,,,,
-Donezk,Donezk,LOC,0.0,0.0,de,1,-1,,,,,,
-Cherson,Cherson,LOC,-1.0,0.0,de,1,-1,,,,,,
+Einreise-Verbot,Einreise-Verbot,LOC,0.0,0.0,de,1,-1,,,,,,
+Kreml,Kreml,LOC,0.0,0.0,de,1,-1,,,,,,
 IbizaHEUTE,IbizaHEUTE,LOC,0.0,0.0,de,1,-1,,,,,,
 britischen Inseln,britischen Inseln,LOC,1.0,0.0,de,1,-1,,,,,,
-Kremls,Kremls,LOC,0.0,0.0,de,1,-1,,,,,,
+Donezk,Donezk,LOC,0.0,0.0,de,1,-1,,,,,,
 Las Vegas,Las Vegas,LOC,0.0,0.0,de,1,-1,,,,,,
+nordfriesischen Küste,nordfriesischen Küste,LOC,0.0,0.0,de,1,-1,,,,,,
 Landwirtschaftskammer Schleswig-Holstein,Landwirtschaftskammer Schleswig-Holstein,LOC,0.0,0.0,de,1,-1,,,,,,
 Rendsburg,Rendsburg,LOC,0.0,0.0,de,1,-1,,,,,,
 Kingston,Kingston,LOC,-0.7,0.0,de,1,-1,,,,,,
@@ -897,10 +897,10 @@ Kuchenbaum,Kuchenbaum,LOC,0.7,0.0,de,1,-1,,,,,,
 Mariannengraben,Mariannengraben,LOC,0.0,0.0,de,1,-1,,,,,,
 kaufen,kaufen,LOC,0.15000000000000002,0.0,de,1,-1,,,,,,
 Nabu Hessen,Nabu Hessen,LOC,-0.7,0.0,de,1,-1,,,,,,
-Moselwinzer,Moselwinzer,LOC,0.0,0.0,de,1,-1,,,,,,
-Hohenwarthe,Hohenwarthe,LOC,0.0,0.0,de,1,-1,,,,,,
-Hokkaido,Hokkaido,LOC,0.0,0.0,de,1,-1,,,,,,
+Trier,Trier,LOC,1.0,0.0,de,1,-1,,,,,,
+Jerichower …,Jerichower …,LOC,0.0,0.0,de,1,-1,,,,,,
 Landwirtschaftskammer …,Landwirtschaftskammer …,LOC,0.0,0.0,de,1,-1,,,,,,
+Hokkaido,Hokkaido,LOC,0.0,0.0,de,1,-1,,,,,,
 Bernhardsthal,Bernhardsthal,LOC,1.0,0.0,de,1,-1,,,,,,
 Tourismusbranche heuer,Tourismusbranche heuer,LOC,0.7,0.0,de,1,-1,,,,,,
 Top-Event,Top-Event,LOC,0.0,0.0,de,1,-1,,,,,,
