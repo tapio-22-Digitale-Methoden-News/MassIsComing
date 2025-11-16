@@ -13,6 +13,9 @@ from dateutil import parser
 # python3 -m spacy download de_core_news_md
 #pip3 install textblob_de
 
+import geocoder
+import geopandas
+
 import nltk
 import spacy
 import de_core_news_md
@@ -138,6 +141,50 @@ indexPersons = {}
 indexMisc = {}
 indexMissing = {}
 
+foundGeonames = False
+geonamesKey = 'GEONAMES_KEY'
+geonamesKey = os.getenv('GEONAMES_KEY')
+if(geonamesKey):
+    foundGeonames = True
+if(geonamesKey == '1a2b3c4d5'): 
+    print('Please set geonames.org key in file: secrets.py');
+    foundGeonames = False
+
+geomax = 250
+def enrichFromGeonames(df)
+    global geomax
+    if(not foundGeonames):
+        return df
+    ipccRegions = geopandas.read_file('https://github.com/creDocker/creAssets/blob/main/cre/versions/u24.04/assets/public/ipcc/IPCC-WGI-reference-regions-v4.geojson?raw=true')
+    for index, column in keywordsDF.iterrows():
+      if(geomax>0):
+        lang = str(column.language)
+        phrase = str(column.keyword)
+        if(str(column.geonames) == '-1'):
+          gn = geocoder.geonames(phrase, lang=lang, key=geonamesKey)
+          print([phrase,gn,gn.geonames_id]) 
+          if(gn.geonames_id):  
+            df.loc[index,'geonames'] = int(gn.geonames_id)
+            df.loc[index,'latitude'] = float(gn.lat)
+            df.loc[index,'longitude'] = float(gn.lng)
+            df.loc[index,'geotype'] = gn.feature_class
+            df.loc[index,'country'] = gn.country
+            print(['geo',gn.lat,gn.lng, gn])
+            #(get country) get ipcc
+            coordinates = geopandas.points_from_xy([float(gn.lng)], [float(gn.lat)])
+            Coords = geopandas.GeoDataFrame({
+              'geometry': coordinates,
+              'name': [phrase]
+             }, crs={'init': 'epsg:4326', 'no_defs': True})
+            whichIpcc = geopandas.sjoin(ipccRegions, Coords, how='inner', op='intersects')
+            print(whichIpcc)
+            if(not whichIpcc.empty):
+                df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
+                df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
+            imax -= 1
+            time.sleep(0.1) 
+    return df
+
 def strangeCharacters(testString, testCharacters):
      count = 0
      for oneCharacter in testCharacters:
@@ -168,7 +215,7 @@ for index, column in objNewsDF.iterrows():
                     indexLocations[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                    'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1, 
                                                    'geonames':-1, 'geotype':None, 'latitude':None, 'longitude':None, 
-                                                   'country':None, 'ipcc':None}
+                                                   'continent':None, 'country':None, 'ipcc':None}
                     if ('geonames' in oldLocationsDf.columns):
                       foundInOlDf = oldLocationsDf[oldLocationsDf['phrase']==entity.text]
                       foundInOlDf = foundInOlDf[foundInOlDf['geonames']>-0.5]
@@ -180,6 +227,8 @@ for index, column in objNewsDF.iterrows():
                           indexLocations[entity.text]['longitude'] = float(foundInOlDf['longitude'].mean())
                           indexLocations[entity.text]['country'] = foundInOlDf['country'].min()
                           indexLocations[entity.text]['ipcc'] = foundInOlDf['ipcc'].min()
+                          if('continent' in foundInOlDf.columns):
+                            indexLocations[entity.text]['continent'] = foundInOlDf['continent'].min()
 
 
             elif(entity.label_ in ['PER','PERSON']):
@@ -219,11 +268,13 @@ for index, column in objNewsDF.iterrows():
                     indexMissing[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
 
-colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 'geonames', 'geotype', 'latitude', 'longitude', 'country', 'ipcc']
+colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 
+           'geonames', 'geotype', 'latitude', 'longitude', 'continent', 'country', 'ipcc']
 indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colSent)
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
 indexLocationsDF = indexLocationsDF.sort_values(by=['count'], ascending=False)
+indexLocationsDF = enrichFromGeonames(indexLocationsDF)
 indexLocationsDF.to_csv(DATA_PATH / 'csv' / "sentiments_locations.csv", index=True)   
  
 indexPersonsDF = pd.DataFrame.from_dict(indexPersons, orient='index', columns=colSent)
