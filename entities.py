@@ -151,7 +151,7 @@ if(geonamesKey == '1a2b3c4d5'):
     foundGeonames = False
 
 geomax = 250
-def enrichFromGeonames(df)
+def enrichFromGeonames(df):
     global geomax
     if(not foundGeonames):
         return df
