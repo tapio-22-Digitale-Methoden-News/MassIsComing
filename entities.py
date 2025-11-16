@@ -162,9 +162,10 @@ def enrichFromGeonames(df):
     global geomax
     print('Starting with geonames')
     if(not foundGeonames):
+        print('geonames not found')
         return df
     ipccRegions = geopandas.read_file('https://github.com/creDocker/creAssets/blob/main/cre/versions/u24.04/assets/public/ipcc/IPCC-WGI-reference-regions-v4.geojson?raw=true')
-    for index, column in keywordsDF.iterrows():
+    for index, column in df.iterrows():
       if(geomax>0):
         lang = str(column.language)
         phrase = str(column.keyword)
@@ -283,6 +284,8 @@ indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', column
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
 indexLocationsDF = indexLocationsDF.sort_values(by=['count'], ascending=False)
+print(indexLocationsDF)
+print(indexLocationsDF.columns)
 indexLocationsDF = enrichFromGeonames(indexLocationsDF)
 indexLocationsDF.to_csv(DATA_PATH / 'csv' / "sentiments_locations.csv", index=True)   
  
