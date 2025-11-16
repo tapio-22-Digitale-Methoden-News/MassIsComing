@@ -1,4 +1,4 @@
-#import mysecrets
+import mysecrets
 import pandas as pd
 
 from pathlib import Path
@@ -7,6 +7,7 @@ import io
 #import requests
 import glob
 
+import time
 import datetime
 from dateutil import parser
 
@@ -153,9 +154,8 @@ if(geonamesKey == '1a2b3c4d5'):
 if(geonamesKey == 'demo_demo_123'): 
     print('Please set geonames.org key in file: secrets.py');
     foundGeonames = False
-foundGeonames = True
-
 print(['foundGeonames',foundGeonames])
+foundGeonames = True
 
 geomax = 250
 def enrichFromGeonames(df):
@@ -168,7 +168,7 @@ def enrichFromGeonames(df):
     for index, column in df.iterrows():
       if(geomax>0):
         lang = str(column.language)
-        phrase = str(column.keyword)
+        phrase = str(column.phrase)
         if(str(column.geonames) == '-1'):
           print('things to do')
           gn = geocoder.geonames(phrase, lang=lang, key=geonamesKey)
@@ -191,6 +191,9 @@ def enrichFromGeonames(df):
             if(not whichIpcc.empty):
                 df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
                 df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
+          else:
+            print(['geonames found nothing',phrase,gn,gn.geonames_id])
+            df.loc[index,'geonames'] = 0
           geomax -= 1
           time.sleep(0.1) 
     return df
