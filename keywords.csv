@@ -6,13 +6,13 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.1364425168956501
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
-'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.089167762186764
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0886545801744594
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
 'Lawine Tod',de,Impacts,#802d16,#4287f5,1,0.0863748005703301
+'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.07654316785874941
 'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0716760933502205
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0708128959290612
-'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.06460694979791284
+'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.0646069497979128
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0605643824847988
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0375503263213304
