@@ -389,10 +389,9 @@ for index, column in objNewsDF.iterrows():
         #sentence.sentiment.polarity
         doc = nlp(str(sentence))
         for entity in doc.ents:
-
             if(entity.label_ in ['LOC','GPE']):
                 if(entity.text in indexLocations):
-                    indexLocations[entity.text]['count'] += 1
+                    indexLocations[entity.text]['count'] += 1   #TODO   add valid value...
                     indexLocations[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexLocations[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:      
@@ -413,7 +412,8 @@ for index, column in objNewsDF.iterrows():
                           indexLocations[entity.text]['ipcc'] = foundInOlDf['ipcc'].min()
                           if('continent' in foundInOlDf.columns):
                             indexLocations[entity.text]['continent'] = foundInOlDf['continent'].min()
-
+                          if('gnd' in foundInOlDf.columns):
+                            indexLocations[entity.text]['gnd'] = foundInOlDf['gnd'].min()
 
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
@@ -453,7 +453,7 @@ for index, column in objNewsDF.iterrows():
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
 
 colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 
-           'geonames', 'geotype', 'latitude', 'longitude', 'continent', 'country', 'ipcc']
+           'gnd', 'geonames', 'geotype', 'latitude', 'longitude', 'continent', 'country', 'ipcc']
 indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colSent)
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
