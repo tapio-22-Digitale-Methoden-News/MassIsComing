@@ -16,7 +16,7 @@ jobs:
   docker-run-action:
     runs-on: ubuntu-latest
     container:
-      image: credocker/crecoding:2020.0
+      image: credocker/crepython:2020.0
       env:
         GEONAMES_KEY: ${{ secrets.GEONAMES_KEY }}
       volumes:

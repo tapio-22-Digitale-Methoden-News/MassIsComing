@@ -399,7 +399,7 @@ for index, column in objNewsDF.iterrows():
                 else:      
                     indexLocations[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                    'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1, 
-                                                   'geonames':-1, 'geotype':None, 'latitude':None, 'longitude':None, 
+                                                   'gnd':None, 'geonames':-1, 'geotype':None, 'latitude':None, 'longitude':None, 
                                                    'continent':None, 'country':None, 'ipcc':None}
                     if ('geonames' in oldLocationsDf.columns):
                       foundInOlDf = oldLocationsDf[oldLocationsDf['phrase']==entity.text]
@@ -454,17 +454,16 @@ for index, column in objNewsDF.iterrows():
                     indexMissing[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
 
-colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 
+colGeo = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 
            'gnd', 'geonames', 'geotype', 'latitude', 'longitude', 'continent', 'country', 'ipcc']
-indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colSent)
+indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colGeo)
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
 indexLocationsDF = indexLocationsDF.sort_values(by=['count'], ascending=False)
-print(indexLocationsDF)
-print(indexLocationsDF.columns)
 indexLocationsDF = enrichFromGeonames(indexLocationsDF)
 indexLocationsDF.to_csv(DATA_PATH / 'csv' / "sentiments_locations.csv", index=True, float_format='%.8f')   
  
+colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count']
 indexPersonsDF = pd.DataFrame.from_dict(indexPersons, orient='index', columns=colSent)
 indexPersonsDF['sentiment'] = indexPersonsDF['sentiment']/indexPersonsDF['count']
 indexPersonsDF['subjectivity'] = indexPersonsDF['subjectivity']/indexPersonsDF['count']
