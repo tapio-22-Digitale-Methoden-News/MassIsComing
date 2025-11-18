@@ -15,6 +15,8 @@ from dateutil import parser
 # python3 -m spacy download de_core_news_md
 #pip3 install textblob_de
 
+import requests
+import json
 import geocoder
 import geopandas
 
