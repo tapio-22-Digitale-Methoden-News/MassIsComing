@@ -1,8 +1,8 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schnee',de,Winter,#4287f5,#638ed4,3,0.2723254791688629
-'Herbst',de,Herbst,#9e3215,#9e3215,3,0.2342841952289617
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.224154217882863
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.2223652138459594
+'Herbst',de,Herbst,#9e3215,#9e3215,3,0.20413422594461747
 'Laub',de,Herbst,#9e3215,#802d16,3,0.1978807968008079
 'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1843065186410099
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.1737859605154275
@@ -12,7 +12,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1495075770466531
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1449392263010917
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1430732403329144
-'Laubfall',de,Herbst,#9e3215,#802d16,2,0.13939967654661511
+'Laubfall',de,Herbst,#9e3215,#802d16,2,0.1393996765466151
 'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1281669460739478
 'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.127996943025426
 'Spätfrost',de,Frühling,#679e2c,#477515,1,0.1207324670465285
