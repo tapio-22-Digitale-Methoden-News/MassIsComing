@@ -166,7 +166,7 @@ if(geonamesKey == 'demo_demo_123'):
     print('Please set geonames.org key in file: secrets.py');
     foundGeonames = False
 print(['foundGeonames',foundGeonames])
-foundGeonames = True
+#foundGeonames = True
 
 geomax = 250
 def enrichFromGeonames(df):
