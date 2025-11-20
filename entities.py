@@ -1,3 +1,4 @@
+import mysecrets
 import pandas as pd
 
 from pathlib import Path
@@ -6,12 +7,18 @@ import io
 #import requests
 import glob
 
+import time
 import datetime
 from dateutil import parser
 
 # pip3 install spacy
 # python3 -m spacy download de_core_news_md
 #pip3 install textblob_de
+
+import requests
+import json
+import geocoder
+import geopandas
 
 import nltk
 import spacy
@@ -26,6 +33,14 @@ nltk.download('punkt')
 DATA_PATH = Path.cwd()
 if(not os.path.exists(DATA_PATH / 'csv')):
     os.mkdir(DATA_PATH / 'csv')
+
+ipccRegions = geopandas.read_file('https://github.com/creDocker/creAssets/blob/main/cre/versions/u24.04/assets/public/ipcc/IPCC-WGI-reference-regions-v4.geojson?raw=true')
+
+countriesInfo = pd.read_csv("https://github.com/creDocker/creAssets/blob/main/cre/versions/u24.04/assets/public/geonames/countryInfo.csv?raw=true")
+countriesGeo = geopandas.read_file('https://raw.githubusercontent.com/creDocker/creAssets/refs/heads/main/cre/versions/u24.04/assets/public/geonames/shapes_countries.json')
+countriesGeo['geoNameId'] = countriesGeo['geoNameId'].astype(int)
+countriesInfo['geonameid'] = countriesInfo['geonameid'].astype(int)
+countriesDf = pd.merge(countriesGeo, countriesInfo, left_on='geoNameId', right_on='geonameid')
 
 def getNewsFiles():
     fileName = './csv/news_????_??.csv'
@@ -138,6 +153,222 @@ indexPersons = {}
 indexMisc = {}
 indexMissing = {}
 
+foundGeonames = False
+geonamesKey = 'GEONAMES_KEY'
+geonamesKey = os.getenv('GEONAMES_KEY')
+if(geonamesKey):
+    foundGeonames = True
+if(geonamesKey == '1a2b3c4d5'): 
+    print('Please set geonames.org key in file: secrets.py');
+    foundGeonames = False
+if(geonamesKey == 'demo_demo_123'): 
+    print('Please set geonames.org key in file: secrets.py');
+    foundGeonames = False
+print(['foundGeonames',foundGeonames])
+#foundGeonames = True
+
+geomax = 250
+def enrichFromGeonames(df):
+    global geomax
+    print('Starting with geonames')
+    if(not foundGeonames):
+        print('geonames not found')
+        return df
+    for index, column in df.iterrows():
+      if(geomax>0):
+        lang = str(column.language)
+        phrase = str(column.phrase)
+        if(str(column.geonames) == '-1'):
+          print('things to do')
+          gn = geocoder.geonames(phrase, lang=lang, key=geonamesKey)
+          print([phrase,gn,gn.geonames_id]) 
+          if(gn.geonames_id):  
+            df.loc[index,'geonames'] = int(gn.geonames_id)
+            df.loc[index,'latitude'] = float(gn.lat)
+            df.loc[index,'longitude'] = float(gn.lng)
+            df.loc[index,'geotype'] = gn.feature_class
+            ##df.loc[index,'country'] = gn.country  #localized!
+            gne = geocoder.geonames(phrase, lang='en', key=geonamesKey)
+            if(gne.country):
+              df.loc[index,'country'] = gne.country
+            print(['geo',gn.lat,gn.lng, gn])
+
+            #(get country) get ipcc
+            coordinates = geopandas.points_from_xy([float(gn.lng)], [float(gn.lat)])
+            print(['points_from_xy',coordinates])
+            Coords = geopandas.GeoDataFrame({
+              'geometry': coordinates,
+              'name': [phrase]
+             }, crs={'init': 'epsg:4326', 'no_defs': True})
+            print(['GeoDataFrame',Coords])  
+            whichIpcc = geopandas.sjoin(ipccRegions, Coords, how='inner', op='intersects')
+            print(whichIpcc)
+            if(not whichIpcc.empty):
+                df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
+                df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
+            whichCountry = geopandas.sjoin(countriesDf, Coords, how='inner', op='intersects')
+            print(whichCountry)
+            if(not whichCountry.empty):
+                df.loc[index,'country'] = list(whichCountry['Country'])[0]
+
+            #get GND
+            found = False 
+            gnd = searchGndByGeonamesId(gn.geonames_id)
+            if(gnd and 'gndId' in gnd):
+              df.loc[index,'gnd'] = str(gnd['gndId'])
+              found = True
+            if(not found):
+              gnd = searchGndByNameAndGeo(phrase, float(gn.lat), float(gn.lng))
+              if(gnd and 'gndId' in gnd):
+                df.loc[index,'gnd'] = str(gnd['gndId'])
+                found = True
+            if(not found):
+              gnd = searchGndByName(phrase)
+              if(gnd and 'gndId' in gnd):
+                df.loc[index,'gnd'] = str(gnd['gndId'])
+                found = True
+
+          else:
+            print(['geonames found nothing',phrase,gn,gn.geonames_id])
+            df.loc[index,'geonames'] = 0
+
+          geomax -= 1
+          time.sleep(0.1) 
+    return df
+
+def searchGndByGeonamesId(geonamesId):
+    gndurl = 'https://lobid.org/gnd/search?q='+str(geonamesId)+'&filter=type%3APlaceOrGeographicName&format=json'   #hasGeometry
+    page = requests.get(gndurl, timeout=60)
+    if page.status_code == 200:
+      content = page.content
+      #print(content)
+      if(content):
+        #print(content)
+        jsonData = json.loads(content)
+        #print(jsonData)      #'variantName' !
+        if('member' in jsonData):
+          for member in jsonData['member']:
+           if('sameAs' in member):
+             for same in member['sameAs']:
+               #print(25*"##")
+               #print(same)
+               if('id' in same):
+                 if(same['id']=="https://sws.geonames.org/"+str(geonamesId)):
+                   if('gndIdentifier' in member):
+                     result = {'gndId':member['gndIdentifier']} 
+                     #print(member['gndIdentifier']) 
+                     #print(25*"=*")
+                     #print(member)  
+                     if('hasGeometry' in member):
+                       #print(member['hasGeometry']) 
+                       latitude = None
+                       longitude = None
+                       for geo in member['hasGeometry']:  
+                         if('asWKT' in geo and 'type' in geo and geo['type']=='Point'):
+                            point = geo['asWKT'][0]
+                            point = point.replace('Point ','').strip().strip('()').strip()
+                            #print(point)
+                            coords = point.split(" ")
+                            #print(coords)
+                            result['longitude'] = float(coords[0])
+                            result['latitude'] = float(coords[1])
+                     if('variantName' in member):
+                       #print(member['variantName']) 
+                       result['variantNames'] = member['variantName']  
+                     if('preferredName' in member):
+                       #print(member['preferredName'])
+                       result['preferredName'] = member['preferredName']
+                     return result
+    return None
+
+def searchGndByNameAndGeo(locationName, latitude, longitude, maxDistance=10):
+    gndUrl = 'https://explore.gnd.network/search?term='+locationName+'&f.satzart=Geografikum&rows=1'
+    gndurl = 'https://lobid.org/gnd/search?q='+locationName+'&filter=type%3APlaceOrGeographicName&format=json'   #hasGeometry
+    page = requests.get(gndurl, timeout=60)
+    if page.status_code == 200:
+      content = page.content
+      #print(content)
+      if(content):
+        #print(content)
+        jsonData = json.loads(content)
+        #print(jsonData)      #'variantName' !
+        if('member' in jsonData):
+          minDistance2 = 10E9
+          result = None
+          for member in jsonData['member']:
+           #print(25*"=*")
+           #print(member)  
+           if('hasGeometry' in member):
+            #print(member['hasGeometry']) 
+            for geo in member['hasGeometry']: 
+             if('asWKT' in geo and 'type' in geo and geo['type']=='Point'):
+               point = geo['asWKT'][0]
+               point = point.replace('Point ','').strip().strip('()').strip()
+               #print(point)
+               coords = point.split(" ")
+               #print(coords)
+               currLongitude = float(coords[0])
+               currLatitude = float(coords[1])
+               distance2 = (currLongitude-longitude)**2+(currLatitude-latitude)**2
+               #print(distance2)
+               if(distance2<minDistance2):
+                 minDistance = distance2 
+                 if('gndIdentifier' in member):
+                   #print(member['gndIdentifier']) 
+                   result = {'longitude':currLongitude, 'latitude':currLatitude, 'distance':distance2**0.5}
+                   result['gndId'] = member['gndIdentifier']
+                   if('preferredName' in member):
+                     #print(member['preferredName']) 
+                     result['preferredName'] = member['preferredName']
+          #print(result)
+          if(minDistance2<maxDistance**2):
+            return result
+        return None                   
+
+def searchGndByName(locationName):
+    gndUrl = 'https://explore.gnd.network/search?term='+locationName+'&f.satzart=Geografikum&rows=1'
+    gndurl = 'https://lobid.org/gnd/search?q='+locationName+'&filter=type%3APlaceOrGeographicName&format=json'   #hasGeometry
+    page = requests.get(gndurl, timeout=60)
+    if page.status_code == 200:
+      content = page.content
+      #print(content)
+      if(content):
+        #print(content)
+        jsonData = json.loads(content)
+        #print(jsonData)      #'variantName' !
+        if('member' in jsonData):
+          for member in jsonData['member']:
+           #print(25*"=*")
+           #print(member)  
+           if('gndIdentifier' in member):
+             #print(member['gndIdentifier']) 
+             result = {'gndId':member['gndIdentifier']} 
+             if('hasGeometry' in member):
+               #print(member['hasGeometry']) 
+               latitude = None
+               longitude = None
+               for geo in member['hasGeometry']:  
+                 if('asWKT' in geo and 'type' in geo and geo['type']=='Point'):
+                    point = geo['asWKT'][0]
+                    point = point.replace('Point ','').strip().strip('()').strip()
+                    #print(point)
+                    coords = point.split(" ")
+                    #print(coords)
+                    result['longitude'] = float(coords[0])
+                    result['latitude'] = float(coords[1])
+             found = False
+             if('variantName' in member):
+               #print(member['variantName']) 
+               result['variantNames'] = member['variantName']  
+               found = locationName in member['variantName'] 
+             if('preferredName' in member):
+               #print(member['preferredName'])
+               result['preferredName'] = member['preferredName']
+               found = found or (member['preferredName'] == locationName)
+             if(found): 
+               return result
+    return None
+
 def strangeCharacters(testString, testCharacters):
      count = 0
      for oneCharacter in testCharacters:
@@ -161,14 +392,15 @@ for index, column in objNewsDF.iterrows():
 
             if(entity.label_ in ['LOC','GPE']):
                 if(entity.text in indexLocations):
-                    indexLocations[entity.text]['count'] += 1
+                    #indexLocations[entity.text]['count'] += 1   #TODO   add valid value...
+                    indexLocations[entity.text]['count'] += column.valid
                     indexLocations[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexLocations[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:      
                     indexLocations[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                    'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1, 
-                                                   'geonames':-1, 'geotype':None, 'latitude':None, 'longitude':None, 
-                                                   'country':None, 'ipcc':None}
+                                                   'gnd':None, 'geonames':-1, 'geotype':None, 'latitude':None, 'longitude':None, 
+                                                   'continent':None, 'country':None, 'ipcc':None}
                     if ('geonames' in oldLocationsDf.columns):
                       foundInOlDf = oldLocationsDf[oldLocationsDf['phrase']==entity.text]
                       foundInOlDf = foundInOlDf[foundInOlDf['geonames']>-0.5]
@@ -180,6 +412,10 @@ for index, column in objNewsDF.iterrows():
                           indexLocations[entity.text]['longitude'] = float(foundInOlDf['longitude'].mean())
                           indexLocations[entity.text]['country'] = foundInOlDf['country'].min()
                           indexLocations[entity.text]['ipcc'] = foundInOlDf['ipcc'].min()
+                          if('continent' in foundInOlDf.columns):
+                            indexLocations[entity.text]['continent'] = foundInOlDf['continent'].min()
+                          if('gnd' in foundInOlDf.columns):
+                            indexLocations[entity.text]['gnd'] = foundInOlDf['gnd'].min()
 
 
             elif(entity.label_ in ['PER','PERSON']):
@@ -188,7 +424,8 @@ for index, column in objNewsDF.iterrows():
              if(strangeCharacters(personText,".,!?;:'…<>/\n\r")==0):
                if(personText.count(' ')>0):
                 if(personText in indexPersons):
-                    indexPersons[personText]['count'] += 1
+                    #indexPersons[personText]['count'] += 1
+                    indexPersons[personText]['count'] += column.valid
                     indexPersons[personText]['sentiment'] += sentence.sentiment.polarity
                     indexPersons[personText]['subjectivity'] += sentence.sentiment.subjectivity
                 else:    
@@ -196,7 +433,8 @@ for index, column in objNewsDF.iterrows():
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}   
             elif('ORG' == entity.label_):
                 if(entity.text in indexOrganizations):
-                    indexOrganizations[entity.text]['count'] += 1
+                    #indexOrganizations[entity.text]['count'] += 1
+                    indexOrganizations[entity.text]['count'] += column.valid
                     indexOrganizations[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexOrganizations[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:    
@@ -204,7 +442,8 @@ for index, column in objNewsDF.iterrows():
                                                        'subjectivity':0, 'language':lang, 'count':1} 
             elif('MISC' == entity.label_):
                 if(entity.text in indexMisc):
-                    indexMisc[entity.text]['count'] += 1
+                    #indexMisc[entity.text]['count'] += 1
+                    indexMisc[entity.text]['count'] += column.valid
                     indexMisc[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexMisc[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:         
@@ -212,20 +451,23 @@ for index, column in objNewsDF.iterrows():
                                               'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1} 
             else:
                 if(entity.text in indexMissing):
-                    indexMissing[entity.text]['count'] += 1
+                    #indexMissing[entity.text]['count'] += 1
+                    indexMissing[entity.text]['count'] += column.valid
                     indexMissing[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexMissing[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:
                     indexMissing[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
-
-colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 'geonames', 'geotype', 'latitude', 'longitude', 'country', 'ipcc']
-indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colSent)
+colGeo = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 
+           'gnd', 'geonames', 'geotype', 'latitude', 'longitude', 'continent', 'country', 'ipcc']
+indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colGeo)
 indexLocationsDF['sentiment'] = indexLocationsDF['sentiment']/indexLocationsDF['count']
 indexLocationsDF['subjectivity'] = indexLocationsDF['subjectivity']/indexLocationsDF['count']
 indexLocationsDF = indexLocationsDF.sort_values(by=['count'], ascending=False)
-indexLocationsDF.to_csv(DATA_PATH / 'csv' / "sentiments_locations.csv", index=True)   
+indexLocationsDF = enrichFromGeonames(indexLocationsDF)
+indexLocationsDF.to_csv(DATA_PATH / 'csv' / "sentiments_locations.csv", index=True, float_format='%.8f')   
  
+colSent = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count']
 indexPersonsDF = pd.DataFrame.from_dict(indexPersons, orient='index', columns=colSent)
 indexPersonsDF['sentiment'] = indexPersonsDF['sentiment']/indexPersonsDF['count']
 indexPersonsDF['subjectivity'] = indexPersonsDF['subjectivity']/indexPersonsDF['count']

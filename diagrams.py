@@ -56,6 +56,8 @@ def getNewsDF():
 
 keywordsColorsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',')
 topicsColorsDF = keywordsColorsDF.drop_duplicates(subset=['topic'])
+invalidTopicDF = pd.DataFrame(data={'keyword':['invalidINVALIDinvalid'], 'language':[topicsColorsDF['language'].min()], 'topic':['Invalid'],'topicColor':['#bbbbbb'],'keywordColor':['#bbbbbb'],'limitPages':[2],'ratioNew':[0.01]})
+topicsColorsDF = pd.concat([topicsColorsDF, invalidTopicDF])
 print(topicsColorsDF)
 
 newsDf = getNewsDF()
@@ -67,33 +69,56 @@ print(newsDf)
 
 # Topics & Keywords
 fig = plt.figure(figsize=(12, 6), constrained_layout=True)
-gs = gridspec.GridSpec(1, 2, figure=fig)
+gs = gridspec.GridSpec(1, 3, figure=fig)
 
 # Topics 
-newsDf2 = pd.merge(newsDf, keywordsColorsDF, how='left', left_on=['keyword'], right_on=['keyword'])
+newsDf0 = pd.merge(newsDf, keywordsColorsDF, how='left', left_on=['keyword'], right_on=['keyword'])
+for index, column in newsDf0.iterrows():
+  if(column['valid'] < 0.5):
+     newsDf0.loc[index,'topic'] = 'Invalid'
+print(newsDf0)  
+
+newsDf2 = newsDf[newsDf['valid']>0.5]
+newsDf2 = pd.merge(newsDf2, keywordsColorsDF, how='left', left_on=['keyword'], right_on=['keyword'])
+#newsDf2 = newsDf0.copy()
+print(newsDf2.columns)
 topicsDF = newsDf2.groupby('topic').count()
 topicsDF = topicsDF.drop(columns = ['topicColor'])
 topicsDF = pd.merge(topicsDF, topicsColorsDF, how='left', left_on=['topic'], right_on=['topic'])
 topicsDF = topicsDF.sort_values('index', ascending=False)
 axTopics = plt.subplot(gs[0,0])
-axTopics.set_title("Topics", fontsize=24)
-plot = topicsDF.plot.pie(y='index', ax=axTopics, colors=topicsDF['topicColor'], labels=topicsDF['topic'],legend=False,ylabel='')
+axTopics.set_title("Topics (valid)", fontsize=24)
+plot = topicsDF.plot.pie(y='index', ax=axTopics, colors=topicsDF['topicColor'], labels=topicsDF['topic'].str.slice(0,20),legend=False,ylabel='')
 #plot = topicsDF.plot(kind='pie', y='index', ax=axKeywords, colors='#'+keywordsDF['keywordColor'])
 
-# Keywords
-keywordsDF = newsDf.groupby('keyword').count()
+# Keywords valid
+newsDf1 = newsDf[newsDf['valid']>0.5]
+##newsDf1 = newsDf0[newsDf0['valid']>0.5]
+keywordsDF = newsDf1.groupby('keyword').count()
+print(keywordsDF)
 keywordsDF = keywordsDF.dropna()
 keywordsDF = pd.merge(keywordsDF, keywordsColorsDF, how='inner', left_on=['keyword'], right_on=['keyword'])
 keywordsDF = keywordsDF.sort_values('index', ascending=False)
 axKeywords = plt.subplot(gs[0,1])
-axKeywords.set_title("Keywords", fontsize=24)
-plot = keywordsDF.plot.pie(y='index', ax=axKeywords, colors=keywordsDF['keywordColor'], labels=keywordsDF['keyword'],legend=False,ylabel='')
+axKeywords.set_title("Keywords (valid)", fontsize=24)
+print(keywordsDF)
+print(keywordsDF.columns)
+plot = keywordsDF.plot.pie(y='index', ax=axKeywords, colors=keywordsDF['keywordColor'], labels=keywordsDF['keyword'].str.slice(0,20),legend=False,ylabel='')
 #plot = topicsDF.plot(kind='pie', y='index', ax=axKeywords, colors='#'+keywordsDF['keywordColor'])
 
+# Keywords invalid
+newsDf3 = newsDf[newsDf['valid']<0.5]
+keywordsDF = newsDf3.groupby('keyword').count()
+keywordsDF = keywordsDF.dropna()
+keywordsDF = pd.merge(keywordsDF, keywordsColorsDF, how='inner', left_on=['keyword'], right_on=['keyword'])
+##topicsDF = topicsDF[topicsDF['valid']>0.5]
+keywordsDF = keywordsDF.sort_values('index', ascending=False)
+axKeywords = plt.subplot(gs[0,2])
+axKeywords.set_title("Keywords (invalid)", fontsize=24)
+plot = keywordsDF.plot.pie(y='index', ax=axKeywords, colors=keywordsDF['keywordColor'], labels=keywordsDF['keyword'].str.slice(0,20),legend=False,ylabel='')
 
 plt.savefig(DATA_PATH / 'img' / 'keywords_pie_all.png', dpi=300)
 plt.close('all')
-
 
 #
 bayesDF = pd.DataFrame(None) 
@@ -256,7 +281,8 @@ def plot_top_words(model, feature_names, n_top_words, title, filename='topics'):
 tfidf_vectorizer = TfidfVectorizer(
     max_df=0.95, min_df=2, max_features=n_features, stop_words=german_stop_words, ngram_range=(1, 1), lowercase=lowercase
 )
-tfidf = tfidf_vectorizer.fit_transform(newsDf.text)
+tfidf = tfidf_vectorizer.fit_transform(newsDf.text)  #all
+#tfidf = tfidf_vectorizer.fit_transform(newsDf1.text) #valid only
 
 
 tfidf_feature_names = tfidf_vectorizer.get_feature_names_out()
@@ -285,7 +311,8 @@ plot_top_words(
 tf_vectorizer = CountVectorizer(
     max_df=0.95, min_df=2, max_features=n_features, stop_words=german_stop_words, lowercase=lowercase
 )
-tf = tf_vectorizer.fit_transform(newsDf.text)
+tf = tf_vectorizer.fit_transform(newsDf.text)         #all
+#tf = tf_vectorizer.fit_transform(newsDf1.text)        #valid only
 
 lda = LatentDirichletAllocation(
     n_components=n_components,
@@ -433,7 +460,7 @@ def getDay(dateString):
 
 #topics per date
 indexTopics = {}
-for index, column in newsDf.iterrows():
+for index, column in newsDf0.iterrows():
     #print(column['keyword'])
     dayDate = getDay(column.published)
     if(not dayDate in indexTopics):
@@ -464,7 +491,11 @@ for index, column in newsDf.iterrows():
     #print([column['keyword'], foundTopics[column3['topic']]])
     for index2, column2 in topicsColorsDF.iterrows():
         if(foundTopics[column2['topic']]):
-            indexTopics[dayDate][column2['topic']] += 1
+          #indexTopics[dayDate][column2['topic']] += 1
+          if(column.valid>0.5):
+            indexTopics[dayDate][column2['topic']] += column.valid
+          else:
+            indexTopics[dayDate]['Invalid'] += 1.0-column.valid
 
 indexTopicsDF = pd.DataFrame.from_dict(indexTopics, orient='index', columns=list(topicsColorsDF['topic']))
 indexTopicsDF.to_csv(DATA_PATH / 'csv' / "topics_date.csv", index=True)

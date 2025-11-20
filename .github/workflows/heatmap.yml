@@ -1,24 +1,22 @@
 
 # This is a basic workflow to help you get started with Actions
 
-name: entities:0.0
+name: heatmap:0.0
 
 on:
   workflow_dispatch:
   schedule:
     # * is a special character in YAML so you have to quote this string : 
 #    weekly #m h d/m m d/w 
-    - cron:  '20 5 * * 1'
+#    - cron:  '30 1 * * 1'
 #    daily #m h d/m m d/w 
-#    - cron:  '30 1 * * *'
+    - cron:  '55 1 * * *'
    
 jobs:
   docker-run-action:
     runs-on: ubuntu-latest
     container:
-      image: credocker/crepython:2020.0
-      env:
-        GEONAMES_KEY: ${{ secrets.GEONAMES_KEY }}
+      image: credocker/crepython:2024.0
       volumes:
         - ${{ github.workspace }}:/cre/python
     steps:
@@ -31,19 +29,15 @@ jobs:
 #          ref: main
       - name: cd /cre/python/
         run: (cd /cre/python/)
-      - name: cp mysecrets.py
-        run: (cp mysecrets.orig.py mysecrets.py)
-      - name: Install spacy==2.2.4 textblob_de
-        run: (pip3 install spacy==2.2.4 textblob==0.15.3 textblob_de==0.4.3 nltk)
-      - name: Install geocoder
-        run: (pip3 install geocoder geopandas==0.9)
-      - name: Install download de_core_news_md
-        run: (python3 -m spacy download de_core_news_md)
-      - name: Run entities
-        run: (python3 entities.py)
+      - name: Install shapely cartopy
+        run: (pip3 install shapely cartopy --no-binary shapely --no-binary cartopy)
+      - name: Install folium pillow
+        run: (pip3 install folium pillow)
+      - name: Run diagrams
+        run: (python3 heatmap.py)
       - name: Submit changes       
         uses: EndBug/add-and-commit@v9
         with:
 #          pull: '--rebase --autostash ...'
-          add: 'csv/sentiments_*.csv'
+          add: 'img/heatmap.png'
           tag_push: '--force'

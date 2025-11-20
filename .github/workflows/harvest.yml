@@ -35,6 +35,8 @@ jobs:
         run: (pip3 install aiohttp)
       - name: install asyncio
         run: (pip3 install asyncio)
+      - name: install deep-translator
+        run: (pip3 install deep-translator)
       - name: cd /cre/python/
         run: (cd /cre/python/)
       - name: cp mysecrets.py
