@@ -42,7 +42,6 @@ countriesGeo['geoNameId'] = countriesGeo['geoNameId'].astype(int)
 countriesInfo['geonameid'] = countriesInfo['geonameid'].astype(int)
 countriesDf = pd.merge(countriesGeo, countriesInfo, left_on='geoNameId', right_on='geonameid')
 
-
 def getNewsFiles():
     fileName = './csv/news_????_??.csv'
     files = glob.glob(fileName)
@@ -370,7 +369,6 @@ def searchGndByName(locationName):
                return result
     return None
 
-
 def strangeCharacters(testString, testCharacters):
      count = 0
      for oneCharacter in testCharacters:
@@ -391,9 +389,11 @@ for index, column in objNewsDF.iterrows():
         #sentence.sentiment.polarity
         doc = nlp(str(sentence))
         for entity in doc.ents:
+
             if(entity.label_ in ['LOC','GPE']):
                 if(entity.text in indexLocations):
-                    indexLocations[entity.text]['count'] += 1   #TODO   add valid value...
+                    #indexLocations[entity.text]['count'] += 1   #TODO   add valid value...
+                    indexLocations[entity.text]['count'] += column.valid
                     indexLocations[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexLocations[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:      
@@ -417,13 +417,15 @@ for index, column in objNewsDF.iterrows():
                           if('gnd' in foundInOlDf.columns):
                             indexLocations[entity.text]['gnd'] = foundInOlDf['gnd'].min()
 
+
             elif(entity.label_ in ['PER','PERSON']):
              personText = entity.text
              personText = personText.strip(" .,!?;:'…/-").strip('"')
              if(strangeCharacters(personText,".,!?;:'…<>/\n\r")==0):
                if(personText.count(' ')>0):
                 if(personText in indexPersons):
-                    indexPersons[personText]['count'] += 1
+                    #indexPersons[personText]['count'] += 1
+                    indexPersons[personText]['count'] += column.valid
                     indexPersons[personText]['sentiment'] += sentence.sentiment.polarity
                     indexPersons[personText]['subjectivity'] += sentence.sentiment.subjectivity
                 else:    
@@ -431,7 +433,8 @@ for index, column in objNewsDF.iterrows():
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}   
             elif('ORG' == entity.label_):
                 if(entity.text in indexOrganizations):
-                    indexOrganizations[entity.text]['count'] += 1
+                    #indexOrganizations[entity.text]['count'] += 1
+                    indexOrganizations[entity.text]['count'] += column.valid
                     indexOrganizations[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexOrganizations[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:    
@@ -439,7 +442,8 @@ for index, column in objNewsDF.iterrows():
                                                        'subjectivity':0, 'language':lang, 'count':1} 
             elif('MISC' == entity.label_):
                 if(entity.text in indexMisc):
-                    indexMisc[entity.text]['count'] += 1
+                    #indexMisc[entity.text]['count'] += 1
+                    indexMisc[entity.text]['count'] += column.valid
                     indexMisc[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexMisc[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:         
@@ -447,13 +451,13 @@ for index, column in objNewsDF.iterrows():
                                               'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1} 
             else:
                 if(entity.text in indexMissing):
-                    indexMissing[entity.text]['count'] += 1
+                    #indexMissing[entity.text]['count'] += 1
+                    indexMissing[entity.text]['count'] += column.valid
                     indexMissing[entity.text]['sentiment'] += sentence.sentiment.polarity
                     indexMissing[entity.text]['subjectivity'] += sentence.sentiment.subjectivity
                 else:
                     indexMissing[entity.text] = {'phrase':entity.text, 'label':entity.label_, 'sentiment':sentence.sentiment.polarity,
                                                  'subjectivity':sentence.sentiment.subjectivity, 'language':lang, 'count':1}  
-
 colGeo = ['phrase', 'label', 'sentiment', 'subjectivity', 'language', 'count', 
            'gnd', 'geonames', 'geotype', 'latitude', 'longitude', 'continent', 'country', 'ipcc']
 indexLocationsDF = pd.DataFrame.from_dict(indexLocations, orient='index', columns=colGeo)

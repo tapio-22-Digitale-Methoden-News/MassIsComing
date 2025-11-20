@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     container:
 #      image: tamboraorg/crecoding:2020.0
-      image: credocker/crecoding:2024.0
+      image: credocker/crepython:2024.0
       env:
         NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
       volumes:
@@ -35,6 +35,8 @@ jobs:
         run: (pip3 install aiohttp)
       - name: install asyncio
         run: (pip3 install asyncio)
+      - name: install deep-translator
+        run: (pip3 install deep-translator)
       - name: cd /cre/python/
         run: (cd /cre/python/)
       - name: cp mysecrets.py

@@ -21,12 +21,17 @@ import hashlib
 import glob
 from difflib import SequenceMatcher
 
+# pip3 install deep-translator
+from deep_translator import GoogleTranslator
 
 import datetime
 #from datetime import timezone
 from dateutil import parser
 
 DATA_PATH = Path.cwd()
+
+dtNow = datetime.datetime.fromtimestamp(int(time.time()), datetime.UTC)
+dtLastMonth = datetime.datetime.fromtimestamp(int(time.time())-60*60*24*30, datetime.UTC)
 
 keywordsFields = ["keyword","language","topic","topicColor","keywordColor","limitPages","ratioNew"]
 keywordsDF = pd.read_csv(DATA_PATH / 'keywords.csv', delimiter=',')  #,index_col='keyword'
@@ -118,7 +123,28 @@ def dataIsNotBlocked(data):
 #see 'https://www.stern.de/panorama/weltgeschehen/news-heute---ocean-viking--rettet-mehr-als-40-menschen-aus-dem-mittelmeer-30598826.html'
 
 
+def translateData(data):
+   if('de'==data['language']):
+       data['de'] = str(data['title']) + '. ' + str(data['description'])
+       data['en'] = GoogleTranslator(source='de', target='en').translate(text=data['de'])
+       data['la'] = GoogleTranslator(source='de', target='la').translate(text=data['de'])
+   if('en'==data['language']):
+       data['en'] = str(data['title']) + '. ' + str(data['description'])
+       data['de'] = GoogleTranslator(source='en', target='de').translate(text=data['en'])
+       data['la'] = GoogleTranslator(source='en', target='la').translate(text=data['en'])
+   return(data) 
 
+
+def tranlateAllInDf(df):
+  df['la'] = ''
+  df['en'] = ''
+  df['de'] = ''
+  for index, column in df.iterrows():
+     data = translateData(column)
+     df.loc[index,'la'] = data['la']
+     df.loc[index,'en'] = data['en']
+     df.loc[index,'de'] = data['de']
+  return df
 
 collectedNews = {}
 
@@ -138,7 +164,7 @@ def storeCollection():
     global collectedNews
     print("Inside store")
     #cols = ['url','valid','domain','title','description','image','published','archive','content','quote','language','keyword']
-    cols = ['published','keyword','domain','language','valid','title','description','url','image','archive','content','quote']
+    cols = ['published', 'keyword', 'domain', 'language', 'valid', 'title', 'description', 'url', 'image', 'archive', 'content', 'quote', 'de', 'en', 'la', 'added']
     for dateFile in collectedNews:
         df = pd.DataFrame.from_dict(collectedNews[dateFile], orient='index', columns=cols)
         df.index = df['url'].apply( lambda x: hashlib.sha256(x.encode()).hexdigest()[:32])   
@@ -213,8 +239,8 @@ def removeDuplicates(df1):
 
     df3 = df1[df1['similarity']<0.8]
     df3 = df3.drop(columns=['md5', 'group', 'similarity'])
-    df3 = df3.sort_values(by=['published'], ascending=True)
-    df3 = df3.sort_values(by=['valid','published'], ascending=True)
+    #df3 = df3.sort_values(by=['published'], ascending=True)
+    df3 = df3.sort_values(by=['added','valid','published'], ascending=True)
     return df3
 
 def archiveUrl(data):
@@ -307,7 +333,7 @@ def extractData(article, language, keyWord):
     content = article['content']
     hashStr = hashlib.sha256(url.encode()).hexdigest()[:32]
     data = {'url':url, 'valid':0, 'domain':domain,'published':published, 'description':description, 'title':title, 
-            'image':image, 'content':content, 'quote':'', 'language': language, 'keyword':keyWord, 'hash':hashStr}
+            'image':image, 'content':content, 'quote':'', 'language': language, 'keyword':keyWord, 'hash':hashStr, 'added':str(dtNow)}
     return data  
 
 def checkKeywordInQuote(keyword, quote, case=True, anyKey=False):
@@ -427,11 +453,16 @@ def filterNewAndArchive(articles, language, keyWord):
             if(not fileDate in collectedNews):
                 if(os.path.isfile(DATA_PATH / 'csv' / fileDate)):
                     df = pd.read_csv(DATA_PATH / 'csv' / fileDate, delimiter=',',index_col='index')
+                    if(not 'added' in df.columns):
+                      df['added'] = str(dtLastMonth)
+                    if(not 'la' in df.columns):
+                      df = tranlateAllInDf(df)
                     collectedNews[fileDate] = df.to_dict('index')
                 else:
                     collectedNews[fileDate] = {}
             if(not data['hash'] in collectedNews[fileDate]):
                 data = archiveUrl(data)
+                data = translateData(data)
                 newArticles.append(data)
         if((time.time() - startTime) > 60*10):
             return newArticles        
