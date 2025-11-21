@@ -8,7 +8,7 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string : 
 #    weekly #m h d/m m d/w 
-#    - cron:  '30 1 * * 1'
+#    - cron:  '35 1 * * 1'
 #    daily #m h d/m m d/w 
     - cron:  '55 1 * * *'
    
