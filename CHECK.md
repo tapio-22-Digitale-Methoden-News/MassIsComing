@@ -14,11 +14,10 @@
 ---
   
 ### GeonamesAPI  
-:no_entry: Geonames key **missing**:  
-1. Please register with username (i.e.: tapio_22_Digitale_Methoden_News) at https://www.geonames.org/login  
-2. Assign the choosen username as new organization secret at https://github.com/organizations/tapio-22-Digitale-Methoden-News/settings/secrets/actions/new  
-   * Name:  **GEONAMES_KEY**   
-   * Value: **Your username here**   
+:white_check_mark: Geonames key exists  
+:white_check_mark: Geonames respone fine  
+:white_check_mark: Geonames result fine  
+:white_check_mark: Geonames results found  
 
 ---
   
@@ -49,21 +48,15 @@ If it doesn't help, **recheck** the registration and the key entry:
   
 ### RapidAPI: News-API-14  
 :white_check_mark: News-API-14 respone fine  
-:no_entry: **Not** subscribed to News-API-14  
-Subscribe to News-API-14 API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/bonaipowered/api/news-api14  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: News-API-14 status fine  
+:white_check_mark: News-API-14 results found  
 
 ---
   
 ### RapidAPI: Google-News-25  
 :white_check_mark: Google-News-25 respone fine  
-:no_entry: **Not** subscribed to Google-News-25  
-Subscribe to Google-News-25 API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/things4u-api4upro/api/google-news25  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: Google-News-25 status fine  
+:white_check_mark: Google-News-25 results found  
 
 ---
   
@@ -83,21 +76,14 @@ Subscribe to Real-Time-News-Data API:
   
 ### RapidAPI: Deep-Translate-1  
 :white_check_mark: Deep-Translate-1 respone fine  
-:no_entry: **Not** subscribed to Deep-Translate-1  
-Subscribe to Deep-Translate-1 API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/gatzuma/api/deep-translate1  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: Deep-Translate-1 status fine  
+:white_check_mark: Deep-Translate-1 results found  
 
 ---
   
 ### RapidAPI: Microsoft-Translator-3  
-:white_check_mark: Microsoft-Translator-3 respone fine  
-:no_entry: **Not** subscribed to Microsoft-Translator-3  
-Subscribe to Microsoft-Translator-3 API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/apiship-apiship-default/api/microsoft-translator-text-api3  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:no_entry: Microsoft-Translator-3 respone **failed**  
+Maybe retry later...?  
 
 ---
   
