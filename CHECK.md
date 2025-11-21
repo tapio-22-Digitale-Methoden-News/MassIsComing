@@ -94,21 +94,15 @@ Maybe retry later...?
   
 ### RapidAPI: Free-Google-Translator  
 :white_check_mark: Free-Google-Translator respone fine  
-:no_entry: **Not** subscribed to Free-Google-Translator  
-Subscribe to Free-Google-Translator API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/joshimuddin8212/api/free-google-translator  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: Free-Google-Translator status fine  
+:white_check_mark: Free-Google-Translator results found  
 
 ---
   
 ### RapidAPI: Multi-Traduction-Translate  
 :white_check_mark: Multi-Traduction-Translate respone fine  
-:no_entry: **Not** subscribed to Multi-Traduction-Translate  
-Subscribe to Multi-Traduction-Translate API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/sibaridev/api/rapid-translate-multi-traduction  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: Multi-Traduction-Translate status fine  
+:white_check_mark: Multi-Traduction-Translate results found  
 
 ---
   
