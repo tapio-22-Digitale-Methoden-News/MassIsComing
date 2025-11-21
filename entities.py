@@ -167,12 +167,71 @@ if(geonamesKey == 'demo_demo_123'):
 print(['foundGeonames',foundGeonames])
 #foundGeonames = True
 
+def inqGeonamesByNameAndLanguage(df, phrase, lang):
+    gn = geocoder.geonames(phrase, lang=lang, key=geonamesKey)
+    print([phrase,gn,gn.geonames_id]) 
+    if(gn.geonames_id):  
+      df.loc[index,'geonames'] = int(gn.geonames_id)
+      df.loc[index,'latitude'] = float(gn.lat)
+      df.loc[index,'longitude'] = float(gn.lng)
+      df.loc[index,'geotype'] = gn.feature_class
+      ##df.loc[index,'country'] = gn.country  #localized!
+      gne = geocoder.geonames(phrase, lang='en', key=geonamesKey)
+      if(gne.country):
+        df.loc[index,'country'] = gne.country
+        print(gne.country)
+        print(['geo',gn.lat,gn.lng, gn.geonames_id, gn])
+        return (df, float(gn.lat),float(gn.lng), int(gn.geonames_id))
+    return (df, None, None, None)
+
+
+def getCoordsByLatAndLng(lat,lng, phrase='somewhere'):
+    coordinates = geopandas.points_from_xy([lng], [lat])
+    print(['points_from_xy',coordinates])
+    Coords = geopandas.GeoDataFrame({
+      'geometry': coordinates,
+      'name': [phrase]
+    }, crs={'init': 'epsg:4326', 'no_defs': True})
+    print(['GeoDataFrame',Coords]) 
+    return Coords
+
+def getIpccByCoords(df, index, Coords):
+    whichIpcc = geopandas.sjoin(ipccRegions, Coords, how='inner', op='intersects')
+    print(whichIpcc)
+    if(not whichIpcc.empty):
+      print(['Acronym & Continent',list(whichIpcc['Acronym'])[0],list(whichIpcc['Continent'])[0]])
+      df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
+      df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
+    return df        
+
+def getCountryByCoords(df, index, Coords):
+    whichCountry = geopandas.sjoin(countriesDf, Coords, how='inner', op='intersects')
+    print(whichCountry)
+    if(not whichCountry.empty):
+      print(['country',list(whichCountry['Country'])[0]])
+      df.loc[index,'country'] = list(whichCountry['Country'])[0]
+    return df
+
 geomax = 250
 def enrichFromGeonames(df):
     global geomax
     print('Starting with geonames')
     if(not foundGeonames):
         print('geonames not found')
+        #search by GND only
+        for index, column in df.iterrows():
+          phrase = str(column.phrase)
+          gnd = searchGndWithCoordsAndGeonamesByName(phrase)
+          print([phrase,gnd])
+          if(gnd and 'gndId' in gnd):
+            df.loc[index,'gnd'] = str(gnd['gndId'])
+            df.loc[index,'geonames'] = int(gnd['geonames'])
+            df.loc[index,'latitude'] = float(gnd['latitude'])
+            df.loc[index,'longitude'] = float(gnd['longitude'])
+            df.loc[index,'geotype'] = 'X'
+            Coords = getCoordsByLatAndLng(float(gnd['latitude']),float(gnd['longitude']), phrase)
+            df = getIpccByCoords(df, index, Coords)
+            df = getCountryByCoords(df, index, Coords)
         return df
     for index, column in df.iterrows():
       if(geomax>0):
@@ -180,58 +239,47 @@ def enrichFromGeonames(df):
         phrase = str(column.phrase)
         if(str(column.geonames) == '-1'):
           print('things to do')
-          gn = geocoder.geonames(phrase, lang=lang, key=geonamesKey)
-          print([phrase,gn,gn.geonames_id]) 
-          if(gn.geonames_id):  
-            df.loc[index,'geonames'] = int(gn.geonames_id)
-            df.loc[index,'latitude'] = float(gn.lat)
-            df.loc[index,'longitude'] = float(gn.lng)
-            df.loc[index,'geotype'] = gn.feature_class
-            ##df.loc[index,'country'] = gn.country  #localized!
-            gne = geocoder.geonames(phrase, lang='en', key=geonamesKey)
-            if(gne.country):
-              df.loc[index,'country'] = gne.country
-            print(['geo',gn.lat,gn.lng, gn])
-
-            #(get country) get ipcc
-            coordinates = geopandas.points_from_xy([float(gn.lng)], [float(gn.lat)])
-            print(['points_from_xy',coordinates])
-            Coords = geopandas.GeoDataFrame({
-              'geometry': coordinates,
-              'name': [phrase]
-             }, crs={'init': 'epsg:4326', 'no_defs': True})
-            print(['GeoDataFrame',Coords])  
-            whichIpcc = geopandas.sjoin(ipccRegions, Coords, how='inner', op='intersects')
-            print(whichIpcc)
-            if(not whichIpcc.empty):
-                df.loc[index,'ipcc'] = list(whichIpcc['Acronym'])[0]
-                df.loc[index,'continent'] = list(whichIpcc['Continent'])[0]
-            whichCountry = geopandas.sjoin(countriesDf, Coords, how='inner', op='intersects')
-            print(whichCountry)
-            if(not whichCountry.empty):
-                df.loc[index,'country'] = list(whichCountry['Country'])[0]
+          (df, lat, lng, gnId) = inqGeonamesByNameAndLanguage(df, phrase, lang)
+          if(gnId):  
+            Coords = getCoordsByLatAndLng(lat,lng, phrase)
+            df = getIpccByCoords(df, index, Coords)
+            df = getCountryByCoords(df, index, Coords)
 
             #get GND
             found = False 
-            gnd = searchGndByGeonamesId(gn.geonames_id)
+            gnd = searchGndByGeonamesId(gnId)
+            print(['searchGndByGeonamesId',gnd]) 
             if(gnd and 'gndId' in gnd):
               df.loc[index,'gnd'] = str(gnd['gndId'])
               found = True
             if(not found):
-              gnd = searchGndByNameAndGeo(phrase, float(gn.lat), float(gn.lng))
+              gnd = searchGndByNameAndGeo(phrase, lat, lng)
+              print(['searchGndByNameAndGeo',gnd]) 
               if(gnd and 'gndId' in gnd):
                 df.loc[index,'gnd'] = str(gnd['gndId'])
                 found = True
             if(not found):
               gnd = searchGndByName(phrase)
+              print(['searchGndByName',gnd]) 
               if(gnd and 'gndId' in gnd):
                 df.loc[index,'gnd'] = str(gnd['gndId'])
                 found = True
 
           else:
-            print(['geonames found nothing',phrase,gn,gn.geonames_id])
+            print(['geonames found nothing',phrase])
             df.loc[index,'geonames'] = 0
-
+            ### Try GND only
+            gnd = searchGndWithCoordsAndGeonamesByName(phrase)  
+            print([phrase,gnd])
+            if(gnd and 'gndId' in gnd):
+              df.loc[index,'gnd'] = str(gnd['gndId'])
+              df.loc[index,'geonames'] = int(gnd['geonames'])
+              df.loc[index,'latitude'] = float(gnd['latitude'])
+              df.loc[index,'longitude'] = float(gnd['longitude'])
+              df.loc[index,'geotype'] = 'X' 
+              Coords = getCoordsByLatAndLng(float(gnd['latitude']),float(gnd['longitude']), phrase)
+              df = getIpccByCoords(df, index, Coords)
+              df = getCountryByCoords(df, index, Coords)
           geomax -= 1
           time.sleep(0.1) 
     return df
@@ -366,6 +414,63 @@ def searchGndByName(locationName):
                result['preferredName'] = member['preferredName']
                found = found or (member['preferredName'] == locationName)
              if(found): 
+               return result
+    return None
+
+def searchGndWithCoordsAndGeonamesByName(locationName):
+    gndUrl = 'https://explore.gnd.network/search?term='+locationName+'&f.satzart=Geografikum&rows=1'
+    gndurl = 'https://lobid.org/gnd/search?q='+locationName+'&filter=type%3APlaceOrGeographicName&format=json'   #hasGeometry
+    page = requests.get(gndurl, timeout=60)
+    if page.status_code == 200:
+      content = page.content
+      #print(content)
+      if(content):
+        #print(content)
+        jsonData = json.loads(content)
+        #print(jsonData)      #'variantName' !
+        if('member' in jsonData):
+          for member in jsonData['member']:
+           #print(25*"=*")
+           #print(member)  
+           if('gndIdentifier' in member):
+             #print(member['gndIdentifier']) 
+             result = {'gndId':member['gndIdentifier']} 
+
+             geonameFound = False 
+             if('sameAs' in member):
+               for same in member['sameAs']:
+                 #print(25*"##")
+                 #print(same)
+                 if('id' in same):
+                   if('https://sws.geonames.org/' in same['id']):
+                     geonameFound = True
+                     geonamesId = same['id'].replace('https://sws.geonames.org/','')
+                     result['geonames'] = int(geonamesId) 
+             geoFound = False
+             if('hasGeometry' in member):
+               #print(member['hasGeometry']) 
+               latitude = None
+               longitude = None
+               for geo in member['hasGeometry']:  
+                 if('asWKT' in geo and 'type' in geo and geo['type']=='Point'):
+                    point = geo['asWKT'][0]
+                    point = point.replace('Point ','').strip().strip('()').strip()
+                    #print(point)
+                    coords = point.split(" ")
+                    #print(coords)
+                    result['longitude'] = float(coords[0])
+                    result['latitude'] = float(coords[1])
+                    geoFound = True
+             found = False
+             if('variantName' in member):
+               #print(member['variantName']) 
+               result['variantNames'] = member['variantName']  
+               found = locationName in member['variantName'] 
+             if('preferredName' in member):
+               #print(member['preferredName'])
+               result['preferredName'] = member['preferredName']
+               found = found or (member['preferredName'] == locationName)
+             if(found and geoFound and geonameFound): 
                return result
     return None
 
