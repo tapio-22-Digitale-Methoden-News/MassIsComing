@@ -62,11 +62,9 @@ If it doesn't help, **recheck** the registration and the key entry:
   
 ### RapidAPI: Real-Time-News-Data  
 :white_check_mark: Real-Time-News-Data respone fine  
-:no_entry: **Not** subscribed to Real-Time-News-Data  
-Subscribe to Real-Time-News-Data API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/letscrape-6bRBa3QguO5/api/real-time-news-data  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: Real-Time-News-Data status fine  
+:no_entry: Real-Time-News-Data results **not** found  
+Maybe retry later...?  
 
 ---
   
@@ -89,11 +87,8 @@ Maybe retry later...?
   
 ### RapidAPI: Text-Translator-2  
 :white_check_mark: Text-Translator-2 respone fine  
-:no_entry: **Not** subscribed to Text-Translator-2  
-Subscribe to Text-Translator-2 API:  
-1. Login and 'Subscribe to Test' at https://rapidapi.com/dickyagustin/api/text-translator2  
-2. Make sure to enter 'Start Free Plan' and press 'Subscribe' - **don't** enter credit card data!  
-   
+:white_check_mark: Text-Translator-2 status fine  
+:white_check_mark: Text-Translator-2 results found  
 
 ---
   
