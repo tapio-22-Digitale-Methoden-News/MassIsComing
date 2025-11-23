@@ -1,14 +1,14 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.1712856290856768
-'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.15858498020195608
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.158584980201956
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.1078642494718766
 'Permafrost',de,Causes,#9e3215,#209488,1,0.1
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0886545801744594
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
-'Murgang',de,Hazard,#4287f5,#4237f5,1,0.085
 'Steinschlag',de,Hazard,#4287f5,#4287f5,2,0.0765431678587494
+'Murgang',de,Hazard,#4287f5,#4237f5,1,0.07225000000000001
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0605643824847988
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.060190961539702
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
