@@ -9,9 +9,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1526633281875707
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1495075770466531
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1456297648128833
-'Sommer',de,Sommer,#a89216,#a89216,3,0.1449392263010917
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1430732403329144
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.138201481699669
+'Sommer',de,Sommer,#a89216,#a89216,3,0.13232488644683704
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.1305018876377426
 'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1281669460739478
 'Spätfrost',de,Frühling,#679e2c,#477515,1,0.1027726119895492
