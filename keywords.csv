@@ -4,7 +4,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.2396365194430957
 'Laub',de,Herbst,#9e3215,#802d16,3,0.2108354616431291
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1939632067690654
-'Frühling',de,Frühling,#679e2c,#679e2c,3,0.16032895571812958
+'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1603289557181295
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1543280502979932
 'Herbst',de,Herbst,#9e3215,#9e3215,3,0.153959540608238
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1526633281875707
@@ -18,7 +18,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Laubfall',de,Herbst,#9e3215,#802d16,2,0.1012713218049293
 'Hasel',de,Winter,#4287f5,#537ee4,1,0.0987547002155834
 'Aussaat',de,Frühling,#679e2c,#7db344,1,0.0940263551168325
-'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.0930328468358702
+'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.07937794981048966
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
 'Pollen',de,Frühling,#679e2c,#61d01c,2,0.0777179640085035
 'Frühblüher',de,Winter,#5287e5,#638ed4,1,0.0734883113622607
