@@ -14,10 +14,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.138201481699669
 'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1281669460739478
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.1112266344920812
-'Spätfrost',de,Frühling,#679e2c,#477515,1,0.1027726119895492
 'Laubfall',de,Herbst,#9e3215,#802d16,2,0.1012713218049293
 'Hasel',de,Winter,#4287f5,#537ee4,1,0.0987547002155834
 'Aussaat',de,Frühling,#679e2c,#7db344,1,0.0940263551168325
+'Spätfrost',de,Frühling,#679e2c,#477515,1,0.08795678019111683
 'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.0793779498104896
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
 'Pollen',de,Frühling,#679e2c,#61d01c,2,0.0777179640085035
