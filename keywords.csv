@@ -1,6 +1,6 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
+'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.15851209962706697
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.1350533141959132
-'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.1084675450158007
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Permafrost',de,Causes,#9e3215,#209488,2,0.0831518037215908
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0793384454820317
@@ -12,4 +12,4 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0563058123758786
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0511623173087467
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
-'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.019601505029273863
+'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0196015050292738
