@@ -1,6 +1,6 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.1373786004868815
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.1282937265087744
+'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.12581370950475834
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0953080962680651
 'Permafrost',de,Causes,#9e3215,#209488,2,0.0831518037215908
 'Steinschlag',de,Hazard,#4287f5,#4287f5,2,0.0765431678587494
