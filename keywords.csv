@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0581546101107678
 'Murgang',de,Hazard,#4287f5,#4237f5,1,0.0522006249999999
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0478599405194968
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.04403529409526707
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.044035294095267
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.04057164464362659
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0166612792748827
