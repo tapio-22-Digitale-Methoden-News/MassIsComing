@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.104034054799006
-'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0955622568278553
-'Permafrost',de,Causes,#9e3215,#209488,2,0.08375836171157659
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.09680097557640427
+'Permafrost',de,Causes,#9e3215,#209488,2,0.0837583617115765
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.082647520667201
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0762564831482904
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.0694048714628278
