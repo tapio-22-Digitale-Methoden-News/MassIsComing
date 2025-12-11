@@ -295,10 +295,11 @@ def inqRapidMicroTranslate3(results=[]):
             addSubscribeMessageToResults(results, "Microsoft-Translator-3", "https://rapidapi.com/apiship-apiship-default/api/microsoft-translator-text-api3")
             return False
         if('messages' in jsonData):
-          if('The API is unreachable, please contact the API provider'==jsonData['message']):
+          if('The API is unreachable, please contact the API provider'==jsonData['messages']):
             results.append(":no_entry: Microsoft-Translator-3 **not** reachable")
             results.append("Maybe retry later...?") #?
             return False
+          print(jsonData['messages'])
         if (len(jsonData)>0):
           results.append(":white_check_mark: Microsoft-Translator-3 status fine")
           if ('translations' in jsonData[0]):
