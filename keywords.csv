@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Herbst',de,Herbst,#9e3215,#9e3215,3,0.1435390377396704
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1403084468442033
 'Laub',de,Herbst,#9e3215,#802d16,3,0.1388192399830953
-'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.13557131733891614
+'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.1355713173389161
 'Blüte',de,Frühling,#679e2c,#61b00c,2,0.1337676196682172
 'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1331866381881666
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1310894211155198
@@ -19,8 +19,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
 'Spätfrost',de,Frühling,#679e2c,#477515,1,0.0783601419848695
 'Pollen',de,Frühling,#679e2c,#61d01c,2,0.0777179640085035
-'Frühblüher',de,Winter,#5287e5,#638ed4,1,0.0734883113622607
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.0686929704949493
+'Frühblüher',de,Winter,#5287e5,#638ed4,1,0.06276509465792159
 'Erle',de,Winter,#4287f5,#537ef4,1,0.0587056188664342
 'Apfel Blüte',de,Frühling,#679e2c,#6dc344,1,0.049865744912936
 'Laubfall',de,Herbst,#9e3215,#802d16,1,0.046974333756619
