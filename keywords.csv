@@ -4,12 +4,12 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.2033022959237337
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.1792969245853514
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1612333473905306
-'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.14298569473807865
-'Hochwasser',de,Winter,#4287f5,#022f78,3,0.135304637578397
+'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.1429856947380786
 'Laub',de,Herbst,#9e3215,#802d16,3,0.1352208812583583
 'Herbst',de,Herbst,#9e3215,#9e3215,3,0.135171950260538
 'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1331866381881666
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1324784029993909
+'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1322337842143647
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1310894211155198
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1281315454896551
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1228533467179846
