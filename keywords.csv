@@ -3,11 +3,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Winter',de,Winter,#4287f5,#315fa8,3,0.250130039423185
 'Hasel',de,Winter,#4287f5,#537ee4,2,0.2078054164057589
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.183848525281951
-'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.17689365360007192
+'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.1768936536000719
 'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.1591981577185223
-'Laub',de,Herbst,#9e3215,#802d16,3,0.1469483135500729
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.142181075740189
 'Herbst',de,Herbst,#9e3215,#9e3215,3,0.135171950260538
+'Laub',de,Herbst,#9e3215,#802d16,3,0.13394835560847104
 'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1331866381881666
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1324784029993909
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1322337842143647
