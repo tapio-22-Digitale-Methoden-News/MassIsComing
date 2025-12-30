@@ -2,16 +2,16 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schnee',de,Winter,#4287f5,#638ed4,3,0.3225784652411818
 'Winter',de,Winter,#4287f5,#315fa8,3,0.250130039423185
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.183848525281951
-'Hasel',de,Winter,#4287f5,#537ee4,1,0.16821463535316072
+'Hasel',de,Winter,#4287f5,#537ee4,1,0.1682146353531607
 'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.1591981577185223
 'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.1415875111339467
-'Ernte',de,Herbst,#9e3215,#d64118,3,0.1380787566518879
 'Herbst',de,Herbst,#9e3215,#9e3215,3,0.135171950260538
 'Laub',de,Herbst,#9e3215,#802d16,3,0.1351711336308367
 'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1331866381881666
 'Sommer',de,Sommer,#a89216,#a89216,3,0.1324784029993909
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1322337842143647
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1310894211155198
+'Ernte',de,Herbst,#9e3215,#d64118,3,0.1305008013359229
 'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1263233220201631
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1216489569830141
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1090618286662068
