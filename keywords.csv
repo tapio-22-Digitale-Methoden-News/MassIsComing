@@ -17,7 +17,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.1090618286662068
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.0794282821826008
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
-'Pollen',de,Frühling,#679e2c,#61d01c,2,0.0738634052461437
+'Pollen',de,Frühling,#679e2c,#61d01c,2,0.07180574303065071
 'Spätfrost',de,Frühling,#679e2c,#477515,1,0.067506210687139
 'Frühblüher',de,Winter,#5287e5,#638ed4,1,0.0627650946579215
 'Erle',de,Winter,#4287f5,#537ef4,1,0.0587056188664342
@@ -28,5 +28,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Forsythie Blüte',de,Frühling,#679e2c,#8db354,1,0.0085625124646111
 'Laubfärbung',de,Herbst,#9e3215,#e63128,1,0.0037854430374512
 'Linde Blüte',de,Sommer,#a89216,#97930f,1,0.0030874845054074
-'Holunderbeere',de,Herbst,#9e3215,#e63128,1,0.000904534078849975
+'Holunderbeere',de,Herbst,#9e3215,#e63128,1,0.0009045340788499
 'Holunder Blüte',de,Sommer,#a89216,#97731f,1,0.0008713664313379
