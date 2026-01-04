@@ -12,8 +12,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1322337842143647
 'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1310894211155198
 'Ernte',de,Herbst,#9e3215,#d64118,3,0.1305008013359229
-'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1263233220201631
 'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1216489569830141
+'Apfelernte',de,Sommer,#a89216,#77731f,1,0.10842492871713863
 'Eicheln',de,Herbst,#9e3215,#f64118,1,0.0928525693662757
 'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.0794282821826008
 'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
