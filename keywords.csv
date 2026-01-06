@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Schnee',de,Winter,#4287f5,#638ed4,3,0.3679552744966454
+'Schnee',de,Winter,#4287f5,#638ed4,3,0.42409777468578486
 'Winter',de,Winter,#4287f5,#315fa8,3,0.2306581064377966
 'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.1991032522016323
 'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1577713964896583
@@ -24,7 +24,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Apfel Blüte',de,Frühling,#679e2c,#6dc344,1,0.049865744912936
 'Aussaat',de,Frühling,#679e2c,#7db344,1,0.0497521916853674
 'Laubfall',de,Winter,#3288e5,#737ee4,1,0.0187718466401824
-'Laubfall',de,Herbst,#9e3215,#802d16,1,0.014788547597334714
+'Laubfall',de,Herbst,#9e3215,#802d16,1,0.0147885475973347
 'Forsythie Blüte',de,Frühling,#679e2c,#8db354,1,0.0061864152556814
 'Linde Blüte',de,Sommer,#a89216,#97930f,1,0.0026243618295962
 'Laubfärbung',de,Herbst,#9e3215,#e63128,1,0.0023247352053746
