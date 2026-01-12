@@ -1,32 +1,18 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Schnee',de,Winter,#4287f5,#638ed4,3,0.4240977746857848
-'Winter',de,Winter,#4287f5,#315fa8,3,0.261387270401308
-'Eiche Laub',de,Herbst,#9e3215,#e64118,1,0.2279346829656792
-'Gewitter',de,Sommer,#a89216,#c4b03b,3,0.1703012594638547
-'Herbst',de,Herbst,#9e3215,#9e3215,3,0.1561709976923891
-'Hasel',de,Winter,#4287f5,#537ee4,1,0.1395117570826221
-'Sommer',de,Sommer,#a89216,#a89216,3,0.1380869380040277
-'Niedrigwasser',de,Sommer,#a89216,#87830f,1,0.1350057770162095
-'Frühling',de,Frühling,#679e2c,#679e2c,3,0.1331866381881666
-'Hochwasser',de,Winter,#4287f5,#022f78,3,0.1322337842143647
-'Laub',de,Herbst,#9e3215,#802d16,3,0.121956971184643
-'Blüte',de,Frühling,#679e2c,#61b00c,3,0.1216489569830141
-'Ernte',de,Herbst,#9e3215,#d64118,3,0.11996848022644355
-'Weinlese',de,Herbst,#9e3215,#b55035,1,0.1117260379481918
-'Apfelernte',de,Sommer,#a89216,#77731f,1,0.1084249287171386
-'Eicheln',de,Herbst,#9e3215,#f64118,1,0.0802748189613343
-'Glatteis',de,Winter,#4287f5,#3b4a63,2,0.0790571405834217
-'Pollen',de,Frühling,#679e2c,#61d01c,2,0.0718057430306507
-'Frühblüher',de,Winter,#5287e5,#638ed4,1,0.0627650946579215
-'Erle',de,Winter,#4287f5,#537ef4,1,0.0587056188664342
-'Schneeglöckchen',de,Winter,#3288e5,#638ed4,1,0.058497044876929
-'Spätfrost',de,Frühling,#679e2c,#477515,1,0.0576803090840681
-'Apfel Blüte',de,Frühling,#679e2c,#6dc344,1,0.049865744912936
-'Aussaat',de,Frühling,#679e2c,#7db344,1,0.0497521916853674
-'Laubfall',de,Winter,#3288e5,#737ee4,1,0.0102770628195916
-'Laubfall',de,Herbst,#9e3215,#802d16,1,0.009467930380713
-'Forsythie Blüte',de,Frühling,#679e2c,#8db354,1,0.0052584529673291
-'Linde Blüte',de,Sommer,#a89216,#97930f,1,0.0026243618295962
-'Laubfärbung',de,Herbst,#9e3215,#e63128,1,0.0019760249245684
-'Holunder Blüte',de,Sommer,#a89216,#97731f,1,0.0008713664313379
-'Holunderbeere',de,Herbst,#9e3215,#e63128,1,0.0005554969911736
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.2751396662905384
+'Lawine',de,Hazard,#4287f5,#c4b03b,3,0.2575071369414691
+'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.1546872721314874
+'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.14328695623342297
+'Schlammlawine',de,Hazard,#4287f5,#802d16,2,0.133108869471083
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.1268991170257372
+'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
+'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
+'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0886545801744594
+'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
+'Lawine Tod',de,Impacts,#802d16,#4287f5,1,0.0863748005703301
+'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0765431678587494
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0605643824847988
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.060190961539702
+'Lawine Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0517859774455342
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0477313466395607
+'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0375503263213304
