@@ -2,9 +2,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.2751396662905384
 'Lawine',de,Hazard,#4287f5,#c4b03b,3,0.2575071369414691
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.1546872721314874
-'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.14328695623342297
+'Neuschnee Lawine',de,Causes,#9e3215,#638ed4,1,0.1432869562334229
 'Schlammlawine',de,Hazard,#4287f5,#802d16,2,0.133108869471083
-'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.1268991170257372
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.10801426447187662
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0943161923996878
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0886545801744594
