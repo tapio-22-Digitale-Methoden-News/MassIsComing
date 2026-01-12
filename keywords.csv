@@ -7,11 +7,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.1080142644718766
 'Massenbewegung',de,Hazard,#4287f5,#a89216,1,0.092989134204606
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
-'Felssturz',de,Hazard,#4287f5,#77731f,1,0.08016876353973464
+'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0801687635397346
 'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0765431678587494
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0753563931482904
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0605643824847988
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.060190961539702
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0517859774455342
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0511623173087467
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0405716446436265
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0375503263213304
