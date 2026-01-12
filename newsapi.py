@@ -583,7 +583,7 @@ def inqRandomNews():
         url = ('https://newsapi.org/v2/everything?'+
             #'q="'+keyWord+'"&'
             'q='+keyWord+'&'
-            'to=2025-12-25&'
+            'to=2026-01-05&'
             'pageSize='+str(pageSize)+'&'
             'language='+language+'&'
             'page='+str(currPage)+'&'
