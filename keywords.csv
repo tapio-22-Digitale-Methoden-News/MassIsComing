@@ -1,8 +1,8 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#4287f5,#802d16,2,0.2482925540504205
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.1445655945140753
-'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.13442033490305275
-'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.1226905414372223
+'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.1344203349030527
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.11833736522163896
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.1083687004847805
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.1080142644718766
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0880943075052201
