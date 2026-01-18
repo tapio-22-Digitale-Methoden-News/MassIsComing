@@ -8,8 +8,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0780403060809308
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.077376310068813
 'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0765431678587494
-'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0756073652792388
-'Massenbewegung',de,Hazard,#4287f5,#a89216,2,0.07364288521282783
+'Massenbewegung',de,Hazard,#4287f5,#a89216,2,0.0736428852128278
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.06756659048735297
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0640529341760468
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.044468125828704
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0436379847124347
