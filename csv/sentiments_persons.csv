@@ -1,85 +1,36 @@
 ,phrase,label,sentiment,subjectivity,language,count
-Laura Dahlmeier,Laura Dahlmeier,PER,0.0,0.35714285714285715,de,2.8
-Karl Geiger,Karl Geiger,PER,0.7142857142857143,0.0,de,2.8
-Lula da Silva,Lula da Silva,PER,0.0,0.0,de,2.0
-Stefan Winter,Stefan Winter,PER,0.0,0.0,de,2.0
-Georg Hackl,Georg Hackl,PER,0.0,0.0,de,1.9
-Guildo Horn,Guildo Horn,PER,0.4473684210526316,0.0,de,1.9
-Edward Limbaga,Edward Limbaga,PER,0.3684210526315789,0.0,de,1.9
-Stefan Horngacher,Stefan Horngacher,PER,1.0526315789473684,0.0,de,1.9
-Jan Zimmermann,Jan Zimmermann,PER,-0.18421052631578946,0.7894736842105263,de,1.9
-Mette Frederiksen,Mette Frederiksen,PER,0.3684210526315789,0.0,de,1.9
-Carl Fabergé,Carl Fabergé,PER,0.5263157894736842,0.0,de,1.9
-Julian Nagelsmann,Julian Nagelsmann,PER,-0.3684210526315789,0.0,de,1.9
-Julia Simon,Julia Simon,PER,-0.5263157894736842,0.0,de,1.9
-Agnes Reisch,Agnes Reisch,PER,0.0,0.0,de,1.9
-Basileios II,Basileios II,PER,0.0,0.0,de,1.9
-Marcus Beyer,Marcus Beyer,PER,0.0,1.0526315789473684,de,1.9
-Heike Schimitzek,Heike Schimitzek,PER,-0.7368421052631579,0.0,de,1.9
-Mesut Özils,Mesut Özils,PER,0.0,0.0,de,1.1
-Giovanni Giacometti,Giovanni Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
-Bruno Giacometti,Bruno Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
-"Taifun ""Fung-Wong","Taifun ""Fung-Wong",PER,0.0,0.0,de,1.1
-Erdogans Schreckensregime,Erdogans Schreckensregime,PER,0.0,0.0,de,1.1
+Laura Dahlmeier,Laura Dahlmeier,PER,0.6071428571428572,0.35714285714285715,de,2.8
+Stefan Winter,Stefan Winter,PER,0.0,0.0,de,1.6
+"Taifun ""Fung-Wong","Taifun ""Fung-Wong",PER,0.0,0.0,de,1.4
+Thomas Kleinen,Thomas Kleinen,PER,0.0,0.0,de,1.3
 Sam Garrett,Sam Garrett,PER,0.0,0.0,de,1.1
-Jan Zimmermanns,Jan Zimmermanns,PER,0.0,0.0,de,1.0
-Bergführer Klaus,Bergführer Klaus,PER,0.35,0.5,de,1.0
-Baschar Eid,Baschar Eid,PER,0.7,0.0,de,1.0
-Otto Schenks La Bohème,Otto Schenks La Bohème,PER,0.0,0.0,de,1.0
-Alejo Sarco,Alejo Sarco,PER,0.0,0.0,de,1.0
-André Karwath,André Karwath,PER,0.0,0.0,de,1.0
-Schwarzbäuchige Taufliege,Schwarzbäuchige Taufliege,PER,0.0,0.0,de,1.0
-Tobias Költzsch,Tobias Költzsch,PER,0.7,0.0,de,1.0
-SkiSicherheitsriskio Limbaga,SkiSicherheitsriskio Limbaga,PER,0.7,0.0,de,1.0
-Exequiel Palacios,Exequiel Palacios,PER,0.0,0.0,de,1.0
-Christian Ilzer,Christian Ilzer,PER,0.7,0.0,de,1.0
-Stefanie Markert,Stefanie Markert,PER,0.0,0.0,de,1.0
-Jeanne Richard,Jeanne Richard,PER,-1.0,0.0,de,1.0
-Martin Fourcade Gegenwind,Martin Fourcade Gegenwind,PER,0.0,0.0,de,1.0
-Roy Marsh,Roy Marsh,PER,0.7,0.0,de,1.0
-Arc Raiders,Arc Raiders,PER,0.0,0.0,de,1.0
-Und womö,Und womö,PER,0.0,0.0,de,1.0
-Luca Roth,Luca Roth,PER,0.0,0.0,de,1.0
-Equi Fernández,Equi Fernández,PER,0.0,0.0,de,1.0
-hochalpin Schneefeld,hochalpin Schneefeld,PER,0.0,0.0,de,1.0
-Schlagersänger Guildo Hor,Schlagersänger Guildo Hor,PER,0.0,0.0,de,1.0
-Schlagersänger Guildo Horn,Schlagersänger Guildo Horn,PER,0.7,0.0,de,1.0
-Sicherheitsriskio Limbaga,Sicherheitsriskio Limbaga,PER,0.7,0.0,de,1.0
-Frank Thelen,Frank Thelen,PER,1.0,0.0,de,1.0
-Leonardo DiCaprio,Leonardo DiCaprio,PER,-1.0,0.0,de,1.0
-Schuh Olympia-Ticket,Schuh Olympia-Ticket,PER,0.7,0.0,de,1.0
-Hokusais grosse Welle der Lust,Hokusais grosse Welle der Lust,PER,0.7,0.0,de,1.0
-Rok Aznoh,Rok Aznoh,PER,0.0,0.0,de,1.0
-Thomas Huber,Thomas Huber,PER,0.0,0.0,de,1.0
-Konzert von Sam Garrett,Konzert von Sam Garrett,PER,0.0,0.0,de,1.0
-© Sina,© Sina,PER,0.0,0.0,de,1.0
-Wilhelm Lehmbruck,Wilhelm Lehmbruck,PER,0.0,0.0,de,1.0
-Gottfried Is,Gottfried Is,PER,0.0,0.0,de,1.0
-Hurrikan Melissa,Hurrikan Melissa,PER,-1.0,0.0,de,1.0
-Miguel Díaz-Canel,Miguel Díaz-Canel,PER,1.0,0.0,de,1.0
-Indian Summer am Neckar,Indian Summer am Neckar,PER,0.0,0.0,de,1.0
-Paul Heg,Paul Heg,PER,0.0,0.0,de,1.0
-Tufan Erhürman,Tufan Erhürman,PER,-1.0,0.0,de,1.0
-Alberto Giacometti,Alberto Giacometti,PER,0.0,0.0,de,1.0
-Andreas Dahlmeier,Andreas Dahlmeier,PER,0.7,0.0,de,1.0
-Thomas Kleinen,Thomas Kleinen,PER,0.0,0.0,de,1.0
-Susan Tessier,Susan Tessier,PER,0.0,0.0,de,1.0
-Mesut Özil,Mesut Özil,PER,0.0,0.0,de,1.0
+Bruno Giacometti,Bruno Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
+Giovanni Giacometti,Giovanni Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
+Erdogans Schreckensregime,Erdogans Schreckensregime,PER,0.0,0.0,de,1.1
+Freddie Mercury,Freddie Mercury,PER,0.0,0.0,de,1.0
 Christina Biasi,Christina Biasi,PER,1.0,0.0,de,1.0
 Selma Lugtmeijer,Selma Lugtmeijer,PER,0.0,0.0,de,1.0
 Albert Rösti,Albert Rösti,PER,0.0,0.0,de,1.0
-Freddie Mercury,Freddie Mercury,PER,0.0,0.0,de,1.0
+Bergführer Klaus,Bergführer Klaus,PER,0.35,0.5,de,1.0
 Frank Aischmann,Frank Aischmann,PER,0.0,0.0,de,1.0
 Fortschritte beim,Fortschritte beim,PER,0.0,0.0,de,1.0
 Ramon Antonio Rodriguez,Ramon Antonio Rodriguez,PER,0.0,0.0,de,1.0
 Harald Mahrer,Harald Mahrer,PER,-1.0,0.0,de,1.0
 Peter Buchmülle,Peter Buchmülle,PER,-1.0,0.0,de,1.0
 Quirino K,Quirino K,PER,0.0,0.0,de,1.0
-Anhänger von Hygge,Anhänger von Hygge,PER,0.0,0.0,de,1.0
-Draußen Schneegestöber,Draußen Schneegestöber,PER,0.0,0.0,de,1.0
-Teslas Autopilot,Teslas Autopilot,PER,0.0,0.0,de,1.0
-Tesla-Chef Elon Musk,Tesla-Chef Elon Musk,PER,0.16666666666666666,0.3333333333333333,de,1.0
-Mona Lisa,Mona Lisa,PER,0.0,0.0,de,1.0
-Erlebe Meisterwerke,Erlebe Meisterwerke,PER,0.0,0.0,de,1.0
-Laub rechen,Laub rechen,PER,0.0,1.0,de,1.0
-Dora Herbst,Dora Herbst,PER,-0.10000000000000002,0.3333333333333333,de,1.0
+Konzert von Sam Garrett,Konzert von Sam Garrett,PER,0.0,0.0,de,1.0
+Wilhelm Lehmbruck,Wilhelm Lehmbruck,PER,0.0,0.0,de,1.0
+© Sina,© Sina,PER,0.0,0.0,de,1.0
+Mesut Özils,Mesut Özils,PER,0.0,0.0,de,1.0
+Gottfried Is,Gottfried Is,PER,0.0,0.0,de,1.0
+Lula da Silva,Lula da Silva,PER,0.0,0.0,de,1.0
+Hurrikan Melissa,Hurrikan Melissa,PER,-1.0,0.0,de,1.0
+Miguel Díaz-Canel,Miguel Díaz-Canel,PER,1.0,0.0,de,1.0
+Thomas Huber,Thomas Huber,PER,1.7,0.0,de,1.0
+Indian Summer am Neckar,Indian Summer am Neckar,PER,0.0,0.0,de,1.0
+Tufan Erhürman,Tufan Erhürman,PER,-1.0,0.0,de,1.0
+Alberto Giacometti,Alberto Giacometti,PER,0.0,0.0,de,1.0
+Andreas Dahlmeier,Andreas Dahlmeier,PER,1.5499999999999998,0.0,de,1.0
+Susan Tessier,Susan Tessier,PER,0.0,0.0,de,1.0
+Mesut Özil,Mesut Özil,PER,0.0,0.0,de,1.0
+Laura Dahlmeiers,Laura Dahlmeiers,PER,1.0,0.0,de,1.0

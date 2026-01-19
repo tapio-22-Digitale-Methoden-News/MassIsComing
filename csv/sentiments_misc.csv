@@ -1,263 +1,139 @@
 ,phrase,label,sentiment,subjectivity,language,count
-deutsche,deutsche,MISC,,,de,60.89999999999997
-Deutsche,Deutsche,MISC,,,de,31.5
-Deutscher,Deutscher,MISC,,,de,21.9
-“,“,MISC,-1.0,1.0,de,19.5
-deutschen,deutschen,MISC,,,de,16.900000000000002
+deutsche,deutsche,MISC,,,de,38.00000000000004
+Deutsche,Deutsche,MISC,,,de,20.400000000000002
+Deutscher,Deutscher,MISC,,,de,13.899999999999995
+“,“,MISC,0.7,0.0,de,9.4
+deutschen,deutschen,MISC,,,de,8.699999999999998
+italienischen,italienischen,MISC,,,de,5.199999999999999
+italienische,italienische,MISC,,,de,4.300000000000001
+Schweizer,Schweizer,MISC,,,de,3.8000000000000003
+spanische,spanische,MISC,,,de,3.5
+Deutschen,Deutschen,MISC,,,de,3.4000000000000004
 "Link
 ","Link
-",MISC,,,de,16.300000000000004
-italienischen,italienischen,MISC,,,de,10.700000000000001
-italienische,italienische,MISC,,,de,5.7
-Deutschen,Deutschen,MISC,,,de,4.9
-Drei Tote,Drei Tote,MISC,,,de,4.0
-spanischen,spanischen,MISC,,,de,3.6999999999999997
-Wetter“,Wetter“,MISC,,,de,3.6999999999999997
-Weihnachten,Weihnachten,MISC,,,de,3.6999999999999997
-norditalienischen,norditalienischen,MISC,,,de,3.6999999999999997
-S…,S…,MISC,,,de,2.9
-Zahl der Toten,Zahl der Toten,MISC,,,de,2.9
-Lawinenunglück,Lawinenunglück,MISC,-0.04729729729729729,0.0,de,2.9
-russischen,russischen,MISC,,,de,2.8
-amerikanischen,amerikanischen,MISC,,,de,2.8
-Einsatz bei Schnee und Eis,Einsatz bei Schnee und Eis,MISC,,,de,2.8
-Capital</li><li>4,Capital</li><li>4,MISC,,,de,2.8
-stern+,stern+,MISC,,,de,2.8
-stern+statt,stern+statt,MISC,,,de,2.8
-indischen,indischen,MISC,,,de,2.8
+",MISC,,,de,3.0999999999999996
+Drei Tote,Drei Tote,MISC,,,de,2.8000000000000003
+S…,S…,MISC,,,de,2.2
+Lawinenunglück,Lawinenunglück,MISC,-0.07142857142857144,0.0,de,2.2
 Zeit,Zeit,MISC,,,de,2.0
-Himalaya“,Himalaya“,MISC,,,de,2.0
-Todesopfer des Lawinenunglücks,Todesopfer des Lawinenunglücks,MISC,,,de,2.0
-Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,2.0
-Bergsteiger-Gruppe,Bergsteiger-Gruppe,MISC,,,de,2.0
-Herr Winter,Herr Winter,MISC,,,de,2.0
-Momente,Momente,MISC,,,de,1.9
-Leise rieselt der Schnee,Leise rieselt der Schnee,MISC,,,de,1.9
-Rodel-Legende,Rodel-Legende,MISC,,,de,1.9
-Notfälle“,Notfälle“,MISC,,,de,1.9
-’s,’s,MISC,,,de,1.9
-Weltcup,Weltcup,MISC,,,de,1.9
-Heimweltcup,Heimweltcup,MISC,,,de,1.9
-Alle Jahre wieder,Alle Jahre wieder,MISC,,,de,1.9
-Winter-Monaten,Winter-Monaten,MISC,,,de,1.9
-WM,WM,MISC,,,de,1.9
-Russischer,Russischer,MISC,,,de,1.9
-kalifornischen,kalifornischen,MISC,,,de,1.9
-Schweizer,Schweizer,MISC,,,de,1.3000000000000003
-Ice Age,Ice Age,MISC,,,de,1.2000000000000002
+amerikanischen,amerikanischen,MISC,,,de,1.8
+Herr Winter,Herr Winter,MISC,,,de,1.6
+Notfälle“,Notfälle“,MISC,,,de,1.6
+Bergsteiger-Gruppe,Bergsteiger-Gruppe,MISC,,,de,1.6
+Todesopfer des Lawinenunglücks,Todesopfer des Lawinenunglücks,MISC,,,de,1.6
+Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,1.6
+Himalaya“,Himalaya“,MISC,,,de,1.6
+Zahl der Toten,Zahl der Toten,MISC,,,de,1.4
 The Hunt“,The Hunt“,MISC,,,de,1.2000000000000002
 Apple TV+,Apple TV+,MISC,,,de,1.2000000000000002
-SERIE,SERIE,MISC,,,de,1.1
-Warmwasser-Korallenriffe,Warmwasser-Korallenriffe,MISC,,,de,1.1
-Bobbycar,Bobbycar,MISC,,,de,1.1
-SVP-Bundesrat,SVP-Bundesrat,MISC,,,de,1.1
-Apple TV,Apple TV,MISC,,,de,1.1
-Staffel 3“,Staffel 3“,MISC,,,de,1.1
-brasilianischen,brasilianischen,MISC,,,de,1.1
-Ein Planet vor unserer Zeit“,Ein Planet vor unserer Zeit“,MISC,,,de,1.1
-Glücklichen Menschen,Glücklichen Menschen,MISC,,,de,1.1
-CO2,CO2,MISC,,,de,1.1
+Ice Age,Ice Age,MISC,,,de,1.2000000000000002
 polnische,polnische,MISC,,,de,1.1
 Prehistoric Planet,Prehistoric Planet,MISC,,,de,1.1
-Lily,Lily,MISC,,,de,1.0
-MediaMarkt,MediaMarkt,MISC,,,de,1.0
-Samsungs,Samsungs,MISC,,,de,1.0
-Netflix-Serie,Netflix-Serie,MISC,,,de,1.0
-Aka/ CC BY-SA,Aka/ CC BY-SA,MISC,,,de,1.0
-La Boheme“,La Boheme“,MISC,,,de,1.0
-Aktuell rieselt der Kunstschnee,Aktuell rieselt der Kunstschnee,MISC,,,de,1.0
-Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1.0
-polnischen,polnischen,MISC,,,de,1.0
-Weiße Weihnacht,Weiße Weihnacht,MISC,,,de,1.0
-TTS-Player,TTS-Player,MISC,,,de,1.0
-stam…,stam…,MISC,,,de,1.0
-Berliner,Berliner,MISC,,,de,1.0
-Winterdienst-Standorten,Winterdienst-Standorten,MISC,,,de,1.0
-BVG,BVG,MISC,0.0,0.0,de,1.0
-Schnee und Eis,Schnee und Eis,MISC,,,de,1.0
-Eis“,Eis“,MISC,,,de,1.0
-Was Sie über den Winterdienst in Berlin,Was Sie über den Winterdienst in Berlin,MISC,,,de,1.0
-Au…,Au…,MISC,,,de,1.0
-Ein graues zweites Adventswochenende,Ein graues zweites Adventswochenende,MISC,,,de,1.0
-die kalte Jahre,die kalte Jahre,MISC,,,de,1.0
-Byzanz,Byzanz,MISC,,,de,1.0
-byzantinische,byzantinische,MISC,,,de,1.0
-Sc…,Sc…,MISC,,,de,1.0
-Wetteraussichten“,Wetteraussichten“,MISC,,,de,1.0
-Woch…,Woch…,MISC,,,de,1.0
-Olympia-Winter,Olympia-Winter,MISC,,,de,1.0
-slowenischen,slowenischen,MISC,,,de,1.0
-G…,G…,MISC,,,de,1.0
-Nikolaustag“,Nikolaustag“,MISC,,,de,1.0
-Wettervorhersage“,Wettervorhersage“,MISC,,,de,1.0
-Streaming-Partner…,Streaming-Partner…,MISC,,,de,1.0
-Nikolaus-Wochenende,Nikolaus-Wochenende,MISC,,,de,1.0
-Flucht im Winter,Flucht im Winter,MISC,,,de,1.0
-Schlacht ge,Schlacht ge,MISC,,,de,1.0
-nuklearbetriebener,nuklearbetriebener,MISC,,,de,1.0
-russischer,russischer,MISC,,,de,1.0
-LNG-Tanker,LNG-Tanker,MISC,,,de,1.0
-Buran,Buran,MISC,,,de,1.0
-Barentsobserver,Barentsobserver,MISC,,,de,1.0
-Heim-Weltcup,Heim-Weltcup,MISC,,,de,1.0
-Skisprung-Routiniers,Skisprung-Routiniers,MISC,,,de,1.0
-AWI-Forscher,AWI-Forscher,MISC,,,de,1.0
-Alfred-Wegener-Instituts,Alfred-Wegener-Instituts,MISC,,,de,1.0
-Spezialstoff …,Spezialstoff …,MISC,,,de,1.0
-Büc…,Büc…,MISC,,,de,1.0
-"WALTER WILLE
-","WALTER WILLE
-",MISC,,,de,1.0
-Cold Snap,Cold Snap,MISC,,,de,1.0
-Dezember-Update,Dezember-Update,MISC,,,de,1.0
-Herbst und Winter,Herbst und Winter,MISC,,,de,1.0
-me…,me…,MISC,,,de,1.0
-französische,französische,MISC,,,de,1.0
-ePaper,ePaper,MISC,,,de,1.0
-E-Paper,E-Paper,MISC,0.0,0.0,de,1.0
-"Die Modekönige</li>
-<li","Die Modekönige</li>
-<li",MISC,,,de,1.0
-"Sternen</li>
-<","Sternen</li>
-<",MISC,,,de,1.0
-Pannenstatistik-Alarm,Pannenstatistik-Alarm,MISC,,,de,1.0
-ADAC-Pannenstatistik 2024,ADAC-Pannenstatistik 2024,MISC,,,de,1.0
-… Arc Raiders,… Arc Raiders,MISC,,,de,1.0
-Skisaison,Skisaison,MISC,,,de,1.0
-Nachbarn,Nachbarn,MISC,-0.35714285714285715,0.0,de,1.0
-argentinische,argentinische,MISC,,,de,1.0
-Euro,Euro,MISC,,,de,1.0
-einz…,einz…,MISC,,,de,1.0
-Todesopfer durch hohe Wellen,Todesopfer durch hohe Wellen,MISC,,,de,1.0
-Spuren im Sand am Strand,Spuren im Sand am Strand,MISC,,,de,1.0
-… Spuren im Sand am Strand,… Spuren im Sand am Strand,MISC,,,de,1.0
-"Formentera
-","Formentera
-",MISC,,,de,1.0
-Tages,Tages,MISC,,,de,1.0
-IbizaHEUTE,IbizaHEUTE,MISC,-0.3684210526315789,0.0,de,1.0
-Gewitter im Kopf,Gewitter im Kopf,MISC,,,de,1.0
-Deutschen Wette,Deutschen Wette,MISC,,,de,1.0
-Leihe im Winter,Leihe im Winter,MISC,,,de,1.0
-Gutes Jahr für Nordmanntannen,Gutes Jahr für Nordmanntannen,MISC,,,de,1.0
-Das schmutzige Geheimnis der Skipisten,Das schmutzige Geheimnis der Skipisten,MISC,,,de,1.0
-Titanic,Titanic,MISC,,,de,1.0
-"Instagram
-","Instagram
-",MISC,,,de,1.0
-Instagram,Instagram,MISC,,,de,1.0
-Schmetterling,Schmetterling,MISC,,,de,1.0
-Branche …,Branche …,MISC,,,de,1.0
-Warmes Winterwetter,Warmes Winterwetter,MISC,,,de,1.0
-Warmes Winterwetter“,Warmes Winterwetter“,MISC,,,de,1.0
-Langlauf-Weltcup,Langlauf-Weltcup,MISC,,,de,1.0
-"Weltcup
-","Weltcup
-",MISC,,,de,1.0
-Guildo,Guildo,MISC,,,de,1.0
-Natu…,Natu…,MISC,,,de,1.0
-Ärger im Herbst - Laub,Ärger im Herbst - Laub,MISC,,,de,1.0
-dänische,dänische,MISC,,,de,1.0
-Herbstprogramm“,Herbstprogramm“,MISC,,,de,1.0
-Lawinenun…,Lawinenun…,MISC,,,de,1.0
-CH4,CH4,MISC,,,de,1.0
-Sacharow-Preis,Sacharow-Preis,MISC,,,de,1.0
-Die meisten Bewohner,Die meisten Bewohner,MISC,,,de,1.0
-…“,…“,MISC,,,de,1.0
-Wetterbericht“,Wetterbericht“,MISC,,,de,1.0
-Blähbauch und…,Blähbauch und…,MISC,,,de,1.0
-Schwere Winde und Überflutungen,Schwere Winde und Überflutungen,MISC,,,de,1.0
-Klima-Kipppunkte,Klima-Kipppunkte,MISC,,,de,1.0
-Drei deutsche Bergsteiger,Drei deutsche Bergsteiger,MISC,,,de,1.0
-Ortlergbirge,Ortlergbirge,MISC,,,de,1.0
-Tragödie in Südtirol,Tragödie in Südtirol,MISC,,,de,1.0
-griechischen,griechischen,MISC,,,de,1.0
-Fünf Deutsche,Fünf Deutsche,MISC,,,de,1.0
-Sonntagnachmittag,Sonntagnachmittag,MISC,,,de,1.0
-Erdbebengebiete,Erdbebengebiete,MISC,,,de,1.0
-Erd­beben,Erd­beben,MISC,,,de,1.0
-Kunsthaus-Ausstellung,Kunsthaus-Ausstellung,MISC,,,de,1.0
-Die menschliche Gestalt,Die menschliche Gestalt,MISC,,,de,1.0
-Aufstiegs,Aufstiegs,MISC,,,de,1.0
-Gerätselt wir…,Gerätselt wir…,MISC,,,de,1.0
-Ein Stein im Ausmaß,Ein Stein im Ausmaß,MISC,,,de,1.0
-Ge…,Ge…,MISC,,,de,1.0
-Methan,Methan,MISC,0.0,0.0,de,1.0
-türkischen,türkischen,MISC,,,de,1.0
-Re…,Re…,MISC,,,de,1.0
-Klima-Kipppunkts,Klima-Kipppunkts,MISC,,,de,1.0
-schwedischen,schwedischen,MISC,,,de,1.0
-Freistaat,Freistaat,MISC,0.0,0.0,de,1.0
-Erdbeben auf den Philippinen,Erdbeben auf den Philippinen,MISC,,,de,1.0
-spanische,spanische,MISC,,,de,1.0
-Party-Insel,Party-Insel,MISC,,,de,1.0
-Chaos“,Chaos“,MISC,,,de,1.0
-Hotel-Evakuierung“,Hotel-Evakuierung“,MISC,,,de,1.0
-goldenen Herbst,goldenen Herbst,MISC,,,de,1.0
-Busunglück“,Busunglück“,MISC,,,de,1.0
-Steinschlags,Steinschlags,MISC,,,de,1.0
-deutschsprachige,deutschsprachige,MISC,,,de,1.0
-The Masquerade Bloodlines 2 d…,The Masquerade Bloodlines 2 d…,MISC,,,de,1.0
-tauender Permafrost,tauender Permafrost,MISC,,,de,1.0
-T…,T…,MISC,,,de,1.0
-norwegische,norwegische,MISC,,,de,1.0
-BVB-Transfer,BVB-Transfer,MISC,,,de,1.0
-reichli…,reichli…,MISC,,,de,1.0
-Horror-Lawine,Horror-Lawine,MISC,,,de,1.0
-Schweizer Alpen-Dorfes,Schweizer Alpen-Dorfes,MISC,,,de,1.0
-Das Bergell,Das Bergell,MISC,,,de,1.0
-Story-Kracher,Story-Kracher,MISC,,,de,1.0
-Steam,Steam,MISC,,,de,1.0
-Todesopfer des L…,Todesopfer des L…,MISC,,,de,1.0
-Lawinenunglück“,Lawinenunglück“,MISC,,,de,1.0
-Tag unterweg…,Tag unterweg…,MISC,,,de,1.0
-indonesischen,indonesischen,MISC,,,de,1.0
-kolumbianische,kolumbianische,MISC,,,de,1.0
-kolumbianischen,kolumbianischen,MISC,,,de,1.0
-picture alliance/dpa/VNExpress via AP,picture alliance/dpa/VNExpress via AP,MISC,,,de,1.0
-Schlimmes Unwetter und Erdrutsche,Schlimmes Unwetter und Erdrutsche,MISC,,,de,1.0
-s…,s…,MISC,0.0,0.0,de,1.0
-sozialdemokratische,sozialdemokratische,MISC,,,de,1.0
-Eis,Eis,MISC,,,de,1.0
-weiterlesenPorträt-Klassiker,weiterlesenPorträt-Klassiker,MISC,,,de,1.0
-Mord-Fall,Mord-Fall,MISC,,,de,1.0
-Wer ist der Mann im Laub,Wer ist der Mann im Laub,MISC,,,de,1.0
-Erdrutschen u…,Erdrutschen u…,MISC,,,de,1.0
-Schneemas…,Schneemas…,MISC,,,de,1.0
-indonesische,indonesische,MISC,,,de,1.0
-Ein Tropensturm,Ein Tropensturm,MISC,,,de,1.0
-Hokusai a…,Hokusai a…,MISC,,,de,1.0
-Sachsen,Sachsen,MISC,-0.2173913043478261,0.0,de,1.0
-Erfurt/Offenbach,Erfurt/Offenbach,MISC,,,de,1.0
-Der Donnerstag,Der Donnerstag,MISC,,,de,1.0
-De…,De…,MISC,,,de,1.0
-Fußball-Nationalmannschaft,Fußball-Nationalmannschaft,MISC,,,de,1.0
-Der Juni stach,Der Juni stach,MISC,,,de,1.0
-Juni der Jahre 2003,Juni der Jahre 2003,MISC,,,de,1.0
-Armero,Armero,MISC,0.0,0.0,de,1.0
-Die Zahl der Toten,Die Zahl der Toten,MISC,,,de,1.0
-n&auml;mlich,n&auml;mlich,MISC,,,de,1.0
+SVP-Bundesrat,SVP-Bundesrat,MISC,,,de,1.1
+Glücklichen Menschen,Glücklichen Menschen,MISC,,,de,1.1
+Apple TV,Apple TV,MISC,,,de,1.1
+Ein Planet vor unserer Zeit“,Ein Planet vor unserer Zeit“,MISC,,,de,1.1
+CO2,CO2,MISC,,,de,1.1
+Staffel 3“,Staffel 3“,MISC,,,de,1.1
+brasilianischen,brasilianischen,MISC,,,de,1.1
+Warmwasser-Korallenriffe,Warmwasser-Korallenriffe,MISC,,,de,1.1
+Bobbycar,Bobbycar,MISC,,,de,1.1
+SERIE,SERIE,MISC,,,de,1.1
 vier Jahre Zeit,vier Jahre Zeit,MISC,,,de,1.0
-Sieben Tote bei Lawinenunglück,Sieben Tote bei Lawinenunglück,MISC,,,de,1.0
-Expeditions-Unternehmen,Expeditions-Unternehmen,MISC,,,de,1.0
-Sieben Tote,Sieben Tote,MISC,,,de,1.0
-Tragödie im Himalaya,Tragödie im Himalaya,MISC,,,de,1.0
-Dienstag,Dienstag,MISC,,,de,1.0
-Lawi…,Lawi…,MISC,,,de,1.0
+Silvrettagruppe 2023,Silvrettagruppe 2023,MISC,,,de,1.0
+Indiana Jones Epic Stunt … Kopiere,Indiana Jones Epic Stunt … Kopiere,MISC,,,de,1.0
+Driver Days“,Driver Days“,MISC,,,de,1.0
+Polestars Elektro-Modellen 2,Polestars Elektro-Modellen 2,MISC,,,de,1.0
+Zeit mit jedem Jahr schneller,Zeit mit jedem Jahr schneller,MISC,,,de,1.0
+Wahrnehmung von Zeit,Wahrnehmung von Zeit,MISC,,,de,1.0
+Survival-Spiele,Survival-Spiele,MISC,,,de,1.0
+Survival-Spiel,Survival-Spiel,MISC,,,de,1.0
 e…,e…,MISC,0.0,0.0,de,1.0
 Ökologin,Ökologin,MISC,,,de,1.0
-Survival-Spiel,Survival-Spiel,MISC,,,de,1.0
-Survival-Spiele,Survival-Spiele,MISC,,,de,1.0
-Wahrnehmung von Zeit,Wahrnehmung von Zeit,MISC,,,de,1.0
-Zeit mit jedem Jahr schneller,Zeit mit jedem Jahr schneller,MISC,,,de,1.0
-Polestars Elektro-Modellen 2,Polestars Elektro-Modellen 2,MISC,,,de,1.0
-Driver Days“,Driver Days“,MISC,,,de,1.0
 Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
-D…,D…,MISC,0.0,0.0,de,1.0
-sic…,sic…,MISC,,,de,1.0
-The Hunt,The Hunt,MISC,,,de,1.0
+Lawi…,Lawi…,MISC,,,de,1.0
+Dienstag,Dienstag,MISC,,,de,1.0
+Tragödie im Himalaya,Tragödie im Himalaya,MISC,,,de,1.0
+Verkehr“,Verkehr“,MISC,,,de,1.0
+L…,L…,MISC,,,de,1.0
+Sieben Tote,Sieben Tote,MISC,,,de,1.0
+L431,L431,MISC,-0.7,0.0,de,1.0
+Expeditions-Unternehmen,Expeditions-Unternehmen,MISC,,,de,1.0
+kalifornischen,kalifornischen,MISC,,,de,1.0
+Garmi…,Garmi…,MISC,,,de,1.0
+Blickpunkt Sport,Blickpunkt Sport,MISC,,,de,1.0
+kolumbianischen,kolumbianischen,MISC,,,de,1.0
+…,…,MISC,0.3846153846153846,0.0,de,1.0
 Staffel 3,Staffel 3,MISC,,,de,1.0
-…,…,MISC,0.1515151515151515,0.0,de,1.0
+The Hunt,The Hunt,MISC,,,de,1.0
+Sieben Tote bei Lawinenunglück,Sieben Tote bei Lawinenunglück,MISC,,,de,1.0
+n&auml;mlich,n&auml;mlich,MISC,,,de,1.0
+Die Zahl der Toten,Die Zahl der Toten,MISC,,,de,1.0
+Armero,Armero,MISC,0.0,0.0,de,1.0
+kolumbianische,kolumbianische,MISC,,,de,1.0
+picture alliance/dpa/VNExpress via AP,picture alliance/dpa/VNExpress via AP,MISC,,,de,1.0
+ge…,ge…,MISC,,,de,1.0
+sic…,sic…,MISC,,,de,1.0
+D…,D…,MISC,0.0,0.0,de,1.0
+Schlimmes Unwetter und Erdrutsche,Schlimmes Unwetter und Erdrutsche,MISC,,,de,1.0
+s…,s…,MISC,,,de,1.0
+Erdrutsch im Jahr 2023,Erdrutsch im Jahr 2023,MISC,,,de,1.0
+Kär…,Kär…,MISC,,,de,1.0
+"Bild""-Zeitung","Bild""-Zeitung",MISC,,,de,1.0
 INTERVIEW,INTERVIEW,MISC,,,de,1.0
-Ma…,Ma…,MISC,,,de,1.0
+Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1.0
+Die menschliche Gestalt,Die menschliche Gestalt,MISC,,,de,1.0
+Schneemas…,Schneemas…,MISC,,,de,1.0
+tauender Permafrost,tauender Permafrost,MISC,,,de,1.0
+türkischen,türkischen,MISC,,,de,1.0
+The Masquerade Bloodlines 2 d…,The Masquerade Bloodlines 2 d…,MISC,,,de,1.0
+Steam,Steam,MISC,,,de,1.0
+Story-Kracher,Story-Kracher,MISC,,,de,1.0
+Das Bergell,Das Bergell,MISC,,,de,1.0
+Schweizer Alpen-Dorfes,Schweizer Alpen-Dorfes,MISC,,,de,1.0
+Horror-Lawine,Horror-Lawine,MISC,,,de,1.0
+reichli…,reichli…,MISC,,,de,1.0
+BVB-Transfer,BVB-Transfer,MISC,,,de,1.0
+norwegische,norwegische,MISC,,,de,1.0
+T…,T…,MISC,,,de,1.0
+deutschsprachige,deutschsprachige,MISC,,,de,1.0
+Tag unterweg…,Tag unterweg…,MISC,,,de,1.0
+Klima-Kipppunkts,Klima-Kipppunkts,MISC,,,de,1.0
+Steinschlags,Steinschlags,MISC,,,de,1.0
+Busunglück“,Busunglück“,MISC,,,de,1.0
+goldenen Herbst,goldenen Herbst,MISC,,,de,1.0
+Wetter“,Wetter“,MISC,,,de,1.0
+Hotel-Evakuierung“,Hotel-Evakuierung“,MISC,,,de,1.0
+Chaos“,Chaos“,MISC,,,de,1.0
+Party-Insel,Party-Insel,MISC,,,de,1.0
+Erdbeben auf den Philippinen,Erdbeben auf den Philippinen,MISC,,,de,1.0
+Freistaat,Freistaat,MISC,0.0,0.0,de,1.0
+schwedischen,schwedischen,MISC,,,de,1.0
+griechischen,griechischen,MISC,,,de,1.0
+Methan,Methan,MISC,0.0,0.0,de,1.0
+CH4,CH4,MISC,,,de,1.0
+Sacharow-Preis,Sacharow-Preis,MISC,,,de,1.0
+Lawinenunglück“,Lawinenunglück“,MISC,,,de,1.0
+Todesopfer des L…,Todesopfer des L…,MISC,,,de,1.0
+Ge…,Ge…,MISC,,,de,1.0
+Ein Stein im Ausmaß,Ein Stein im Ausmaß,MISC,,,de,1.0
+Gerätselt wir…,Gerätselt wir…,MISC,,,de,1.0
+Aufstiegs,Aufstiegs,MISC,,,de,1.0
+Eis,Eis,MISC,,,de,1.0
+Kunsthaus-Ausstellung,Kunsthaus-Ausstellung,MISC,,,de,1.0
+Erd­beben,Erd­beben,MISC,,,de,1.0
+Erdbebengebiete,Erdbebengebiete,MISC,,,de,1.0
+Sonntagnachmittag,Sonntagnachmittag,MISC,,,de,1.0
+norditalienischen,norditalienischen,MISC,,,de,1.0
+Fünf Deutsche,Fünf Deutsche,MISC,,,de,1.0
+Tragödie in Südtirol,Tragödie in Südtirol,MISC,,,de,1.0
+Lawinenun…,Lawinenun…,MISC,,,de,1.0
+Ortlergbirge,Ortlergbirge,MISC,,,de,1.0
+Drei deutsche Bergsteiger,Drei deutsche Bergsteiger,MISC,,,de,1.0
+Klima-Kipppunkte,Klima-Kipppunkte,MISC,,,de,1.0
+Schwere Winde und Überflutungen,Schwere Winde und Überflutungen,MISC,,,de,1.0
+Blähbauch und…,Blähbauch und…,MISC,,,de,1.0
+Wetterbericht“,Wetterbericht“,MISC,,,de,1.0
+…“,…“,MISC,,,de,1.0
+Die meisten Bewohner,Die meisten Bewohner,MISC,,,de,1.0
+Plöckenpass-Baustelle,Plöckenpass-Baustelle,MISC,,,de,1.0

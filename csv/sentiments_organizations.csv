@@ -1,147 +1,89 @@
 ,phrase,label,sentiment,subjectivity,language,count
 "Link
 ","Link
-",ORG,-1.016239316239316,0.017094017094017092,de,19.5
-DWD,DWD,ORG,-0.01149425287356321,0.0,de,14.500000000000004
-italienischen Bergwacht,italienischen Bergwacht,ORG,-0.07865168539325842,0.0,de,8.9
-BSR,BSR,ORG,0.2926829268292682,0.1219512195121951,de,8.200000000000001
-Lawine,Lawine,ORG,-0.38,0.0,de,7.5
-Ortler-Alpen,Ortler-Alpen,ORG,0.0,0.0,de,5.7
-Permafrost,Permafrost,ORG,-0.17857142857142855,0.0,de,5.6000000000000005
-Bergwacht,Bergwacht,ORG,0.053571428571428575,0.0,de,5.6000000000000005
-TTS-Player,TTS-Player,ORG,-0.5238095238095238,0.11904761904761905,de,2.8
-ei…,ei…,ORG,0.0,0.0,de,2.8
-GEO,GEO,ORG,1.0714285714285714,0.0,de,2.8
-Deutsche Wetterdienst,Deutsche Wetterdienst,ORG,-0.11904761904761905,0.0,de,2.8
-Deutschen Pre…,Deutschen Pre…,ORG,0.0,0.0,de,2.0
-Lawine e…,Lawine e…,ORG,0.0,0.0,de,2.0
-Lawin…,Lawin…,ORG,0.0,0.0,de,2.0
-Kletterern a…,Kletterern a…,ORG,0.0,0.0,de,2.0
-Deutschen Alpenverein,Deutschen Alpenverein,ORG,0.0,0.0,de,2.0
-TSG Hoffenheim,TSG Hoffenheim,ORG,0.0,0.0,de,1.9
-Deutschen Wetterdienstes,Deutschen Wetterdienstes,ORG,0.0,0.0,de,1.9
-Sozialdemokraten,Sozialdemokraten,ORG,0.3684210526315789,0.0,de,1.9
-Deutschem Wetterdienst,Deutschem Wetterdienst,ORG,0.0,0.0,de,1.9
-deutschen Bergsteigern,deutschen Bergsteigern,ORG,0.0,0.0,de,1.9
-Bayer Leverkusen,Bayer Leverkusen,ORG,0.0,0.0,de,1.9
-Lawine e,Lawine e,ORG,0.0,0.0,de,1.9
-SV Elversberg,SV Elversberg,ORG,0.3684210526315789,0.0,de,1.9
-Thüringer HC,Thüringer HC,ORG,-0.3684210526315789,0.0,de,1.9
-DS No,DS No,ORG,0.0,0.0,de,1.9
-i…,i…,ORG,0.0,0.0,de,1.9
-Winter-Ei,Winter-Ei,ORG,0.5263157894736842,0.0,de,1.9
+",ORG,-1.0008417508417504,0.016835016835016835,de,19.8
+italienischen Bergwacht,italienischen Bergwacht,ORG,-0.12068965517241381,0.0,de,5.799999999999999
+Lawine,Lawine,ORG,-0.5480769230769231,0.0,de,5.199999999999999
+Bergwacht,Bergwacht,ORG,0.07500000000000001,0.0,de,4.0
+Ortler-Alpen,Ortler-Alpen,ORG,0.0,0.0,de,4.0
+Permafrost,Permafrost,ORG,-0.5555555555555555,0.0,de,1.8000000000000003
+Ex-Hurrikans Gabrielle,Ex-Hurrikans Gabrielle,ORG,0.0,0.0,de,1.8
+Geobrugg,Geobrugg,ORG,0.0,0.0,de,1.8
+Kletterern a…,Kletterern a…,ORG,0.0,0.0,de,1.6
+Lawin…,Lawin…,ORG,0.0,0.0,de,1.6
+Lawine e…,Lawine e…,ORG,0.0,0.0,de,1.6
+Deutschen Pre…,Deutschen Pre…,ORG,0.0,0.0,de,1.6
+deutschen Bergsteigern,deutschen Bergsteigern,ORG,0.0,0.0,de,1.6
+Lawine e,Lawine e,ORG,0.0,0.0,de,1.6
+Deutschen Alpenverein,Deutschen Alpenverein,ORG,0.0,0.0,de,1.6
+ei…,ei…,ORG,0.0,0.0,de,1.6
+DWD,DWD,ORG,0.0,0.0,de,1.4
 Queen,Queen,ORG,0.0,0.0,de,1.3000000000000003
-Mountain Studios,Mountain Studios,ORG,0.0,0.0,de,1.1
+Bayern-Team,Bayern-Team,ORG,0.0,0.0,de,1.1
 Klimarahmenkonvention,Klimarahmenkonvention,ORG,0.0,0.0,de,1.1
+Mountain Studios,Mountain Studios,ORG,0.0,0.0,de,1.1
 Nachbarsweiler Borgonovo,Nachbarsweiler Borgonovo,ORG,0.0,0.0,de,1.1
-zy…,zy…,ORG,0.0,0.0,de,1.0
-Rok Aznoh,Rok Aznoh,ORG,0.0,0.0,de,1.0
-Samsungs OLED-Monster,Samsungs OLED-Monster,ORG,-0.7,0.0,de,1.0
-Skirennfahrer Aznoh,Skirennfahrer Aznoh,ORG,0.0,0.0,de,1.0
-D…,D…,ORG,0.0,0.0,de,1.0
-MediaMarkt!,MediaMarkt!,ORG,-0.7,0.0,de,1.0
-Deutschen Wetterdienst,Deutschen Wetterdienst,ORG,0.0,0.0,de,1.0
-Frü…,Frü…,ORG,0.0,0.0,de,1.0
-Deutschen Wetterdienst …,Deutschen Wetterdienst …,ORG,0.0,0.0,de,1.0
-Berliner Stadtreinigung,Berliner Stadtreinigung,ORG,1.0,0.0,de,1.0
-Sumatra,Sumatra,ORG,0.0,0.0,de,1.0
-Sichtweiten,Sichtweiten,ORG,0.0,0.0,de,1.0
-Rene Traut Fotografie,Rene Traut Fotografie,ORG,0.0,0.0,de,1.0
-picture alliance,picture alliance,ORG,0.0,0.0,de,1.0
-BVG,BVG,ORG,0.7,0.0,de,1.0
-Sole,Sole,ORG,0.0,0.0,de,1.0
-Heizung & Co.,Heizung & Co.,ORG,0.0,0.0,de,1.0
-Berliner Verkehrsbetriebe,Berliner Verkehrsbetriebe,ORG,-0.7,0.0,de,1.0
-ladenIch,ladenIch,ORG,0.0,0.0,de,1.0
-Samsung,Samsung,ORG,1.0,0.0,de,1.0
-Cold Snap,Cold Snap,ORG,1.0,0.0,de,1.0
-Die Bundesliga-Handballerinnen,Die Bundesliga-Handballerinnen,ORG,-0.7,0.0,de,1.0
-Handball-Bundesliga,Handball-Bundesliga,ORG,0.0,0.0,de,1.0
-https://epaper.welt.de,https://epaper.welt.de,ORG,0.0,0.0,de,1.0
-WHO,WHO,ORG,0.0,0.0,de,1.0
-französische Verband,französische Verband,ORG,-1.0,0.0,de,1.0
-Tr…,Tr…,ORG,0.0,0.0,de,1.0
-Vorsaison,Vorsaison,ORG,0.0,0.0,de,1.0
-Bundesliga,Bundesliga,ORG,0.0,0.0,de,1.0
-Storyblocks10.12.2025,Storyblocks10.12.2025,ORG,0.0,0.0,de,1.0
-Meteored,Meteored,ORG,0.0,0.0,de,1.0
-Donnerwetter.de,Donnerwetter.de,ORG,0.0,0.0,de,1.0
-AWI,AWI,ORG,-1.0,0.0,de,1.0
-Maritime Executive,Maritime Executive,ORG,0.7,0.0,de,1.0
-Arc Raiders,Arc Raiders,ORG,0.7,0.0,de,1.0
-Fruchtfliegen-Verschwörung,Fruchtfliegen-Verschwörung,ORG,0.0,0.0,de,1.0
-Italienische Einsatzkräfte,Italienische Einsatzkräfte,ORG,0.0,0.0,de,1.0
-Allmähli…,Allmähli…,ORG,0.0,0.0,de,1.0
-APPEL,APPEL,ORG,0.0,0.0,de,1.0
-HOLGER,HOLGER,ORG,0.0,0.0,de,1.0
-Umweltsc…,Umweltsc…,ORG,0.0,0.0,de,1.0
-Naturschutzbundes,Naturschutzbundes,ORG,-0.7,0.0,de,1.0
-Schmett…,Schmett…,ORG,0.0,0.0,de,1.0
-Polizei Oldenburg,Polizei Oldenburg,ORG,-1.0,0.0,de,1.0
-SZ-Redaktion,SZ-Redaktion,ORG,0.7,0.0,de,1.0
-den Grünen,den Grünen,ORG,0.0,0.0,de,1.0
-Bayer-Talent Sarco,Bayer-Talent Sarco,ORG,0.0,0.0,de,1.0
-München,München,ORG,-1.0,0.0,de,1.0
-israelische Armee,israelische Armee,ORG,-0.7,0.0,de,1.0
-Öffentlichk…,Öffentlichk…,ORG,-1.0,0.0,de,1.0
+Survival-Spiel Permafrost,Survival-Spiel Permafrost,ORG,1.0,0.0,de,1.0
+Y…,Y…,ORG,-1.0,0.0,de,1.0
+Künstlicher Fels,Künstlicher Fels,ORG,-1.0,0.0,de,1.0
+Disney World,Disney World,ORG,-1.0,0.0,de,1.0
+selt…,selt…,ORG,0.7,0.0,de,1.0
+GB,GB,ORG,0.0,0.0,de,1.0
+Global Tipping Points Report,Global Tipping Points Report,ORG,0.35,0.0,de,1.0
+Europäischen Forschungsrats  ,Europäischen Forschungsrats  ,ORG,1.0,0.0,de,1.0
+Ex-Biathletin,Ex-Biathletin,ORG,1.0,0.0,de,1.0
+Institut für Ökologie der Uni Innsbruck,Institut für Ökologie der Uni Innsbruck,ORG,1.0,0.0,de,1.0
+SZ,SZ,ORG,0.0,0.0,de,1.0
+Dreamers Destination,Dreamers Destination,ORG,0.7,0.0,de,1.0
+Synergy Grant,Synergy Grant,ORG,1.0,0.0,de,1.0
+WKS-Präsident,WKS-Präsident,ORG,-1.0,0.0,de,1.0
+Lawine lostrat,Lawine lostrat,ORG,-1.0,0.0,de,1.0
++++,+++,ORG,0.0,0.0,de,1.0
+AK,AK,ORG,0.7,0.0,de,1.0
+Sonnta…,Sonnta…,ORG,0.0,0.0,de,1.0
+DAV,DAV,ORG,0.0,0.0,de,1.0
+H…,H…,ORG,0.0,0.0,de,1.0
+BBC,BBC,ORG,0.0,0.0,de,1.0
+Prehistoric Planet,Prehistoric Planet,ORG,1.0,0.0,de,1.0
+KV-Gehälter,KV-Gehälter,ORG,-1.0,0.0,de,1.0
+di…,di…,ORG,0.0,0.0,de,1.0
+Europäische Union,Europäische Union,ORG,0.0,0.0,de,1.0
 Taiwan …,Taiwan …,ORG,-0.7,0.0,de,1.0
-l…,l…,ORG,0.0,0.0,de,1.0
-Parteifreunde öf…,Parteifreunde öf…,ORG,-1.0,0.0,de,1.0
-se…,se…,ORG,0.0,0.0,de,1.0
-Ret…,Ret…,ORG,0.0,0.0,de,1.0
-Deutschen …,Deutschen …,ORG,0.0,0.0,de,1.0
-hi…,hi…,ORG,-0.7,0.0,de,1.0
-Hirsch…,Hirsch…,ORG,-0.7333333333333334,0.0,de,1.0
-Drogendea…,Drogendea…,ORG,0.0,0.0,de,1.0
-Geschlossene Gesellschaft,Geschlossene Gesellschaft,ORG,0.0,0.0,de,1.0
-zw…,zw…,ORG,0.15000000000000002,0.0,de,1.0
-1.000-Meter-Marke,1.000-Meter-Marke,ORG,0.0,0.0,de,1.0
-Universität Hawaii,Universität Hawaii,ORG,0.7,0.0,de,1.0
-Nasa,Nasa,ORG,0.7,0.0,de,1.0
+Zentrum der Kritik,Zentrum der Kritik,ORG,-1.0,0.0,de,1.0
+ÖVP,ÖVP,ORG,-1.0,0.0,de,1.0
+Deutschen Alpenvereins,Deutschen Alpenvereins,ORG,0.0,0.0,de,1.0
+berei…,berei…,ORG,0.0,0.0,de,1.0
+BILD,BILD,ORG,0.0,0.0,de,1.0
+Tipptopp!,Tipptopp!,ORG,0.0,0.0,de,1.0
 Nasa bestätig…,Nasa bestätig…,ORG,0.0,0.0,de,1.0
 Steam,Steam,ORG,0.0,0.0,de,1.0
 FC Bayern,FC Bayern,ORG,-1.0,0.0,de,1.0
 Max-Plan…,Max-Plan…,ORG,0.0,0.0,de,1.0
 Weltrekor…,Weltrekor…,ORG,0.0,0.0,de,1.0
 Program…,Program…,ORG,0.0,0.0,de,1.0
-Tipptopp!,Tipptopp!,ORG,0.0,0.0,de,1.0
 Global Tipping Points Report…,Global Tipping Points Report…,ORG,0.0,0.0,de,1.0
-Geobrugg,Geobrugg,ORG,0.0,0.0,de,1.0
+Windschutzscheibe,Windschutzscheibe,ORG,0.0,0.0,de,1.0
 Medizinischen Universität Innsbruck,Medizinischen Universität Innsbruck,ORG,1.0,0.0,de,1.0
 zahl…,zahl…,ORG,0.0,0.0,de,1.0
 ge…,ge…,ORG,0.0,0.0,de,1.0
+Deutschem Wetterdienst,Deutschem Wetterdienst,ORG,0.0,0.0,de,1.0
 Daily Mail,Daily Mail,ORG,-1.0,0.0,de,1.0
 Universität Colorado Boulder,Universität Colorado Boulder,ORG,0.0,0.0,de,1.0
-Ex-Hurrikans Gabrielle,Ex-Hurrikans Gabrielle,ORG,0.0,0.0,de,1.0
-Bayern-Team,Bayern-Team,ORG,0.0,0.0,de,1.0
-berei…,berei…,ORG,0.0,0.0,de,1.0
+Nasa,Nasa,ORG,0.7,0.0,de,1.0
+Universität Hawaii,Universität Hawaii,ORG,0.7,0.0,de,1.0
+Deutsche Wetterdienst,Deutsche Wetterdienst,ORG,0.0,0.0,de,1.0
+1.000-Meter-Marke,1.000-Meter-Marke,ORG,0.0,0.0,de,1.0
+zw…,zw…,ORG,0.15000000000000002,0.0,de,1.0
+Geschlossene Gesellschaft,Geschlossene Gesellschaft,ORG,0.0,0.0,de,1.0
+Drogendea…,Drogendea…,ORG,0.0,0.0,de,1.0
+Hirsch…,Hirsch…,ORG,-0.7333333333333334,0.0,de,1.0
+hi…,hi…,ORG,-0.7,0.0,de,1.0
+Deutschen …,Deutschen …,ORG,0.0,0.0,de,1.0
+Ret…,Ret…,ORG,0.0,0.0,de,1.0
+se…,se…,ORG,0.0,0.0,de,1.0
 italieni…,italieni…,ORG,0.0,0.0,de,1.0
 Or…,Or…,ORG,0.5,0.0,de,1.0
-Deutschen Alpenvereins,Deutschen Alpenvereins,ORG,0.0,0.0,de,1.0
-Sonnta…,Sonnta…,ORG,0.0,0.0,de,1.0
-KV-Gehälter,KV-Gehälter,ORG,-1.0,0.0,de,1.0
-WKS-Präsident,WKS-Präsident,ORG,-1.0,0.0,de,1.0
-Lawine lostrat,Lawine lostrat,ORG,-1.0,0.0,de,1.0
-ÖVP,ÖVP,ORG,-1.0,0.0,de,1.0
-Zentrum der Kritik,Zentrum der Kritik,ORG,-1.0,0.0,de,1.0
-Europäische Union,Europäische Union,ORG,0.0,0.0,de,1.0
-di…,di…,ORG,0.0,0.0,de,1.0
-Prehistoric Planet,Prehistoric Planet,ORG,1.0,0.0,de,1.0
-BBC,BBC,ORG,0.0,0.0,de,1.0
-H…,H…,ORG,0.0,0.0,de,1.0
-DAV,DAV,ORG,0.0,0.0,de,1.0
-GB,GB,ORG,0.0,0.0,de,1.0
 Die Lawine,Die Lawine,ORG,0.0,0.0,de,1.0
-Survival-Spiel Permafrost,Survival-Spiel Permafrost,ORG,1.0,0.0,de,1.0
-Europäischen Forschungsrats  ,Europäischen Forschungsrats  ,ORG,1.0,0.0,de,1.0
-Synergy Grant,Synergy Grant,ORG,1.0,0.0,de,1.0
-Institut für Ökologie der Uni Innsbruck,Institut für Ökologie der Uni Innsbruck,ORG,1.0,0.0,de,1.0
-SZ,SZ,ORG,0.0,0.0,de,1.0
-Dreamers Destination,Dreamers Destination,ORG,0.7,0.0,de,1.0
-Global Tipping Points Report,Global Tipping Points Report,ORG,0.35,0.0,de,1.0
-Y…,Y…,ORG,-1.0,0.0,de,1.0
-BILD,BILD,ORG,0.0,0.0,de,1.0
-Windschutzscheibe,Windschutzscheibe,ORG,0.0,0.0,de,1.0
-Deutschen Presse-Agentur,Deutschen Presse-Agentur,ORG,0.7,0.0,de,1.0
 Taliban-Regime,Taliban-Regime,ORG,0.0,0.0,de,1.0
-ADAC,ADAC,ORG,0.0,0.0,de,1.0
+Deutschen Presse-Agentur,Deutschen Presse-Agentur,ORG,0.7,0.0,de,1.0
+K…,K…,ORG,0.7,0.0,de,1.0
