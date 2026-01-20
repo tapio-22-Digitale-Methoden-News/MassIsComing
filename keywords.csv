@@ -1,6 +1,6 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#4287f5,#802d16,2,0.1528685783437144
-'Felssturz',de,Hazard,#4287f5,#77731f,1,0.11615201715745824
+'Felssturz',de,Hazard,#4287f5,#77731f,1,0.1161520171574582
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0962660856651513
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0817018421559769
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0780403060809308
@@ -14,5 +14,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.044468125828704
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0436379847124347
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0405716446436265
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0375503263213304
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.034485897947082525
