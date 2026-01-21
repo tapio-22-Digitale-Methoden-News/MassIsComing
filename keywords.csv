@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Schlammlawine',de,Hazard,#4287f5,#802d16,2,0.1528685783437144
+'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.12993830659215722
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.1161520171574582
 'Erdrutsch',de,Hazard,#4287f5,#022f78,2,0.0962660856651513
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0817018421559769
@@ -15,4 +15,4 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0436379847124347
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0375503263213304
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.034485897947082525
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0344858979470825
