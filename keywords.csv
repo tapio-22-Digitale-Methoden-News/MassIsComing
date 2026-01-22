@@ -1,8 +1,8 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.1299383065921572
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.1161520171574582
-'Erdrutsch',de,Hazard,#4287f5,#022f78,1,0.0818263828153786
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.06989661083258035
+'Erdrutsch',de,Hazard,#4287f5,#022f78,1,0.07165263539307182
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0698966108325803
 'Steinschlag',de,Hazard,#4287f5,#d64118,2,0.0685120376799369
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0675665904873529
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.066369923558491
