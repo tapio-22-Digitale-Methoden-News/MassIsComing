@@ -12,7 +12,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0544449940496397
 'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0506965641988364
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.044468125828704
-'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0436379847124347
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
+'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.03709228700556949
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0344858979470825
-'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.03191777737313084
+'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0319177773731308
