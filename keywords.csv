@@ -9,8 +9,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag',de,Hazard,#4287f5,#d64118,1,0.0582354870279463
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0544449940496397
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0513328845765392
-'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0490936390581455
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
+'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.043379758199423676
 'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0430920795690109
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0382479519543984
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0370922870055694
