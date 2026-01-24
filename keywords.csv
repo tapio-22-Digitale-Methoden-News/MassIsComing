@@ -7,10 +7,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.066369923558491
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0663342601687911
 'Massenbewegung',de,Hazard,#4287f5,#a89216,2,0.0639470824309036
-'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0556393635978183
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0544449940496397
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.05133288457653922
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0513328845765392
 'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0506965641988364
+'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.04909363905814555
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.044468125828704
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0370922870055694
