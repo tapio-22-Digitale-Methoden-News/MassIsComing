@@ -6,13 +6,13 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.066369923558491
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0663342601687911
 'Massenbewegung',de,Hazard,#4287f5,#a89216,2,0.0639470824309036
-'Steinschlag',de,Hazard,#4287f5,#d64118,1,0.058235487027946356
+'Steinschlag',de,Hazard,#4287f5,#d64118,1,0.0582354870279463
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0544449940496397
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0513328845765392
-'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0506965641988364
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0490936390581455
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.044468125828704
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0434879697124346
+'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.043092079569010934
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0370922870055694
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0344858979470825
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0319177773731308
