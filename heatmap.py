@@ -148,7 +148,7 @@ for index, column in locationsDF.iterrows():
         print([column['latitude'],column['longitude']])
         heatdata.append([column['latitude'],column['longitude'],1])
 
-map_osm = folium.Map(location=[51,7],zoom_start=6,tiles='StamenTerrain',control_scale=True)
+map_osm = folium.Map(location=[51,7],zoom_start=6,tiles='Stamen Terrain',control_scale=True)
 HeatMap(heatdata).add_to(map_osm)
 map_osm.save(str(DATA_PATH / "img" / "heatmap.html"))
 
