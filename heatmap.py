@@ -139,7 +139,7 @@ if(not os.path.exists(DATA_PATH / 'img')):
 plt.savefig(DATA_PATH / 'img' / 'heatmap.png', dpi=300)
 
 
-'''
+
 heatdata = []
 for index, column in locationsDF.iterrows():
     if(isinstance(column['longitude'], numbers.Number) and isinstance(column['latitude'], numbers.Number)):
@@ -151,4 +151,4 @@ for index, column in locationsDF.iterrows():
 map_osm = folium.Map(location=[51,7],zoom_start=6,tiles='StamenTerrain',control_scale=True)
 HeatMap(heatdata).add_to(map_osm)
 map_osm.save(str(DATA_PATH / "img" / "heatmap.html"))
-'''
+
