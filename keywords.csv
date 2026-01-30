@@ -17,5 +17,6 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0366282676336592
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0344858979470825
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0319177773731308
-'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0315284439547339
+'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0315284439547339
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0314200581172339
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,2,0.1487283649421937
