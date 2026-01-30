@@ -17,4 +17,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Verbauung Sicherheit',de,Adaptation,#4257f5,#802d12,1,0.0315284439547339
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0314200581172339
 'Gerölllawine',de,Hazard,#5282c5,#e64123,2,0315284439547339
-'Schuztmauer Lawine',de,Adaptation,#4257f5,#e64123,2,0370357226564294
+'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,2,0370357226564294
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,2,0315284439547339
