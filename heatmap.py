@@ -93,7 +93,7 @@ ax1.yaxis.set_tick_params(labelsize=14)
 # add OSM with zoom specification
 ax1.add_image(osm_img, scale) 
 
-ax1.coastlines(resolution='50m', color='black', linewidth=1)
+#ax1.coastlines(resolution='50m', color='black', linewidth=1)
 
 sumCounts = np.sum(locationsDF['count'])
 maxCount = np.max(locationsDF['count'])
