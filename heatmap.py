@@ -54,7 +54,7 @@ labels = [{'lon':6.08342, 'lat':50.77664,  'name':"Aachen"},
 locationsDF = pd.read_csv(DATA_PATH / 'csv' / 'sentiments_locations.csv', delimiter=',')
 locationsDF = locationsDF.dropna()
 if(not locationsDF.empty):
-  locationsDF = locationsDF[(locationsDF['count'] > 2)]
+  locationsDF = locationsDF[(locationsDF['count'] > 1)]
 
 print(locationsDF['latitude'].min())
 print(locationsDF['latitude'].max())
@@ -148,7 +148,7 @@ for index, column in locationsDF.iterrows():
         print([column['latitude'],column['longitude']])
         heatdata.append([column['latitude'],column['longitude'],1])
 
-map_osm = folium.Map(location=[51,7],zoom_start=6,tiles='Stamen Terrain',control_scale=True)
+map_osm = folium.Map(location=[51,7],zoom_start=6,tiles='Stamen Terrain',attr = "<a href=https://www.stadiamaps.com/ </a>",control_scale=True)
 HeatMap(heatdata).add_to(map_osm)
 map_osm.save(str(DATA_PATH / "img" / "heatmap.html"))
 
