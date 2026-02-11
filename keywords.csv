@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,72913858373127.44
+'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,61976779617158.32
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,52760720798713.8
 'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.1932334837419629
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.1219446774759112
@@ -9,8 +9,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0485902918078254
 'Massenbewegung',de,Hazard,#4287f5,#a89216,3,0.0473798651240112
 'Steinschlag',de,Hazard,#4287f5,#d64118,1,0.0465155833776911
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.04052707025129949
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.04052707025129949
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0405270702512994
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0405270702512994
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.03702280946951
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0344858979470825
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0325107591612386
