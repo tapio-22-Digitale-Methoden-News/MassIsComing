@@ -14,9 +14,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0322304392579649
 'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0311340274886103
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0293130132550201
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.029280808256563737
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.029280808256563737
-'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0271301107671611
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0292808082565637
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0292808082565637
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0267991773615238
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0267070493996488
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.025017934092002
+'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.023060594152086934
