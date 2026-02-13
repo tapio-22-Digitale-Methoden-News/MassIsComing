@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,61976779617158.32
+'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,52680262674584.57
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,44846612678906.73
 'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.1814727184533957
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.1186531258545245
@@ -15,7 +15,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0325107591612386
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0322304392579649
 'Felslawine',de,Hazard,#4287f5,#c4b03b,1,0.0311340274886103
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.029313013255020122
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0293130132550201
 'Tauwetter Rutschung',de,Causes,#4287f5,#315fa8,1,0.0271301107671611
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0267991773615238
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0267070493996488
