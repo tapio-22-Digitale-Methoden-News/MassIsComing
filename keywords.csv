@@ -1,9 +1,9 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,32352266315029.246
-'Gerölllawine',de,Hazard,#5282c5,#e64123,1,27541426011433.594
+'Gerölllawine',de,Hazard,#5282c5,#e64123,1,27541426011433.598
 'Erdrutsch',de,Hazard,#4287f5,#022f78,3,0.1814727184533957
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.1186531258545245
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0668856201065495
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.05700279209056708
 'Schlammlawine',de,Hazard,#4287f5,#802d16,1,0.0562712252300656
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0547967100461099
 'Felssturz',de,Hazard,#4287f5,#77731f,1,0.0485902918078254
