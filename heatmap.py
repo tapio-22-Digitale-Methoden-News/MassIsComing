@@ -54,7 +54,7 @@ labels = [{'lon':6.08342, 'lat':50.77664,  'name':"Aachen"},
 locationsDF = pd.read_csv(DATA_PATH / 'csv' / 'sentiments_locations.csv', delimiter=',')
 locationsDF = locationsDF.dropna()
 if(not locationsDF.empty):
-  locationsDF = locationsDF[(locationsDF['count'] > 1)]
+  locationsDF = locationsDF[(locationsDF['count'] > 1.5)]
 
 print(locationsDF['latitude'].min())
 print(locationsDF['latitude'].max())
