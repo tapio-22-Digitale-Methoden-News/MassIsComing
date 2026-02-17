@@ -125,8 +125,8 @@ for index, column in locationsDF.iterrows():
                     color='#bb4422', alpha=0.005,transform=ccrs.PlateCarree())  
 #contour-plot
 sns.kdeplot(x=lat1, y=long1, fill=False,  levels=10, thresh=.0005, color='grey', transform=ccrs.PlateCarree()  )  
-ax1.add_feature(rivers_10m, facecolor='None', edgecolor='cyan', linewidth=1.5, zorder=2)
-ax1.add_feature(rivers_europe_10m, facecolor='None', edgecolor='red', linewidth=1.5, zorder=2)
+#ax1.add_feature(rivers_10m, facecolor='None', edgecolor='cyan', linewidth=1.5, zorder=2)
+#ax1.add_feature(rivers_europe_10m, facecolor='None', edgecolor='red', linewidth=1.5, zorder=2)
 
 #North-Arrow
 #ax1.text(-75.0, 175.0,u'\u25B2 \nN ', ha='center', fontsize=30, family='Arial', rotation = 0)
