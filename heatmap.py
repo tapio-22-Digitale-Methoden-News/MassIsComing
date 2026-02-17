@@ -131,8 +131,8 @@ sns.kdeplot(x=lat1, y=long1, fill=False,  levels=10, thresh=.0005, color='grey',
 #North-Arrow
 #ax1.text(-75.0, 175.0,u'\u25B2 \nN ', ha='center', fontsize=30, family='Arial', rotation = 0)
 
-for label in labels:
-    ax1.text(label['lon'],label['lat'],label['name'], color='#200000', fontsize=14, ha='center', va='center',transform=ccrs.PlateCarree())
+#for label in labels:
+#    ax1.text(label['lon'],label['lat'],label['name'], color='#200000', fontsize=14, ha='center', va='center',transform=ccrs.PlateCarree())
 
 if(not os.path.exists(DATA_PATH / 'img')):
     os.mkdir(DATA_PATH / 'img')
