@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,14376796511880.908
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,10371395334571.637
-'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.1586201816054188
+'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.14386948845551506
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.1077445994763938
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0562712252300656
 'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.0550886984168244
