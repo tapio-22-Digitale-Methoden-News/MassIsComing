@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Gerölllawine',de,Hazard,#5282c5,#e64123,1,14376796511880.908
+'Gerölllawine',de,Hazard,#5282c5,#e64123,1,12220277035098.771
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,8815686034385.89
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.143869488455515
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.1077445994763938
@@ -16,7 +16,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0234890234939948
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0230793307572952
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0230605941520869
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.02270099198970148
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0227009919897014
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0224943348605208
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0179820763705621
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0179820763705621
