@@ -10,11 +10,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0426513040083143
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0270265075917209
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0258487919948861
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.024916061266767
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0230793307572952
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0230605941520869
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0224943348605208
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0212652439782016
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.02117865207675195
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0206512292717975
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0199656699698955
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0192958431912461
