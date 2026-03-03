@@ -139,7 +139,7 @@ sns.kdeplot(x=lat1, y=long1, fill=False,  levels=10, thresh=.0005, color='grey',
 
 if(not os.path.exists(DATA_PATH / 'img')):
     os.mkdir(DATA_PATH / 'img')
-plt.savefig(DATA_PATH / 'img' / 'heatmap.png', dpi=300)
+plt.savefig(DATA_PATH / 'img' / 'locations.png', dpi=300)
 
 
 """
@@ -155,4 +155,4 @@ for index, column in locationsDF.iterrows():
 
 map_osm = folium.Map(location=[51,7],zoom_start=6,tiles='Stamen Terrain',attr = "My Data Attribution",control_scale=True)
 HeatMap(heatdata).add_to(map_osm)
-map_osm.save(str(DATA_PATH / "img" / "heatmap.html"))
+map_osm.save(str(DATA_PATH / "img" / "locations.html"))
