@@ -3,7 +3,7 @@ Collects newspaper articles
 
 To setup you own harvester read the [HOWTO.md](https://github.com/newsWhisperer/winterIsComing/blob/main/HOWTO.md) at [newsWhisperer/winterIsComing](https://github.com/newsWhisperer/winterIsComing)
 
-# winterIsComing
+# MassIsComing
 
 # Topics & Keywords
 
@@ -33,6 +33,8 @@ To setup you own harvester read the [HOWTO.md](https://github.com/newsWhisperer/
 
 ![DateTopic](img/heatmap.png)
 
+# Locations
 
+![DateTopic](img/locations.png)
 
 
