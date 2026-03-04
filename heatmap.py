@@ -54,7 +54,7 @@ labels = [{'lon':6.08342, 'lat':50.77664,  'name':"Aachen"},
 locationsDF = pd.read_csv(DATA_PATH / 'csv' / 'sentiments_locations.csv', delimiter=',')
 locationsDF = locationsDF.dropna()
 if(not locationsDF.empty):
-  locationsDF = locationsDF[(locationsDF['count'] > 1)]
+  locationsDF = locationsDF[(locationsDF['count'] > 3)]
 
 print(locationsDF['latitude'].min())
 print(locationsDF['latitude'].max())
@@ -104,12 +104,12 @@ for index, column in locationsDF.iterrows():
     if((limits['latMin']<column['latitude']<limits['latMax']) and (limits['lonMin']<column['longitude']<limits['lonMax'])):
         delta = 1.0
         counter = int(column['count']/maxCount*250+column['count']/sumCounts*1800)
-        if(column['geotype']=='L'):   #large
+        if(column['geotype']=='T'):   #country
             #counter = 1
             delta = 30.0
-        if(column['geotype']=='A'):   #country
+        if(column['geotype']=='A'):   #region
             delta = 7.0
-        if(column['geotype']=='P'):  #city  T
+        if(column['geotype']=='P'):  #city
             delta = 2.0 
 
         for i in range(counter):
