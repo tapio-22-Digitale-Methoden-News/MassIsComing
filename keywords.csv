@@ -5,9 +5,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0782591524409403
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0620118815144366
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0539427991198835
-'Massenbewegung',de,Hazard,#5282c5,#a89216,3,0.0473798651240112
 'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0468257686543007
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0426513040083143
+'Massenbewegung',de,Hazard,#5282c5,#a89216,3,0.041773035355409514
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0258487919948861
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0231225464529627
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0211786520767519
