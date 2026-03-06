@@ -435,6 +435,7 @@ ax.set_yticks(y_pos)
 ax.set_yticklabels(locationsDF.index, fontsize=36)
 ax.invert_yaxis()  # labels read top-to-bottom
 ax.set_xlabel('Number of Mentions', fontsize=36)
+ax.bar_label(ax.containers[0])
 plt.xticks(fontsize=36)
 ax.set_title("Locations", fontsize=48)
 plt.tight_layout()
