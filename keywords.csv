@@ -16,7 +16,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0180754573814713
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0173798869721457
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0162521569367262
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.015301576125453234
-'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0150480258988736
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0153015761254532
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.012992050177731
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.012992050177731
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.012790822014042559
