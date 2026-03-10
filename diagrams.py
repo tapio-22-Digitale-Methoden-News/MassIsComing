@@ -546,10 +546,19 @@ colorLeg = list(topicsColorsDF['topicColor'])
 colorLeg.reverse()
 labelLeg = list(topicsColorsDF['topic'])
 labelLeg.reverse()
-custom_lines = [plt.Line2D([],[], ls="", marker='.', 
-                mec='k', mfc=c, mew=.1, ms=30) for c in colorLeg]
-leg = ax.legend(custom_lines, labelLeg, 
-          loc='center left', fontsize=16, bbox_to_anchor=(0.75, .48))
+
+# Calculate the sum of counts for each topic
+topic_sums = {}
+for topic in topicsColorsDF['topic']:
+    topic_sums[topic] = germanTopicsDate[topic].sum()
+
+# Update the legend labels to include the sum
+labelLeg = [f"{topic} ({topic_sums[topic]})" for topic in topicsColorsDF['topic']]
+labelLeg.reverse()  # Reverse if needed for your legend order
+
+custom_lines = [plt.Line2D([],[], ls="", marker='.', mec='k', mfc=c, mew=.1, ms=30) for c in colorLeg]
+
+leg = ax.legend(custom_lines, labelLeg, loc='center left', fontsize=16, bbox_to_anchor=(0.75, .48))
 leg.set_title("Topics", prop = {'size':20})            
 plt.savefig(DATA_PATH / 'img' / 'dates_topics_article_count.png', dpi=300)
 plt.close('all')
