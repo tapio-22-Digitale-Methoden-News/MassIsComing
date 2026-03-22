@@ -10,10 +10,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0351303370067612
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0186757522163051
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0148635751779255
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0139412467056752
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0130063397066352
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0120377742761026
-'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.011177773809097616
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.011850059699823919
+'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0111777738090976
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0110432426510713
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0110432426510713
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0103211344837535
