@@ -3,11 +3,11 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,128868918315.71324
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.0708991521039053
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0457519086678885
-'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.0410714363134307
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0395394026093315
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0388023051241059
 'Massenbewegung',de,Hazard,#5282c5,#a89216,3,0.037007230052098
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0351303370067612
+'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0349111558664161
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0186757522163051
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0148635751779255
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0118500596998239
@@ -18,5 +18,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0093867562534106
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0093867562534106
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0090729943111904
-'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.00869729191448412
+'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0086972919144841
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0078551635693737
