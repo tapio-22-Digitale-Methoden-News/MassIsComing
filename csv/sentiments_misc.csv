@@ -1,10 +1,10 @@
 ,phrase,label,sentiment,subjectivity,language,count
-deutsche,deutsche,MISC,,,de,45.000000000000014
+deutsche,deutsche,MISC,,,de,44.80000000000001
 "Link
 ","Link
 ",MISC,,,de,24.79999999999999
 “,“,MISC,2.2,2.5,de,24.299999999999986
-Deutsche,Deutsche,MISC,,,de,23.0
+Deutsche,Deutsche,MISC,,,de,22.8
 Deutscher,Deutscher,MISC,,,de,17.900000000000006
 italienischen,italienischen,MISC,,,de,13.300000000000002
 deutschen,deutschen,MISC,,,de,9.899999999999999
@@ -18,7 +18,7 @@ indonesischen,indonesischen,MISC,,,de,3.6999999999999997
 spanische,spanische,MISC,,,de,3.5
 Drei Tote,Drei Tote,MISC,,,de,3.4000000000000004
 Todesopfer nach Erdrutsch,Todesopfer nach Erdrutsch,MISC,,,de,2.8
-Lawinenunglück,Lawinenunglück,MISC,-0.06140350877192982,0.0,de,2.4000000000000004
+Lawinenunglück,Lawinenunglück,MISC,-0.06249999999999999,0.0,de,2.4000000000000004
 S…,S…,MISC,,,de,2.4
 dpa,dpa,MISC,,,de,1.9
 Todesopfer auf mindestens 53,Todesopfer auf mindestens 53,MISC,,,de,1.9
@@ -28,13 +28,13 @@ Todesopfer auf mindestens 34,Todesopfer auf mindestens 34,MISC,,,de,1.9
 Sieben Tote,Sieben Tote,MISC,,,de,1.9
 Todesopfer auf mindestens 17,Todesopfer auf mindestens 17,MISC,,,de,1.9
 indonesischer,indonesischer,MISC,,,de,1.9
-Erdrutsch zerstör…,Erdrutsch zerstör…,MISC,,,de,1.9
+i…,i…,MISC,,,de,1.9
 britischen,britischen,MISC,,,de,1.9
 Berliner,Berliner,MISC,,,de,1.9
 brasilianischen,brasilianischen,MISC,,,de,1.9
-i…,i…,MISC,,,de,1.9
-Himalaya“,Himalaya“,MISC,,,de,1.8
+Erdrutsch zerstör…,Erdrutsch zerstör…,MISC,,,de,1.9
 Notfälle“,Notfälle“,MISC,,,de,1.8
+Himalaya“,Himalaya“,MISC,,,de,1.8
 Bergsteiger-Gruppe,Bergsteiger-Gruppe,MISC,,,de,1.6
 Todesopfer des Lawinenunglücks,Todesopfer des Lawinenunglücks,MISC,,,de,1.6
 Zahl der Toten,Zahl der Toten,MISC,,,de,1.4
@@ -78,10 +78,10 @@ Blickpunkt Sport,Blickpunkt Sport,MISC,,,de,1.0
 Erde …,Erde …,MISC,,,de,1.0
 Indiana Jones Epic Stunt … Kopiere,Indiana Jones Epic Stunt … Kopiere,MISC,,,de,1.0
 Silvrettagruppe 2023,Silvrettagruppe 2023,MISC,,,de,1.0
-Verkehr“,Verkehr“,MISC,,,de,1.0
-L…,L…,MISC,,,de,1.0
-Kongo“,Kongo“,MISC,,,de,1.0
 L431,L431,MISC,-0.7,0.0,de,1.0
+Verkehr“,Verkehr“,MISC,,,de,1.0
+Kongo“,Kongo“,MISC,,,de,1.0
+L…,L…,MISC,,,de,1.0
 Plöckenpass-Baustelle,Plöckenpass-Baustelle,MISC,,,de,1.0
 Unfälle,Unfälle,MISC,0.0,0.0,de,1.0
 iranischen,iranischen,MISC,,,de,1.0
@@ -102,8 +102,8 @@ südamerikanischen,südamerikanischen,MISC,,,de,1.0
 pakistanischen,pakistanischen,MISC,,,de,1.0
 B33,B33,MISC,0.0,0.0,de,1.0
 stern+statt,stern+statt,MISC,,,de,1.0
-stern+,stern+,MISC,,,de,1.0
 Einsturz d…,Einsturz d…,MISC,,,de,1.0
+stern+,stern+,MISC,,,de,1.0
 M23,M23,MISC,,,de,1.0
 Capital</li><li>4,Capital</li><li>4,MISC,,,de,1.0
 Todesopfer auf 50,Todesopfer auf 50,MISC,,,de,1.0
@@ -174,8 +174,8 @@ Erdbebengebiete,Erdbebengebiete,MISC,,,de,1.0
 Erd­beben,Erd­beben,MISC,,,de,1.0
 Kunsthaus-Ausstellung,Kunsthaus-Ausstellung,MISC,,,de,1.0
 Die menschliche Gestalt,Die menschliche Gestalt,MISC,,,de,1.0
-Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
 Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,1.0
+Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
 D…,D…,MISC,0.0,0.0,de,1.0
 sic…,sic…,MISC,,,de,1.0
 Eis,Eis,MISC,,,de,1.0
