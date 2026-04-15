@@ -15,8 +15,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0098011377377329
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0094355017247366
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0093970804380439
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0093867562534106
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0093867562534106
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0090729943111904
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0086972919144841
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.00797874281539901
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.00797874281539901
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0078551635693737
