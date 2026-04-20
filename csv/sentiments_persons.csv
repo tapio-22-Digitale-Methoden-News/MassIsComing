@@ -1,41 +1,42 @@
 ,phrase,label,sentiment,subjectivity,language,count
 Laura Dahlmeier,Laura Dahlmeier,PER,0.7727272727272724,0.4545454545454543,de,2.200000000000001
+Daniel Hegedüs,Daniel Hegedüs,PER,0.0,0.0,de,1.9
+Erdbewegungen wu,Erdbewegungen wu,PER,0.0,0.0,de,1.9
 Mette-Marits Sohn,Mette-Marits Sohn,PER,0.0,1.0526315789473684,de,1.9
-Abdul Muhari,Abdul Muhari,PER,0.7368421052631579,0.0,de,1.9
 Giorgia Meloni,Giorgia Meloni,PER,0.0,0.0,de,1.9
-"Taifun ""Fung-Wong","Taifun ""Fung-Wong",PER,0.0,0.0,de,1.4
+Abdul Muhari,Abdul Muhari,PER,0.7368421052631579,0.0,de,1.9
 Stefan Winter,Stefan Winter,PER,0.0,0.0,de,1.4
+"Taifun ""Fung-Wong","Taifun ""Fung-Wong",PER,0.0,0.0,de,1.4
 Thomas Huber,Thomas Huber,PER,1.3076923076923075,0.0,de,1.3000000000000003
 Thomas Kleinen,Thomas Kleinen,PER,0.0,0.0,de,1.3
-Andreas Dahlmeier,Andreas Dahlmeier,PER,1.2916666666666663,0.0,de,1.2000000000000002
 Laura Dahlmeiers,Laura Dahlmeiers,PER,0.8333333333333333,0.0,de,1.2000000000000002
+Andreas Dahlmeier,Andreas Dahlmeier,PER,1.2916666666666663,0.0,de,1.2000000000000002
+Erdogans Schreckensregime,Erdogans Schreckensregime,PER,0.0,0.0,de,1.1
+Giovanni Giacometti,Giovanni Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
 Sam Garrett,Sam Garrett,PER,0.0,0.0,de,1.1
 Bruno Giacometti,Bruno Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
-Giovanni Giacometti,Giovanni Giacometti,PER,0.9545454545454543,0.45454545454545453,de,1.1
-Erdogans Schreckensregime,Erdogans Schreckensregime,PER,0.0,0.0,de,1.1
-Irans Staatsmedien,Irans Staatsmedien,PER,0.0,0.0,de,1.0
-Abbas Araghtschi,Abbas Araghtschi,PER,-0.9,0.0,de,1.0
-Donald Trump,Donald Trump,PER,-1.85,0.0,de,1.0
-Ali Laridschani,Ali Laridschani,PER,0.15000000000000002,0.0,de,1.0
-Quirino K,Quirino K,PER,0.0,0.0,de,1.0
-Ali Chamenei,Ali Chamenei,PER,0.0,0.0,de,1.0
+Susan Tessier,Susan Tessier,PER,0.0,0.0,de,1.0
 Fabio Ciciliano,Fabio Ciciliano,PER,0.0,0.0,de,1.0
+Viktor Orbán,Viktor Orbán,PER,1.0,0.0,de,1.0
+Donald Trump,Donald Trump,PER,-1.85,0.0,de,1.0
+Abbas Araghtschi,Abbas Araghtschi,PER,-0.9,0.0,de,1.0
+Ali Chamenei,Ali Chamenei,PER,0.0,0.0,de,1.0
 Richard Powers,Richard Powers,PER,0.0,0.0,de,1.0
-Harald Mahrer,Harald Mahrer,PER,-1.0,0.0,de,1.0
+Peter Magyar,Peter Magyar,PER,1.0,0.0,de,1.0
+Tückisches Bodenmaterial,Tückisches Bodenmaterial,PER,-1.0,0.0,de,1.0
 Erdrutsch Millimeter,Erdrutsch Millimeter,PER,0.0,0.0,de,1.0
+Karin Bensch,Karin Bensch,PER,0.0,0.0,de,1.0
 Roberto Disca,Roberto Disca,PER,-0.5,0.5,de,1.0
 Egal ob Hitze,Egal ob Hitze,PER,0.0,0.0,de,1.0
-Stefan Brandstätter,Stefan Brandstätter,PER,-0.7,0.0,de,1.0
+Mesut Özil,Mesut Özil,PER,0.0,0.0,de,1.0
+Ali Laridschani,Ali Laridschani,PER,0.15000000000000002,0.0,de,1.0
+Günter Tuder,Günter Tuder,PER,-0.15000000000000002,0.0,de,1.0
 Angela Ellersdorfer-Truntschnig,Angela Ellersdorfer-Truntschnig,PER,0.0,0.0,de,1.0
 Juiz de Fora,Juiz de Fora,PER,0.0,0.0,de,1.0
-Karin Bensch,Karin Bensch,PER,0.0,0.0,de,1.0
+Stefan Brandstätter,Stefan Brandstätter,PER,-0.7,0.0,de,1.0
+Quirino K,Quirino K,PER,0.0,0.0,de,1.0
+Irans Staatsmedien,Irans Staatsmedien,PER,0.0,0.0,de,1.0
 Peter Buchmülle,Peter Buchmülle,PER,-1.0,0.0,de,1.0
-Bergführer Klaus,Bergführer Klaus,PER,0.35,0.5,de,1.0
-Ramon Antonio Rodriguez,Ramon Antonio Rodriguez,PER,0.0,0.0,de,1.0
-Fortschritte beim,Fortschritte beim,PER,0.0,0.0,de,1.0
-Mesut Özil,Mesut Özil,PER,0.0,0.0,de,1.0
-Susan Tessier,Susan Tessier,PER,0.0,0.0,de,1.0
-Alberto Giacometti,Alberto Giacometti,PER,0.0,0.0,de,1.0
 Tufan Erhürman,Tufan Erhürman,PER,-1.0,0.0,de,1.0
 Indian Summer am Neckar,Indian Summer am Neckar,PER,0.0,0.0,de,1.0
 Miguel Díaz-Canel,Miguel Díaz-Canel,PER,1.0,0.0,de,1.0
@@ -43,11 +44,16 @@ Hurrikan Melissa,Hurrikan Melissa,PER,-1.0,0.0,de,1.0
 Lula da Silva,Lula da Silva,PER,0.0,0.0,de,1.0
 Gottfried Is,Gottfried Is,PER,0.0,0.0,de,1.0
 Wilhelm Lehmbruck,Wilhelm Lehmbruck,PER,0.0,0.0,de,1.0
+Alberto Giacometti,Alberto Giacometti,PER,0.0,0.0,de,1.0
 © Sina,© Sina,PER,0.0,0.0,de,1.0
 Konzert von Sam Garrett,Konzert von Sam Garrett,PER,0.0,0.0,de,1.0
 Christina Biasi,Christina Biasi,PER,1.0,0.0,de,1.0
 Selma Lugtmeijer,Selma Lugtmeijer,PER,0.0,0.0,de,1.0
 Albert Rösti,Albert Rösti,PER,0.0,0.0,de,1.0
-Mesut Özils,Mesut Özils,PER,0.0,0.0,de,1.0
-Frank Aischmann,Frank Aischmann,PER,0.0,0.0,de,1.0
 Freddie Mercury,Freddie Mercury,PER,0.0,0.0,de,1.0
+Frank Aischmann,Frank Aischmann,PER,0.0,0.0,de,1.0
+Fortschritte beim,Fortschritte beim,PER,0.0,0.0,de,1.0
+Mesut Özils,Mesut Özils,PER,0.0,0.0,de,1.0
+Ramon Antonio Rodriguez,Ramon Antonio Rodriguez,PER,0.0,0.0,de,1.0
+Harald Mahrer,Harald Mahrer,PER,-1.0,0.0,de,1.0
+Bergführer Klaus,Bergführer Klaus,PER,0.35,0.5,de,1.0

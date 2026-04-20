@@ -1,38 +1,47 @@
 ,phrase,label,sentiment,subjectivity,language,count
-deutsche,deutsche,MISC,,,de,45.000000000000014
+deutsche,deutsche,MISC,,,de,44.80000000000001
+“,“,MISC,2.9000000000000004,2.5,de,30.599999999999977
 "Link
 ","Link
-",MISC,,,de,24.79999999999999
-“,“,MISC,2.2,2.5,de,24.299999999999986
-Deutsche,Deutsche,MISC,,,de,23.0
+",MISC,,,de,27.499999999999986
+Deutsche,Deutsche,MISC,,,de,22.8
 Deutscher,Deutscher,MISC,,,de,17.900000000000006
-italienischen,italienischen,MISC,,,de,13.300000000000002
+italienischen,italienischen,MISC,,,de,17.8
 deutschen,deutschen,MISC,,,de,9.899999999999999
 sizilianische,sizilianische,MISC,,,de,9.100000000000001
 sizilianischen,sizilianischen,MISC,,,de,7.300000000000001
 Zeit,Zeit,MISC,,,de,5.6000000000000005
+süditalienischen,süditalienischen,MISC,,,de,5.5
 italienische,italienische,MISC,,,de,4.7
-Schweizer,Schweizer,MISC,,,de,4.0
 Deutschen,Deutschen,MISC,,,de,4.0
+Schweizer,Schweizer,MISC,,,de,4.0
 indonesischen,indonesischen,MISC,,,de,3.6999999999999997
 spanische,spanische,MISC,,,de,3.5
 Drei Tote,Drei Tote,MISC,,,de,3.4000000000000004
+B33,B33,MISC,-0.5263157894736842,0.0,de,2.8
 Todesopfer nach Erdrutsch,Todesopfer nach Erdrutsch,MISC,,,de,2.8
-Lawinenunglück,Lawinenunglück,MISC,-0.06140350877192982,0.0,de,2.4000000000000004
+Lawinenunglück,Lawinenunglück,MISC,-0.06249999999999999,0.0,de,2.4000000000000004
 S…,S…,MISC,,,de,2.4
-dpa,dpa,MISC,,,de,1.9
-Todesopfer auf mindestens 53,Todesopfer auf mindestens 53,MISC,,,de,1.9
-25.000-Einwohner-Stadt,25.000-Einwohner-Stadt,MISC,,,de,1.9
-Erdrutsch,Erdrutsch,MISC,0.03558718861209966,0.0,de,1.9
-Todesopfer auf mindestens 34,Todesopfer auf mindestens 34,MISC,,,de,1.9
-Sieben Tote,Sieben Tote,MISC,,,de,1.9
-Todesopfer auf mindestens 17,Todesopfer auf mindestens 17,MISC,,,de,1.9
-indonesischer,indonesischer,MISC,,,de,1.9
-Erdrutsch zerstör…,Erdrutsch zerstör…,MISC,,,de,1.9
-britischen,britischen,MISC,,,de,1.9
-Berliner,Berliner,MISC,,,de,1.9
 brasilianischen,brasilianischen,MISC,,,de,1.9
+türkischen,türkischen,MISC,,,de,1.9
+britischen,britischen,MISC,,,de,1.9
+sic…,sic…,MISC,,,de,1.9
+Todesopfer auf mindestens 53,Todesopfer auf mindestens 53,MISC,,,de,1.9
+indonesischer,indonesischer,MISC,,,de,1.9
+Todesopfer auf mindestens 17,Todesopfer auf mindestens 17,MISC,,,de,1.9
+Video,Video,MISC,,,de,1.9
+Sieben Tote,Sieben Tote,MISC,,,de,1.9
+25.000-Einwohner-Stadt,25.000-Einwohner-Stadt,MISC,,,de,1.9
+Capital</li><li>4,Capital</li><li>4,MISC,,,de,1.9
 i…,i…,MISC,,,de,1.9
+Erdrutsch zerstör…,Erdrutsch zerstör…,MISC,,,de,1.9
+Berliner,Berliner,MISC,,,de,1.9
+stern+,stern+,MISC,,,de,1.9
+stern+statt,stern+statt,MISC,,,de,1.9
+Erdrutsch,Erdrutsch,MISC,0.028328611898017015,0.0,de,1.9
+dpa,dpa,MISC,,,de,1.9
+L5226,L5226,MISC,,,de,1.9
+Todesopfer auf mindestens 34,Todesopfer auf mindestens 34,MISC,,,de,1.9
 Himalaya“,Himalaya“,MISC,,,de,1.8
 Notfälle“,Notfälle“,MISC,,,de,1.8
 Bergsteiger-Gruppe,Bergsteiger-Gruppe,MISC,,,de,1.6
@@ -40,96 +49,94 @@ Todesopfer des Lawinenunglücks,Todesopfer des Lawinenunglücks,MISC,,,de,1.6
 Zahl der Toten,Zahl der Toten,MISC,,,de,1.4
 Herr Winter,Herr Winter,MISC,,,de,1.4
 amerikanischen,amerikanischen,MISC,,,de,1.3
+Apple TV+,Apple TV+,MISC,,,de,1.2000000000000002
 The Hunt“,The Hunt“,MISC,,,de,1.2000000000000002
 Ice Age,Ice Age,MISC,,,de,1.2000000000000002
-Apple TV+,Apple TV+,MISC,,,de,1.2000000000000002
 Prehistoric Planet,Prehistoric Planet,MISC,,,de,1.1
-iranische,iranische,MISC,,,de,1.1
 Ein Planet vor unserer Zeit“,Ein Planet vor unserer Zeit“,MISC,,,de,1.1
-Apple TV,Apple TV,MISC,,,de,1.1
 Staffel 3“,Staffel 3“,MISC,,,de,1.1
-CO2,CO2,MISC,,,de,1.1
-Glücklichen Menschen,Glücklichen Menschen,MISC,,,de,1.1
-Bobbycar,Bobbycar,MISC,,,de,1.1
-polnische,polnische,MISC,,,de,1.1
 Warmwasser-Korallenriffe,Warmwasser-Korallenriffe,MISC,,,de,1.1
-Abgrund“,Abgrund“,MISC,,,de,1.0
-Todesopfer nach Einsturz,Todesopfer nach Einsturz,MISC,,,de,1.0
+Glücklichen Menschen,Glücklichen Menschen,MISC,,,de,1.1
+CO2,CO2,MISC,,,de,1.1
+iranische,iranische,MISC,,,de,1.1
+polnische,polnische,MISC,,,de,1.1
+Apple TV,Apple TV,MISC,,,de,1.1
+Bobbycar,Bobbycar,MISC,,,de,1.1
+Plöckenpass-Baustelle,Plöckenpass-Baustelle,MISC,,,de,1.0
+Lage se…,Lage se…,MISC,,,de,1.0
 Iranische,Iranische,MISC,,,de,1.0
-Überschwemmungen in Brasilien,Überschwemmungen in Brasilien,MISC,,,de,1.0
-Kr…,Kr…,MISC,,,de,1.0
-Menschen suchen Vermisste,Menschen suchen Vermisste,MISC,,,de,1.0
+iranischen,iranischen,MISC,,,de,1.0
+Münchner,Münchner,MISC,,,de,1.0
+Harry“,Harry“,MISC,,,de,1.0
+Münchener,Münchener,MISC,,,de,1.0
+Das ist Völkermord“,Das ist Völkermord“,MISC,,,de,1.0
+Kilometern e…,Kilometern e…,MISC,,,de,1.0
+L…,L…,MISC,,,de,1.0
+Erdrutsch am Sonntag,Erdrutsch am Sonntag,MISC,,,de,1.0
 Rettungsaktion a... Wellington,Rettungsaktion a... Wellington,MISC,,,de,1.0
-Regenfällen,Regenfällen,MISC,,,de,1.0
 neuseeländische,neuseeländische,MISC,,,de,1.0
-Radwegs letztes Jahr,Radwegs letztes Jahr,MISC,,,de,1.0
+Regenfällen,Regenfällen,MISC,,,de,1.0
 Iran ,Iran ,MISC,,,de,1.0
-Menschen suchen Vermisste und trauern,Menschen suchen Vermisste und trauern,MISC,,,de,1.0
+Videos,Videos,MISC,,,de,1.0
 Du und der Baum,Du und der Baum,MISC,,,de,1.0
 Die Folgen des Erdrutsches,Die Folgen des Erdrutsches,MISC,,,de,1.0
 picture alliance/dpa/Pool New Zealand Herald,picture alliance/dpa/Pool New Zealand Herald,MISC,,,de,1.0
-05.03.2026,05.03.2026,MISC,,,de,1.0
-Das ist Völkermord“,Das ist Völkermord“,MISC,,,de,1.0
-Mensc…,Mensc…,MISC,,,de,1.0
-Dien…,Dien…,MISC,,,de,1.0
-Garmi…,Garmi…,MISC,,,de,1.0
-ge…,ge…,MISC,,,de,1.0
-Blickpunkt Sport,Blickpunkt Sport,MISC,,,de,1.0
-Erde …,Erde …,MISC,,,de,1.0
-Indiana Jones Epic Stunt … Kopiere,Indiana Jones Epic Stunt … Kopiere,MISC,,,de,1.0
-Silvrettagruppe 2023,Silvrettagruppe 2023,MISC,,,de,1.0
-Verkehr“,Verkehr“,MISC,,,de,1.0
-L…,L…,MISC,,,de,1.0
-Kongo“,Kongo“,MISC,,,de,1.0
-L431,L431,MISC,-0.7,0.0,de,1.0
-Plöckenpass-Baustelle,Plöckenpass-Baustelle,MISC,,,de,1.0
-Unfälle,Unfälle,MISC,0.0,0.0,de,1.0
-iranischen,iranischen,MISC,,,de,1.0
-Münchner,Münchner,MISC,,,de,1.0
-Münchener,Münchener,MISC,,,de,1.0
-italienischer,italienischer,MISC,,,de,1.0
+mas...,mas...,MISC,,,de,1.0
 italienisches,italienisches,MISC,,,de,1.0
 Spre…,Spre…,MISC,,,de,1.0
-Erdrutsch auf Sizilien,Erdrutsch auf Sizilien,MISC,,,de,1.0
+Spr…,Spr…,MISC,,,de,1.0
+Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1.0
+M23,M23,MISC,,,de,1.0
+Todesopfer auf 50,Todesopfer auf 50,MISC,,,de,1.0
+Mensc…,Mensc…,MISC,,,de,1.0
+Menschen suchen Vermisste und trauern,Menschen suchen Vermisste und trauern,MISC,,,de,1.0
+Menschen suchen Vermisste,Menschen suchen Vermisste,MISC,,,de,1.0
+Kr…,Kr…,MISC,,,de,1.0
+Überschwemmungen in Brasilien,Überschwemmungen in Brasilien,MISC,,,de,1.0
+Todesopfer nach Einsturz,Todesopfer nach Einsturz,MISC,,,de,1.0
+05.03.2026,05.03.2026,MISC,,,de,1.0
+Radwegs letztes Jahr,Radwegs letztes Jahr,MISC,,,de,1.0
+Unfälle,Unfälle,MISC,0.0,0.0,de,1.0
+Kongo“,Kongo“,MISC,,,de,1.0
+Erde …,Erde …,MISC,,,de,1.0
 Erdrutsches,Erdrutsches,MISC,,,de,1.0
+C…,C…,MISC,,,de,1.0
+B311,B311,MISC,,,de,1.0
+Ostern,Ostern,MISC,,,de,1.0
+Der Teutoburger Wald,Der Teutoburger Wald,MISC,,,de,1.0
+08.04.2026,08.04.2026,MISC,,,de,1.0
+Magyar-Anhänger,Magyar-Anhänger,MISC,,,de,1.0
+Erdrutsch-Sieg,Erdrutsch-Sieg,MISC,,,de,1.0
+Wie der Fall der Berliner Mauer,Wie der Fall der Berliner Mauer,MISC,,,de,1.0
+weiterlesenBudapest  ,weiterlesenBudapest  ,MISC,,,de,1.0
+italienischer,italienischer,MISC,,,de,1.0
+Dien…,Dien…,MISC,,,de,1.0
+f…,f…,MISC,,,de,1.0
+Frühling be…,Frühling be…,MISC,,,de,1.0
 P…,P…,MISC,,,de,1.0
-Die Menschen,Die Menschen,MISC,,,de,1.0
 Te…,Te…,MISC,,,de,1.0
-Abgrund von Sizilien,Abgrund von Sizilien,MISC,,,de,1.0
 G…,G…,MISC,,,de,1.0
 Katastrophe auf Sizilien,Katastrophe auf Sizilien,MISC,,,de,1.0
-südamerikanischen,südamerikanischen,MISC,,,de,1.0
-pakistanischen,pakistanischen,MISC,,,de,1.0
-B33,B33,MISC,0.0,0.0,de,1.0
-stern+statt,stern+statt,MISC,,,de,1.0
-stern+,stern+,MISC,,,de,1.0
+Erdrutsch auf Sizilien,Erdrutsch auf Sizilien,MISC,,,de,1.0
+Abgrund“,Abgrund“,MISC,,,de,1.0
+L431,L431,MISC,-0.7,0.0,de,1.0
 Einsturz d…,Einsturz d…,MISC,,,de,1.0
-M23,M23,MISC,,,de,1.0
-Capital</li><li>4,Capital</li><li>4,MISC,,,de,1.0
-Todesopfer auf 50,Todesopfer auf 50,MISC,,,de,1.0
-Spr…,Spr…,MISC,,,de,1.0
-Video,Video,MISC,,,de,1.0
-ande…,ande…,MISC,,,de,1.0
-f…,f…,MISC,,,de,1.0
-mas...,mas...,MISC,,,de,1.0
-Frühling be…,Frühling be…,MISC,,,de,1.0
-Videos,Videos,MISC,,,de,1.0
-Robustheit,Robustheit,MISC,,,de,1.0
-11 Jahre,11 Jahre,MISC,,,de,1.0
-Erdrutsch am Sonntag,Erdrutsch am Sonntag,MISC,,,de,1.0
+pakistanischen,pakistanischen,MISC,,,de,1.0
+südamerikanischen,südamerikanischen,MISC,,,de,1.0
+Abgrund von Sizilien,Abgrund von Sizilien,MISC,,,de,1.0
+Die Menschen,Die Menschen,MISC,,,de,1.0
 TV7News,TV7News,MISC,,,de,1.0
-Las...,Las...,MISC,,,de,1.0
-Coesfeld-Loch,Coesfeld-Loch,MISC,,,de,1.0
-Kilometern e…,Kilometern e…,MISC,,,de,1.0
-Harry“,Harry“,MISC,,,de,1.0
 Tiktok09.02.2026,Tiktok09.02.2026,MISC,,,de,1.0
-Lage se…,Lage se…,MISC,,,de,1.0
-"Bild""-Zeitung","Bild""-Zeitung",MISC,,,de,1.0
-Permafrostböden,Permafrostböden,MISC,0.0,0.0,de,1.0
-Kär…,Kär…,MISC,,,de,1.0
-Story-Kracher,Story-Kracher,MISC,,,de,1.0
+Coesfeld-Loch,Coesfeld-Loch,MISC,,,de,1.0
+Las...,Las...,MISC,,,de,1.0
+ande…,ande…,MISC,,,de,1.0
+11 Jahre,11 Jahre,MISC,,,de,1.0
+Robustheit,Robustheit,MISC,,,de,1.0
+Verkehr“,Verkehr“,MISC,,,de,1.0
+vier Jahre Zeit,vier Jahre Zeit,MISC,,,de,1.0
+Silvrettagruppe 2023,Silvrettagruppe 2023,MISC,,,de,1.0
+Schwere Winde und Überflutungen,Schwere Winde und Überflutungen,MISC,,,de,1.0
 The Masquerade Bloodlines 2 d…,The Masquerade Bloodlines 2 d…,MISC,,,de,1.0
-türkischen,türkischen,MISC,,,de,1.0
 griechischen,griechischen,MISC,,,de,1.0
 Methan,Methan,MISC,0.0,0.0,de,1.0
 CH4,CH4,MISC,,,de,1.0
@@ -138,8 +145,8 @@ Die meisten Bewohner,Die meisten Bewohner,MISC,,,de,1.0
 …“,…“,MISC,,,de,1.0
 Wetterbericht“,Wetterbericht“,MISC,,,de,1.0
 Blähbauch und…,Blähbauch und…,MISC,,,de,1.0
-Schwere Winde und Überflutungen,Schwere Winde und Überflutungen,MISC,,,de,1.0
 Klima-Kipppunkte,Klima-Kipppunkte,MISC,,,de,1.0
+Die menschliche Gestalt,Die menschliche Gestalt,MISC,,,de,1.0
 Drei deutsche Bergsteiger,Drei deutsche Bergsteiger,MISC,,,de,1.0
 Ortlergbirge,Ortlergbirge,MISC,,,de,1.0
 Lawinenun…,Lawinenun…,MISC,,,de,1.0
@@ -147,9 +154,11 @@ Tragödie in Südtirol,Tragödie in Südtirol,MISC,,,de,1.0
 Fünf Deutsche,Fünf Deutsche,MISC,,,de,1.0
 norditalienischen,norditalienischen,MISC,,,de,1.0
 Sonntagnachmittag,Sonntagnachmittag,MISC,,,de,1.0
+Erdbebengebiete,Erdbebengebiete,MISC,,,de,1.0
+Erd­beben,Erd­beben,MISC,,,de,1.0
 Steam,Steam,MISC,,,de,1.0
+Story-Kracher,Story-Kracher,MISC,,,de,1.0
 Das Bergell,Das Bergell,MISC,,,de,1.0
-Erdrutsch im Jahr 2023,Erdrutsch im Jahr 2023,MISC,,,de,1.0
 SERIE,SERIE,MISC,,,de,1.0
 schwedischen,schwedischen,MISC,,,de,1.0
 Freistaat,Freistaat,MISC,0.0,0.0,de,1.0
@@ -170,43 +179,42 @@ BVB-Transfer,BVB-Transfer,MISC,,,de,1.0
 reichli…,reichli…,MISC,,,de,1.0
 Horror-Lawine,Horror-Lawine,MISC,,,de,1.0
 Schweizer Alpen-Dorfes,Schweizer Alpen-Dorfes,MISC,,,de,1.0
-Erdbebengebiete,Erdbebengebiete,MISC,,,de,1.0
-Erd­beben,Erd­beben,MISC,,,de,1.0
 Kunsthaus-Ausstellung,Kunsthaus-Ausstellung,MISC,,,de,1.0
-Die menschliche Gestalt,Die menschliche Gestalt,MISC,,,de,1.0
-Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,1.0
-Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
-D…,D…,MISC,0.0,0.0,de,1.0
-sic…,sic…,MISC,,,de,1.0
-Eis,Eis,MISC,,,de,1.0
+Aufstiegs,Aufstiegs,MISC,,,de,1.0
+Indiana Jones Epic Stunt … Kopiere,Indiana Jones Epic Stunt … Kopiere,MISC,,,de,1.0
+kolumbianische,kolumbianische,MISC,,,de,1.0
 The Hunt,The Hunt,MISC,,,de,1.0
 Staffel 3,Staffel 3,MISC,,,de,1.0
 …,…,MISC,0.22727272727272727,0.0,de,1.0
 INTERVIEW,INTERVIEW,MISC,,,de,1.0
 SVP-Bundesrat,SVP-Bundesrat,MISC,,,de,1.0
-vier Jahre Zeit,vier Jahre Zeit,MISC,,,de,1.0
+Eis,Eis,MISC,,,de,1.0
 n&auml;mlich,n&auml;mlich,MISC,,,de,1.0
 Die Zahl der Toten,Die Zahl der Toten,MISC,,,de,1.0
 Armero,Armero,MISC,0.0,0.0,de,1.0
-kolumbianische,kolumbianische,MISC,,,de,1.0
 kolumbianischen,kolumbianischen,MISC,,,de,1.0
+Gerätselt wir…,Gerätselt wir…,MISC,,,de,1.0
 picture alliance/dpa/VNExpress via AP,picture alliance/dpa/VNExpress via AP,MISC,,,de,1.0
 Schlimmes Unwetter und Erdrutsche,Schlimmes Unwetter und Erdrutsche,MISC,,,de,1.0
 s…,s…,MISC,,,de,1.0
+Erdrutsch im Jahr 2023,Erdrutsch im Jahr 2023,MISC,,,de,1.0
+Kär…,Kär…,MISC,,,de,1.0
+"Bild""-Zeitung","Bild""-Zeitung",MISC,,,de,1.0
+Garmi…,Garmi…,MISC,,,de,1.0
+ge…,ge…,MISC,,,de,1.0
+Blickpunkt Sport,Blickpunkt Sport,MISC,,,de,1.0
+D…,D…,MISC,0.0,0.0,de,1.0
+Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
+Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,1.0
 kalifornischen,kalifornischen,MISC,,,de,1.0
-Driver Days“,Driver Days“,MISC,,,de,1.0
-Polestars Elektro-Modellen 2,Polestars Elektro-Modellen 2,MISC,,,de,1.0
-Sieben Tote bei Lawinenunglück,Sieben Tote bei Lawinenunglück,MISC,,,de,1.0
-Aufstiegs,Aufstiegs,MISC,,,de,1.0
-Gerätselt wir…,Gerätselt wir…,MISC,,,de,1.0
 Ein Stein im Ausmaß,Ein Stein im Ausmaß,MISC,,,de,1.0
 Ge…,Ge…,MISC,,,de,1.0
 Todesopfer des L…,Todesopfer des L…,MISC,,,de,1.0
 Lawinenunglück“,Lawinenunglück“,MISC,,,de,1.0
 Tag unterweg…,Tag unterweg…,MISC,,,de,1.0
 Schneemas…,Schneemas…,MISC,,,de,1.0
+Sieben Tote bei Lawinenunglück,Sieben Tote bei Lawinenunglück,MISC,,,de,1.0
 Expeditions-Unternehmen,Expeditions-Unternehmen,MISC,,,de,1.0
-Zeit mit jedem Jahr schneller,Zeit mit jedem Jahr schneller,MISC,,,de,1.0
 Tragödie im Himalaya,Tragödie im Himalaya,MISC,,,de,1.0
 Dienstag,Dienstag,MISC,,,de,1.0
 Lawi…,Lawi…,MISC,,,de,1.0
@@ -215,4 +223,7 @@ e…,e…,MISC,0.0,0.0,de,1.0
 Survival-Spiel,Survival-Spiel,MISC,,,de,1.0
 Survival-Spiele,Survival-Spiele,MISC,,,de,1.0
 Wahrnehmung von Zeit,Wahrnehmung von Zeit,MISC,,,de,1.0
-C…,C…,MISC,,,de,1.0
+Zeit mit jedem Jahr schneller,Zeit mit jedem Jahr schneller,MISC,,,de,1.0
+Polestars Elektro-Modellen 2,Polestars Elektro-Modellen 2,MISC,,,de,1.0
+Driver Days“,Driver Days“,MISC,,,de,1.0
+Erdrutsch-Sieges,Erdrutsch-Sieges,MISC,,,de,1.0
