@@ -10,8 +10,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0334607945125494
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0186757522163051
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0148635751779255
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0100725507448503
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0086309970770729
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.008561668133122756
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.007978742815399
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.007978742815399
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0078620601645118
