@@ -5,9 +5,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0513892778200937
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0483848816594251
 'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0349111558664161
-'Massenbewegung',de,Hazard,#5282c5,#a89216,2,0.0314562205442833
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0284416753356669
-'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.021574418214277163
+'Massenbewegung',de,Hazard,#5282c5,#a89216,2,0.027937907462640802
+'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0215744182142771
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0107389330660511
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0097488593803625
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0072774179131542
