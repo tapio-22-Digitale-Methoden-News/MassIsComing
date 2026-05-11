@@ -13,10 +13,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0107389330660511
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0097488593803625
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0072774179131542
-'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0061294931165476
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0059578662188597
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0056753556788724
+'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.00521006914906546
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0048999454315068
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0048999454315068
-'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0045400407374350405
+'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.004540040737435
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0041695345123497
