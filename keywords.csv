@@ -3,9 +3,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,2607368415.35688
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.0617444293362362
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0389709782489346
-'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0379613364750176
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0366275883183256
 'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0349111558664161
+'Felssturz',de,Hazard,#5282c5,#77731f,1,0.03256716600376496
 'Massenbewegung',de,Hazard,#5282c5,#a89216,2,0.0279379074626408
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0243254390353168
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0238666377413683
