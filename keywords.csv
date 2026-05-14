@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Massenbewegung',de,Hazard,#5282c5,#a89216,2,0.0279379074626408
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0243254390353168
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0183382554821355
-'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.01807622901813855
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.015814839665417725
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0107389330660511
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0082865304733081
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0072774179131542
