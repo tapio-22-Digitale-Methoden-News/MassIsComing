@@ -12,7 +12,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.013892658715605
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0082865304733081
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0077588791402218
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0072774179131542
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.00618580522618107
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0048240523270415
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.004540040737435
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.004304558343126
