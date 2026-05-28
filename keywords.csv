@@ -2,7 +2,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,9583271297.122078
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,164559946.49917495
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.1158516717198312
-'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0330431803397303
+'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.032137108288770755
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0255396513183078
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0212353323917579
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.020922152997062
