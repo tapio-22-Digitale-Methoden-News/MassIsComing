@@ -10,8 +10,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0160966010100638
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0132493895858428
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0077588791402218
-'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.006485435044180594
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0050889655269202
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0064854350441805
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.00432562069788217
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0038590346268197
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0036588745916571
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0034853778062874
