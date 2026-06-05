@@ -12,10 +12,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0077588791402218
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0064854350441805
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0043256206978821
-'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0038590346268197
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0036588745916571
+'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0032801794327967453
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.003229028989349
-'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.00311258613534429
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0031125861353442
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0030124886851726
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0030091789881239
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0030091789881239
