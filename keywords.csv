@@ -15,8 +15,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0036588745916571
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.003229028989349
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0031125861353442
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0030091789881239
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0030091789881239
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0027881525178771
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0027196886587441
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0025606153823967
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.002557802139905315
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.002557802139905315
