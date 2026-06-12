@@ -6,8 +6,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.0222683680637991
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0212353323917579
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0170814520403772
-'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0162518555209037
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0160966010100638
+'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.013814077192768146
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0132493895858428
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0077588791402218
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0044771672215072
