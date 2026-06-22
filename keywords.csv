@@ -1,6 +1,6 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,837139180.6588869
-'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,19896201.552635547
+'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,16911771.319740213
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.050368035659012
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0299195224720346
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0259759875309906
@@ -11,7 +11,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0081367813794056
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0070450922691885
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0032347533175389
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.003125260954219745
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0031252609542197
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0026435368924722
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0019830274280839
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0019374213208346
