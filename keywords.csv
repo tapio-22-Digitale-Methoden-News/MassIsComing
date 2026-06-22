@@ -5,8 +5,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0299195224720346
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0259759875309906
 'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.0251819251184025
-'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0133251689761999
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.012312362479771
+'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.012076468629769915
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0117419656138528
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0081367813794056
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0070450922691885
