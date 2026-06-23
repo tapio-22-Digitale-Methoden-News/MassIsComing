@@ -14,9 +14,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0031252609542197
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0026435368924722
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0019830274280839
-'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0019374213208346
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0018500446137815
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0018480120460815
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0018480120460815
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.00179682312270941
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0017122741650411
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0016702287975511
