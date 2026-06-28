@@ -14,9 +14,9 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.002749540319908
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0026435368924722
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0016855733138713
-'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0016773146543029
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.001575732456157465
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0014196944779184
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.001336657233457
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.00133518870329382
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.00133518870329382
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0013351887032938
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0013351887032938
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0012371180842421
