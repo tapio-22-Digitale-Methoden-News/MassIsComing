@@ -9,7 +9,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0104655081078053
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0084835701560085
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0081367813794056
-'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0070450922691885
+'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.006438373428810224
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0031252609542197
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.002749540319908
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0026435368924722
