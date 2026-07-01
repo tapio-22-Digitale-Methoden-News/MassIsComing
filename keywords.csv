@@ -4,7 +4,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0601880565394237
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0330179284911407
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.028027214881727
-'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0246775209860449
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.025326327838138166
 'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0218922456480457
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0111650883353044
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0104655081078053
