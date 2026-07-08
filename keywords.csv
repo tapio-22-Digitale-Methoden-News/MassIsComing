@@ -16,7 +16,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0014327373167906
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.001025729260296
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0009676966946375
-'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0008938178158648
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0008208746234967
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0008199727624102449
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0008199727624102449
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0008199727624102
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0008199727624102
+'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.00075974514348508
