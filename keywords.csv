@@ -17,6 +17,6 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0008208746234967
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0006457833719622
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0006299259819792
-'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.000594286732594175
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0005035657727151
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0005035657727151
+'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0005942867325941
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.00042803090680783496
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.00042803090680783496
