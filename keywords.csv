@@ -3,7 +3,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,342171.0910834298
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.069007927810126
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0675059279212673
-'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0386553758124137
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.036757459440551636
 'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.0332568522736442
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0294048887576078
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0266519473222573
