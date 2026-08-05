@@ -10,10 +10,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0216487711903308
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0070662791724947
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0064383734288102
-'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.004428476643749809
+'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0044284766437498
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0021593906815894
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0015464240886009
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0014327373167906
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.00121782671927201
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0005041196281547
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0003965917133062
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0003868532936829
