@@ -1,7 +1,7 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,2409234.071833479
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,151823.13089763917
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.08927099582583439
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0892709958258343
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0694216351440922
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0425404178055818
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.0421781741876543
@@ -13,7 +13,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0044284766437498
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0021593906815894
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0016144904753107
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.001217826719272
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0010351527113812
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0003965917133062
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0003868532936829
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0003649663396542
