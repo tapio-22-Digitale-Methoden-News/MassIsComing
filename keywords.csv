@@ -1,11 +1,11 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Gerölllawine',de,Hazard,#5282c5,#e64123,1,2409234.071833479
+'Gerölllawine',de,Hazard,#5282c5,#e64123,1,2047848.9624085925
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,151823.13089763917
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0905638147852924
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0694216351440922
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0425404178055818
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.0421781741876543
-'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.03619439552446886
+'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0361943955244688
 'Steinschlag',de,Hazard,#5282c5,#d64118,2,0.0332568522736442
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0216487711903308
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,2,0.0145230224144886
