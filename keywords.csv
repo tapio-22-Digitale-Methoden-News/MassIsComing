@@ -1,8 +1,8 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,2047848.9624085925
-'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,151823.13089763917
+'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,129049.6612629933
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0905638147852924
-'Felssturz',de,Hazard,#5282c5,#77731f,1,0.07535852487247838
+'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0753585248724783
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0425404178055818
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,2,0.0421781741876543
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0361943955244688
