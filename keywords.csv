@@ -11,8 +11,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0123449890523153
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0053829144521273
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0037642051471873
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0021490676184119
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0021355120793509
-'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.001822361904014
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.000879879804674
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0003288252996304
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.000310221388706
