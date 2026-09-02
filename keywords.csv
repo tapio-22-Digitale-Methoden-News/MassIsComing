@@ -13,10 +13,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0053829144521273
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0037642051471873
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0031423787634835
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.000540356185045365
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0005403561850453
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0002375762789829
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0002236805571475
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0002234348085468
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0002234348085468
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0002070233530439
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.00018991958726478
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.00018991958726478
