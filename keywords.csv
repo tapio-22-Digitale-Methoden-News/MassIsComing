@@ -2,14 +2,14 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,2,558019.4964804843
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,5001.904357169037
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.1118078306244809
+'Schlammlawine',de,Hazard,#5282c5,#802d16,2,0.07821666235928398
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0522886234999824
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0430761723638399
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.041441932755422
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.041404871615864
 'Steinschlag',de,Hazard,#5282c5,#d64118,3,0.0399289910241425
-'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0284406156098528
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
-'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.015005847333576358
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0150058473335763
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0085092091767531
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0068257022843082
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0031995743751092
