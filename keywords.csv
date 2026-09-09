@@ -9,10 +9,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag',de,Hazard,#5282c5,#d64118,3,0.0399289910241425
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0284406156098528
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
-'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.00850920917675313
+'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.015005847333576358
+'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0085092091767531
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0068257022843082
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0031995743751092
-'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0031423787634835
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0004593027572885
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0001901284735753
