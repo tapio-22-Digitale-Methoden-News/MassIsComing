@@ -10,7 +10,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0356756878421087
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0147051802335398
-'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0085092091767531
+'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.007382842800240135
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0068257022843082
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0031995743751092
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0004593027572885
