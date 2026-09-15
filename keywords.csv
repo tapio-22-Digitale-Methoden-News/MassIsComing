@@ -13,10 +13,10 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0073828428002401
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0068257022843082
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0031995743751092
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0004593027572885
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.000390407343695225
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0001495743725742
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0001459015323302
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0001167626488343
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.00011663436652881
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.00011663436652881
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,0.0001166343665288
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,0.0001166343665288
