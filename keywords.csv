@@ -5,8 +5,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Schlammlawine',de,Hazard,#5282c5,#802d16,3,0.0918899384599367
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0737462549341993
 'Steinschlag',de,Hazard,#5282c5,#d64118,3,0.0399289910241425
-'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0360942308734844
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0319551177828743
+'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.03158018624246174
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0307743796657923
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0147051802335398
