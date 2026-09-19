@@ -1,5 +1,5 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
-'Gerölllawine',de,Hazard,#5282c5,#e64123,2,403169.09536603733
+'Gerölllawine',de,Hazard,#5282c5,#e64123,2,403169.0953660373
 'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,2219.3715358928
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,3,0.1151955918307328
 'Schlammlawine',de,Hazard,#5282c5,#802d16,3,0.0918899384599367
@@ -18,5 +18,5 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0001459015323302
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,0.0001167626488343
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,0.0001080674841848
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,8.4268329817058e-05
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,8.4268329817058e-05
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,7.16280803444993e-05
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,7.16280803444993e-05
