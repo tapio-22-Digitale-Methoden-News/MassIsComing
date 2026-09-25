@@ -15,8 +15,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0031995743751092
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0002820693058197
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
-'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.00010541385710850998
+'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0001054138571085
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,9.9248251509155e-05
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,9.185736155708e-05
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,6.08838682928244e-05
-'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,6.08838682928244e-05
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,5.175128804890074e-05
+'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,5.175128804890074e-05
