@@ -8,13 +8,13 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0319551177828743
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0277432483060924
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
-'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.022234489308534888
+'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0222344893085348
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0147051802335398
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0084719239004126
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0073828428002401
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0027196382188428
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
-'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0002397589099467
+'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.00020379507345469501
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0001054138571085
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,9.9248251509155e-05
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,9.185736155708e-05
