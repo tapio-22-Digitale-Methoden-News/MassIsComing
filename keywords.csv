@@ -5,7 +5,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0737462549341993
 'Steinschlag',de,Hazard,#5282c5,#d64118,3,0.0399289910241425
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0398054628356947
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0319551177828743
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.027461880115443153
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0246318660601785
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0222344893085348
