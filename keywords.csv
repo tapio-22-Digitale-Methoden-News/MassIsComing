@@ -8,7 +8,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Hazard,#5282c5,#d64118,2,0.0272839797664286
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0246318660601785
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0222344893085348
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.02039626388340761
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0203962638834076
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0147051802335398
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0073828428002401
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0073511503153507
@@ -16,7 +16,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0008396767785422
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0002037950734546
-'Frostsprengung',de,Causes,#9e3215,#9e3215,1,8.436101378278175e-05
 'Tauwetter Rutschung',de,Causes,#9e3215,#315fa8,1,7.807875732351799e-05
+'Frostsprengung',de,Causes,#9e3215,#9e3215,1,7.170686171536448e-05
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#802d18,1,4.3988594841565625e-05
 'Stahlnetz Schutz',de,Adaptation,#4257f5,#315fa8,1,4.3988594841565625e-05
