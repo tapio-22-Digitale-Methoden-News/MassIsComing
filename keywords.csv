@@ -5,8 +5,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,1,0.0716124576705486
 'Steinschlag',de,Hazard,#5282c5,#d64118,1,0.0339401373705211
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0253032406264709
-'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0246318660601785
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0231916228014643
+'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.022287221151151723
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0154413711557619
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0147051802335398
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0138047707466038
