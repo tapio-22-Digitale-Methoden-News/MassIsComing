@@ -10,8 +10,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0154413711557619
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0147051802335398
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0138047707466038
-'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0073828428002401
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0073511503153507
+'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.006575446380204084
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0031543206322656
 'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0019649386131138
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
