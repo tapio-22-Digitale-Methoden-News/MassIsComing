@@ -1,10 +1,10 @@
 ,phrase,label,sentiment,subjectivity,language,count
 “,“,MISC,0.4755434782608696,0.5706521739130436,de,49.09999999999995
-deutsche,deutsche,MISC,,,de,46.80000000000001
+deutsche,deutsche,MISC,,,de,46.60000000000001
 "Link
 ","Link
 ",MISC,,,de,30.19999999999998
-Deutsche,Deutsche,MISC,,,de,25.699999999999996
+Deutsche,Deutsche,MISC,,,de,25.499999999999996
 italienischen,italienischen,MISC,,,de,22.299999999999994
 Deutscher,Deutscher,MISC,,,de,17.900000000000006
 Schweizer,Schweizer,MISC,,,de,13.900000000000004
@@ -33,29 +33,29 @@ T…,T…,MISC,,,de,3.6999999999999997
 spanische,spanische,MISC,,,de,3.5
 Drei Tote,Drei Tote,MISC,,,de,3.4000000000000004
 Schlammlawine,Schlammlawine,MISC,0.0,0.0,de,2.8
-russischen,russischen,MISC,,,de,2.8
 Frankfurter,Frankfurter,MISC,,,de,2.8
-Todesopfer nach Erdrutsch,Todesopfer nach Erdrutsch,MISC,,,de,2.8
+russischen,russischen,MISC,,,de,2.8
 Zahl der Vermissten,Zahl der Vermissten,MISC,,,de,2.8
+Todesopfer nach Erdrutsch,Todesopfer nach Erdrutsch,MISC,,,de,2.8
 italienischer,italienischer,MISC,,,de,2.8
 Loreley“,Loreley“,MISC,,,de,2.8
 B33,B33,MISC,-0.5263157894736842,0.0,de,2.8
 Notfälle“,Notfälle“,MISC,,,de,2.7
-Lawinenunglück,Lawinenunglück,MISC,-0.06140350877192982,0.0,de,2.4000000000000004
+Lawinenunglück,Lawinenunglück,MISC,-0.06249999999999999,0.0,de,2.4000000000000004
 S…,S…,MISC,,,de,2.4
 Zahl der Toten,Zahl der Toten,MISC,,,de,2.3
-Du und der Baum,Du und der Baum,MISC,,,de,1.9
-Das hätte,Das hätte,MISC,,,de,1.9
-DNA-Test,DNA-Test,MISC,,,de,1.9
 Wanderwege,Wanderwege,MISC,,,de,1.9
-norditalienischen,norditalienischen,MISC,,,de,1.9
-Sieben Tote,Sieben Tote,MISC,,,de,1.9
-25.000-Einwohner-Stadt,25.000-Einwohner-Stadt,MISC,,,de,1.9
-Todesopfer auf mindestens 34,Todesopfer auf mindestens 34,MISC,,,de,1.9
-dpa,dpa,MISC,,,de,1.9
-Lackoberfläche s…,Lackoberfläche s…,MISC,,,de,1.9
 Alaska im Jahr 2025,Alaska im Jahr 2025,MISC,,,de,1.9
+dpa,dpa,MISC,,,de,1.9
+Todesopfer auf mindestens 34,Todesopfer auf mindestens 34,MISC,,,de,1.9
 Erdrutsch-Sieg,Erdrutsch-Sieg,MISC,,,de,1.9
+norditalienischen,norditalienischen,MISC,,,de,1.9
+DNA-Test,DNA-Test,MISC,,,de,1.9
+25.000-Einwohner-Stadt,25.000-Einwohner-Stadt,MISC,,,de,1.9
+Das hätte,Das hätte,MISC,,,de,1.9
+Du und der Baum,Du und der Baum,MISC,,,de,1.9
+Lackoberfläche s…,Lackoberfläche s…,MISC,,,de,1.9
+Sieben Tote,Sieben Tote,MISC,,,de,1.9
 britischen,britischen,MISC,,,de,1.9
 indonesischer,indonesischer,MISC,,,de,1.9
 Todesopfer auf mindestens 53,Todesopfer auf mindestens 53,MISC,,,de,1.9
@@ -241,7 +241,7 @@ Driver Days“,Driver Days“,MISC,,,de,1.0
 kalifornischen,kalifornischen,MISC,,,de,1.0
 Ortlergbirge,Ortlergbirge,MISC,,,de,1.0
 Klima-Kipppunkte,Klima-Kipppunkte,MISC,,,de,1.0
-Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
+Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,1.0
 reichli…,reichli…,MISC,,,de,1.0
 schwedischen,schwedischen,MISC,,,de,1.0
 Freistaat,Freistaat,MISC,0.0,0.0,de,1.0
@@ -273,7 +273,7 @@ Die meisten Bewohner,Die meisten Bewohner,MISC,,,de,1.0
 …“,…“,MISC,,,de,1.0
 Wetterbericht“,Wetterbericht“,MISC,,,de,1.0
 Blähbauch und…,Blähbauch und…,MISC,,,de,1.0
-Zeit der Winterwanderer,Zeit der Winterwanderer,MISC,,,de,1.0
+Zeit des Wechsels,Zeit des Wechsels,MISC,,,de,1.0
 The Hunt,The Hunt,MISC,,,de,1.0
 f…,f…,MISC,,,de,1.0
 Erdrutsch auf Sizilien,Erdrutsch auf Sizilien,MISC,,,de,1.0
