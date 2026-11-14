@@ -8,8 +8,8 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Felsbrocken',de,Hazard,#5282c5,#d64118,1,0.0231916228014643
 'Massenbewegung',de,Hazard,#5282c5,#a89216,1,0.0222872211511517
 'Verbauung Schutz',de,Adaptation,#4257f5,#802d12,1,0.0138047707466038
-'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.0135752104823976
 'Permafrost Gebirge',de,Causes,#9e3215,#477515,1,0.0126494181985088
+'Starkregen Hang',de,Causes,#9e3215,#802d16,1,0.01183895891003796
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0073511503153507
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.006575446380204
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0016465750845465
