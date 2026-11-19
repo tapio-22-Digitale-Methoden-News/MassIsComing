@@ -1,6 +1,6 @@
 keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Gerölllawine',de,Hazard,#5282c5,#e64123,1,1160.2956806005552
-'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,23.440125455940013
+'Schutzmauer Lawine',de,Adaptation,#4257f5,#e64123,1,19.92410663754901
 'Felssturz',de,Hazard,#5282c5,#77731f,1,0.0737462549341993
 'Erdrutsch',de,Hazard,#4287f5,#5282c5,1,0.0716124576705486
 'Schlammlawine',de,Hazard,#5282c5,#802d16,1,0.0253032406264709
@@ -13,7 +13,7 @@ keyword,language,topic,topicColor,keywordColor,limitPages,ratioNew
 'Erdrutsch Zerstörung',de,Impacts,#802d16,#4248f4,1,0.0073511503153507
 'Steinschlag Tod',de,Impacts,#802d16,#4287f5,1,0.0063392044231734
 'Felslawine',de,Hazard,#5282c5,#c4b03b,1,0.0013995888218645
-'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.00120671792577841
+'Steinschlag Zerstörung',de,Impacts,#802d16,#4257f4,1,0.0012067179257784
 'Gletscherabbruch',de,Hazard,#5282c5,#e64128,1,0.0002636881804001
 'Steinschlag Zaun',de,Adaptation,#4257f5,#802d16,1,0.0001063823020624
 'Frostsprengung',de,Causes,#9e3215,#9e3215,1,3.1816715485810086e-05
